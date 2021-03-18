@@ -1,6 +1,6 @@
 # Tutor LMS thai
 แปลไทยปลั๊กอิน Tutor LMS
-ไฟล์นี้ใช้งานร่วมกับ Plugin Loco Translate
+ไฟล์นี้สร้างโดย Plugin Loco Translate
 ========================================
 
 Version
