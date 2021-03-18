@@ -1,0 +1,3456 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: Tutor LMS Pro\n"
+"POT-Creation-Date: 2019-10-10 13:20+0600\n"
+"PO-Revision-Date: 2021-03-18 08:37+0000\n"
+"Last-Translator: อภินันท์ รังสูงเนิน <ninesola.rt@gmail.com>\n"
+"Language-Team: ไทย\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: tutor-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: th\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: addons/tutor-assignments/classes/Assignments_List.php:83
+msgid " Delete"
+msgstr "ลบ"
+
+#: addons/tutor-zoom/classes/Zoom.php:65
+msgctxt "$this->zoom_meeting_post_type"
+msgid "Add New"
+msgstr ""
+
+#: addons/enrollments/classes/Enrollments.php:60
+#, php-format
+msgid "%1$s (#%2$s - %3$s)"
+msgstr "%1$s (#%2$s - %3$s)"
+
+#: addons/gradebook/views/pages/overview.php:115
+#, php-format
+msgid "%d quiz, %d assignment"
+msgstr "%d แบบทดสอบ, %d การมอบหมายงาน"
+
+#: addons/tutor-report/views/pages/courses/course-single.php:398
+msgid "%s (%s Ratings)"
+msgstr ""
+
+#: templates/email/to_instructor_lesson_completed.php:12
+msgid ""
+"<strong>{student_username}</strong> has recently completed the lesson "
+"<strong>{lesson_name}</strong> of <strong>{course_name}</strong> at <strong>"
+"{completion_time}</strong>. The completed lesson URL is: <strong>{lesson_url}"
+"</strong>."
+msgstr ""
+
+#: templates/email/to_instructor_quiz_completed.php:12
+msgid ""
+"<strong>{username}</strong> just submitted answers for <strong>{quiz_name}"
+"</strong> in course <strong>{course_name}</strong> at <strong>"
+"{submission_time}</strong>. You can review it from: <strong>{quiz_review_url}"
+"</strong>."
+msgstr ""
+
+#: templates/email/to_admin_new_course_submitted_for_review.php:11
+msgid ""
+"A new course has been created by <strong>{instructor_name}</strong> on your "
+"site <strong>{site_name}</strong> and waiting for approval."
+msgstr ""
+
+#: templates/email/to_admin_new_course_published.php:11
+msgid ""
+"A new course has been published by <strong>{instructor_name}</strong> on "
+"your site <strong>{site_name}</strong>"
+msgstr ""
+
+#: templates/email/to_admin_new_instructor_signup.php:11
+msgid ""
+"A new instructor has signed up to your site <strong>{site_name}</strong>"
+msgstr ""
+
+#: templates/email/to_admin_new_student_signup.php:11
+msgid "A new student has signed up to your site <strong>{site_name}</strong>"
+msgstr ""
+
+#: templates/email/to_student_new_lqa_published.php:12
+msgid ""
+"A new {lqa_type} has been published for the course <b>{course_title}</b> "
+"called <b>{lqa_title}</b>. Go ahead and get started today!"
+msgstr ""
+
+#: addons/tutor-email/classes/init.php:115
+#, fuzzy
+#| msgid "A Student asked a question in Q&amp;A"
+msgid "A Student asked a Question in Q&amp;A"
+msgstr "ผู้เรียนถามคำถามใน Q&amp;A"
+
+#: addons/tutor-email/classes/init.php:113
+msgid "A Student Completed Course"
+msgstr "ผู้เรียนที่เรียนจบคอร์สแล้ว"
+
+#: addons/tutor-email/classes/init.php:114
+msgid "A Student Completed Lesson"
+msgstr "ผู้เรียนที่เรียนจบบทเรียนแล้ว"
+
+#: addons/tutor-email/classes/init.php:112
+#, fuzzy
+#| msgid "A Student enrolled in course "
+msgid "A Student Enrolled in Course"
+msgstr "ผู้เรียนลงทะเบียนเรียนในหลักสูตร"
+
+#: classes/Updater.php:195
+msgid "A valid license is required to unlock available features"
+msgstr "จำเป็นต้องมีใบอนุญาตที่ถูกต้องเพื่อปลดล็อคคุณสมบัติที่มีอยู่"
+
+#: templates/single-certificate.php:58
+msgid "About Course"
+msgstr ""
+
+#: classes/Updater.php:149
+msgid "About us"
+msgstr "เกี่ยวกับเรา"
+
+#: addons/quiz-import-export/classes/QuizImportExport.php:180
+msgid "Access Denied"
+msgstr ""
+
+#: addons/gradebook/views/pages/gradebooks.php:30, 
+#: addons/tutor-report/views/pages/overview.php:377, 
+#: addons/tutor-report/views/pages/overview.php:434, 
+#: addons/tutor-report/views/pages/reviews/reviews.php:67
+msgid "Action"
+msgstr "คำสั่ง"
+
+#: addons/tutor-assignments/classes/Assignments_List.php:83, 
+#: addons/tutor-assignments/views/modal/assignments.php:140
+msgid "Action Failed"
+msgstr ""
+
+#: addons/tutor-assignments/views/modal/assignments.php:65
+msgid "Add attachments"
+msgstr "เพิ่มไฟล์แนบ"
+
+#: addons/gradebook/views/pages/gradebooks.php:5
+msgid "Add New Grade"
+msgstr "เพิ่มเกรดใหม่"
+
+#: addons/gradebook/views/pages/add_new_gradebook.php:86
+msgid "Add new Grade"
+msgstr "เพิ่มเกรดใหม่"
+
+#: addons/tutor-zoom/classes/Zoom.php:66
+msgid "Add New Meeting"
+msgstr ""
+
+#: addons/tutor-zoom/classes/Zoom.php:64
+msgctxt "add new on admin bar"
+msgid "Meeting"
+msgstr ""
+
+#: addons/tutor-course-attachments/tutor-course-attachments.php:30
+msgid "Add unlimited attachments/ private files to any Tutor course"
+msgstr ""
+
+#: addons/tutor-zoom/classes/Zoom.php:63
+msgctxt "admin menu"
+msgid "Meetings"
+msgstr ""
+
+#: templates/single/course/enrolled/gradebook.php:18
+msgid ""
+"After generate gradebook for this couse, you can see details report, quiz "
+"and assignments wise and you will get a final grade"
+msgstr ""
+"หลังจากสร้างการตัดสำหรับคอร์สนี้ คุณสามารถดูรายละเอียดของ รายงาน, "
+"แบบทดสอบและงานที่มอบหมาย และคุณจะได้เกรดสุดท้าย"
+
+#: addons/tutor-report/views/pages/overview.php:347, 
+#: addons/tutor-report/views/pages/overview.php:403, 
+#: addons/tutor-report/views/pages/overview.php:502, 
+#: addons/tutor-report/views/pages/overview.php:549, 
+#: addons/tutor-report/views/pages/reviews/reviews.php:91
+msgid "ago"
+msgstr "มาแล้ว"
+
+#: addons/tutor-zoom/views/pages/meetings.php:66
+msgid "All"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/main.php:6
+msgid "All Meetings"
+msgstr ""
+
+#: addons/google-classroom/views/components/consent-screen.php:12
+msgid "Allow Permissions"
+msgstr ""
+
+#: addons/tutor-assignments/views/modal/assignments.php:116
+msgid "Allow to upload files"
+msgstr "อนุญาตให้อัปโหลดไฟล์"
+
+#: classes/Updater.php:217
+msgid "Already have your key? Enter it here"
+msgstr "มีคีย์ของคุณอยู่แล้ว? ป้อนมันที่นี่"
+
+#: addons/tutor-assignments/classes/Assignments.php:305
+msgid "An assignment is submitting currently, please submit previous one first"
+msgstr "ตอนนี้กำลังส่งการมอบหมายงาน โปรดส่งงานก่อนหน้านี้ก่อน"
+
+#: addons/tutor-email/classes/EmailNotification.php:1183
+msgid "Announcement updated on course"
+msgstr ""
+
+#: addons/tutor-assignments/classes/Assignments.php:327
+msgid "Answer has been added successfully"
+msgstr "เพิ่มคำตอบเรียบร้อยแล้ว"
+
+#: addons/tutor-zoom/views/pages/set_api.php:13
+msgid "API Key"
+msgstr ""
+
+#: addons/google-classroom/views/components/class-list.php:26
+msgid "Apply"
+msgstr ""
+
+#: addons/gradebook/views/pages/gradebooks.php:52
+msgid "Are you Sure?"
+msgstr "คุณแน่ใจใช่มั้ย?"
+
+#: addons/tutor-assignments/classes/Assignments_List.php:83
+msgid "Are you sure?"
+msgstr "คุณแน่ใจใช่มั้ย?"
+
+#: addons/tutor-email/views/pages/tutor_emails.php:107
+msgid "Asked Question (to teacher)"
+msgstr "มีการถามคำถาม (ส่งถึงผู้สอน)"
+
+#: addons/buddypress/classes/BuddyPressGroups.php:48
+msgid "Assign this course to a BuddyPress Group"
+msgstr ""
+
+#: addons/buddypress/views/bp-group-course.php:24
+msgid "Assign this course to BuddyPress Groups"
+msgstr ""
+
+#: addons/tutor-report/views/pages/courses/course-single.php:109, 
+#: addons/tutor-report/views/pages/courses/course-table.php:156, 
+#: addons/tutor-report/views/pages/students/student-profile.php:160, 
+#: addons/tutor-report/views/pages/students/student-profile.php:202, 
+#: addons/tutor-report/views/pages/students/student-profile.php:282
+msgid "Assignment"
+msgstr "การมอบหมายงาน"
+
+#: addons/tutor-assignments/views/pages/submitted_assignment.php:53
+msgid "Assignment Description"
+msgstr ""
+
+#: addons/tutor-email/classes/init.php:99
+msgid "Assignment Graded"
+msgstr ""
+
+#: addons/tutor-email/views/pages/tutor_emails.php:260
+msgid "Assignment has been Evaluate (to student)"
+msgstr ""
+
+#: addons/tutor-assignments/classes/Assignments_List.php:110
+msgid "Assignment Name"
+msgstr ""
+
+#: templates/email/to_instructor_student_submitted_assignment.php:17
+msgid "Assignment Name - <strong>{assignment_name}</strong>"
+msgstr ""
+
+#: addons/tutor-assignments/views/modal/assignments.php:90
+msgid "Assignment time duration, set 0 for no limit."
+msgstr "ระยะเวลาการทำงานที่ได้รับมอบหมาย ตั้งค่าเป็น 0 เพื่อไม่จำกัดเวลา"
+
+#: addons/tutor-assignments/views/modal/assignments.php:17
+msgid "Assignment title"
+msgstr "หัวข้อการมอบหมายงาน"
+
+#: addons/tutor-assignments/views/modal/assignments.php:140
+msgid "Assignment Updated"
+msgstr ""
+
+#: addons/tutor-assignments/tutor-assignments.php:29, 
+#: addons/tutor-assignments/classes/Assignments.php:124, 
+#: addons/tutor-assignments/classes/Assignments.php:132, 
+#: addons/tutor-assignments/classes/Assignments.php:151, 
+#: addons/tutor-assignments/classes/Assignments.php:168, 
+#: addons/gradebook/views/pages/overview.php:74, 
+#: templates/single/course/enrolled/gradebook.php:33
+msgid "Assignments"
+msgstr "การมอบหมายงาน"
+
+#: addons/tutor-assignments/views/pages/submitted_assignment.php:68
+msgid "Attach assignment file(s)"
+msgstr ""
+
+#: addons/tutor-course-attachments/classes/CourseAttachments.php:37
+msgid "Attachment Open Mode"
+msgstr ""
+
+#: addons/tutor-assignments/views/modal/assignments.php:35
+msgid "Attachments"
+msgstr "สิ่งที่แนบมา"
+
+#: addons/tutor-course-attachments/classes/CourseAttachments.php:72
+msgid "Attachments (private files)"
+msgstr "แนบไฟล์ (ส่วนบุคคล)"
+
+#: addons/tutor-certificate/classes/init.php:101
+msgid "Authorised Company Name"
+msgstr "หน่วยงานของผู้มีอำนาจออกใบประกาศ"
+
+#: addons/tutor-certificate/classes/init.php:102
+msgid "Authorised company name will be printed under authorised name."
+msgstr "ชื่อ หน่วยงาน/บริษัท จะถูกพิมพ์ใต้ชื่อผู้มีอำนาจออกใบประกาศ"
+
+#: addons/tutor-certificate/classes/init.php:96
+msgid "Authorised Name"
+msgstr "ชื่อผู้มีอำนาจออกใบประกาศ"
+
+#: addons/tutor-certificate/classes/init.php:97
+msgid "Authorised name will be printed under signature."
+msgstr "ชื่อผู้มีอำนาจออกใบประกาศจะถูกพิมพ์ใต้ลายเซ็น"
+
+#: addons/tutor-zoom/views/modal/meeting.php:96
+msgid "Auto Recording"
+msgstr ""
+
+#: addons/tutor-assignments/views/pages/submitted_assignment.php:17
+msgid "Back"
+msgstr ""
+
+#: templates/single/quiz/view_attempt.php:22
+msgid "Back to quiz"
+msgstr "กลับไปที่แบบทดสอบ"
+
+#: classes/Updater.php:155
+msgid "Blog"
+msgstr "บล็อก"
+
+#: addons/google-classroom/views/components/import-credential.php:14
+msgid "Browse File"
+msgstr ""
+
+#: addons/buddypress/buddypress.php:29
+msgid "BuddyPress"
+msgstr ""
+
+#: addons/buddypress/classes/BuddyPressGroups.php:47, 
+#: addons/buddypress/views/bp-group-course.php:9
+msgid "BuddyPress Groups"
+msgstr ""
+
+#: addons/gradebook/views/pages/overview.php:40
+msgid "Bulk Actions"
+msgstr "คำสั่งจำนวนมาก"
+
+#: templates/single-certificate.php:70
+msgid "by"
+msgstr ""
+
+#: addons/tutor-certificate/classes/init.php:120
+msgid ""
+"By enabling this option, the student will be able to verify and share their "
+"certificates URL which is publicly accessible"
+msgstr ""
+
+#: addons/wc-subscriptions/wc-subscriptions.php:30
+msgid "Capture Residual Revenue with Recurring Payments."
+msgstr ""
+
+#: addons/tutor-report/views/pages/courses/course-table.php:110
+msgid "Category"
+msgstr ""
+
+#: addons/pmpro/views/pmpro-content-settings.php:88
+msgid "Category wise membership"
+msgstr "หมวดหมู่การเป็นสมาชิก"
+
+#: addons/tutor-certificate/tutor-certificate.php:29
+msgid "Certificate"
+msgstr "ประกาศนียบัตร"
+
+#: addons/tutor-certificate/classes/init.php:124
+msgid "Certificate link in course completion email"
+msgstr ""
+
+#: addons/tutor-certificate/templates/default/certificate.php:15
+msgid "Certificate of Achievement"
+msgstr ""
+
+#: addons/tutor-certificate/classes/Instructor_Signature.php:44
+msgid "Certificate Signature"
+msgstr ""
+
+#: addons/google-classroom/views/components/consent-screen.php:16
+msgid "Change Credential"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/set_api.php:22
+msgid "Check API Connection"
+msgstr ""
+
+#: addons/tutor-report/tutor-report.php:30
+msgid "Check your course performance through Tutor Report stats."
+msgstr ""
+
+#: addons/google-classroom/views/components/class-list.php:12
+msgid "Class Code"
+msgstr ""
+
+#: addons/google-classroom/views/components/class-list.php:9
+msgid "Class Name"
+msgstr ""
+
+#: addons/google-classroom/views/components/footer-settings.php:33
+msgid "Classlist Shortcode:"
+msgstr ""
+
+#: addons/google-classroom/views/components/footer-settings.php:42
+msgid "Classroom Access Settings"
+msgstr ""
+
+#: addons/google-classroom/views/components/footer-settings.php:12
+msgid "Classroom List"
+msgstr ""
+
+#: addons/tutor-zoom/views/modal/meeting.php:102
+msgid "Cloud"
+msgstr ""
+
+#: addons/google-classroom/views/components/class-list-shortcode.php:37, 
+#: addons/google-classroom/views/components/stream.php:6
+msgid "Code"
+msgstr ""
+
+#: classes/Instructor_Percentage.php:47
+msgid "Commission"
+msgstr ""
+
+#: addons/tutor-report/views/pages/students/student-profile.php:189
+msgid "Complete"
+msgstr ""
+
+#: addons/tutor-email/classes/init.php:97
+#, fuzzy
+#| msgid "Completed a course"
+msgid "Completed a Course"
+msgstr "จบคอร์ส"
+
+#: addons/tutor-report/views/pages/students/student-profile.php:84
+msgid "Completed Courses"
+msgstr ""
+
+#: templates/email/to_instructor_become_application_approved.php:9
+msgid "Congrats!"
+msgstr ""
+
+#: templates/email/to_student_rate_course_and_instructor.php:11
+msgid ""
+"Congratulations on finishing the course <strong>{course_name}</strong>. We "
+"hope that you had a great experience on our platform. We would really "
+"appreciate it if you can post a review on the course and the instructor. "
+"Your valuable feedback would help us improve the content on our site and "
+"improve the learning experience."
+msgstr ""
+
+#: addons/google-classroom/classes/init.php:122, 
+#: addons/google-classroom/classes/init.php:173
+msgid "Connect Tutor Course"
+msgstr ""
+
+#: addons/tutor-zoom/tutor-zoom.php:31
+msgid ""
+"Connect Tutor LMS with Zoom to host live online classes. Students can attend "
+"live classes right from the lesson page."
+msgstr ""
+
+#: classes/Updater.php:223
+msgid "Connect with License key"
+msgstr "เชื่อมต่อกับคีย์ใบอนุญาต"
+
+#: addons/tutor-zoom/views/metabox/meetings.php:64
+msgid "Connect with your students using Zoom"
+msgstr ""
+
+#: classes/Updater.php:151
+msgid "Contact Us"
+msgstr "ติดต่อเรา"
+
+#: addons/content-drip/classes/ContentDrip.php:72
+msgid "Content available after X days from enrollment"
+msgstr "จะเข้าดูเนื้อหาได้หลังจากผู้เรียนลงทะเบียนแล้วกี่วัน"
+
+#: addons/content-drip/classes/ContentDrip.php:54
+msgid "Content Drip"
+msgstr "การจำกัดเนื้อหา"
+
+#: addons/content-drip/classes/ContentDrip.php:324
+msgid "Content Drip Mailer Cron"
+msgstr ""
+
+#: addons/content-drip/views/content-drip-lesson.php:33
+msgid "Content Drip Settings"
+msgstr "ตั้งค่าการจำกัดเนื้อหา"
+
+#: addons/content-drip/classes/ContentDrip.php:68
+msgid "Content Drip Type"
+msgstr ""
+
+#: addons/content-drip/classes/ContentDrip.php:287, 
+#: addons/content-drip/classes/ContentDrip.php:308
+msgid "Content Drip: New Assignment Published"
+msgstr ""
+
+#: addons/content-drip/classes/ContentDrip.php:285, 
+#: addons/content-drip/classes/ContentDrip.php:298
+msgid "Content Drip: New Lesson Published"
+msgstr ""
+
+#: addons/content-drip/classes/ContentDrip.php:286, 
+#: addons/content-drip/classes/ContentDrip.php:303
+msgid "Content Drip: New Quiz Published"
+msgstr ""
+
+#: addons/tutor-email/views/pages/tutor_emails.php:9
+msgid "Content type"
+msgstr "ประเภทเนื้อหา"
+
+#: templates/single/course/zoom-meetings.php:64
+msgid "Continue to Meeting"
+msgstr ""
+
+#: addons/google-classroom/views/components/footer-settings.php:43
+msgid "Control the visibility and privacy for the Google Classroom data"
+msgstr ""
+
+#: templates/single-certificate.php:47
+msgid "Copy Link"
+msgstr ""
+
+#: templates/single/quiz/view_attempt.php:148
+msgid "Correct"
+msgstr "ถูกต้อง"
+
+#: templates/single/quiz/view_attempt.php:32
+msgid "Correct/Incorrect"
+msgstr "ถูกต้อง/ไม่ถูกต้อง"
+
+#: addons/enrollments/classes/Enrollments_List.php:85, 
+#: addons/enrollments/views/enroll_student.php:32, 
+#: addons/gradebook/views/pages/overview.php:72, 
+#: addons/tutor-assignments/views/pages/submitted_assignment.php:26, 
+#: addons/tutor-report/views/pages/overview.php:373, 
+#: addons/tutor-report/views/pages/overview.php:433, 
+#: addons/tutor-zoom/views/pages/meetings.php:63, 
+#: addons/tutor-report/views/pages/courses/course-table.php:153, 
+#: addons/tutor-report/views/pages/reviews/reviews.php:63, 
+#: addons/tutor-report/views/pages/sales/sales.php:44, 
+#: addons/tutor-report/views/pages/students/student-profile.php:198, 
+#: addons/tutor-report/views/pages/students/student-profile.php:323
+msgid "Course"
+msgstr "คอร์ส"
+
+#: addons/tutor-course-attachments/tutor-course-attachments.php:29, 
+#: addons/tutor-course-attachments/classes/CourseAttachments.php:77
+msgid "Course Attachments"
+msgstr "ไฟล์ที่แนบมาพร้อมกับคอร์ส"
+
+#: classes/General.php:182
+msgid "Course Builder Page Logo"
+msgstr "โลโก้ที่หน้าสร้างคอร์ส"
+
+#: addons/pmpro/views/pmpro-content-settings.php:94
+msgid "Course Categories"
+msgstr "หมวดหมู่คอร์ส"
+
+#: addons/tutor-report/views/pages/courses/course-single.php:126
+msgid "Course Completed"
+msgstr ""
+
+#: addons/tutor-email/views/pages/tutor_emails.php:35
+msgid "Course Completed (to students)"
+msgstr "เรียนจบคอร์สแล้ว (ส่งถึงผู้เรียน)"
+
+#: addons/tutor-email/views/pages/tutor_emails.php:54
+msgid "Course Completed (to teacher)"
+msgstr "เรียนจบคอร์สแล้ว (ส่งถึงผู้สอน)"
+
+#: addons/tutor-certificate/classes/Certificate.php:404
+msgid "Course Completion Certificate"
+msgstr ""
+
+#: addons/content-drip/classes/ContentDrip.php:73
+msgid "Course content available sequentially"
+msgstr "เนื้อหาจะเข้าดูได้โดยการเรียงตามลำดับ"
+
+#: addons/content-drip/classes/ContentDrip.php:74
+msgid "Course content unlocked after finishing prerequisites"
+msgstr "จะเข้าดูเนื้อหาได้ หลังจากที่เรียนจบเนื้อหาอื่นๆตามข้อกำหนด"
+
+#: addons/tutor-report/views/pages/courses/course-single.php:137, 
+#: addons/tutor-report/views/pages/students/student-profile.php:94
+msgid "Course Continue"
+msgstr ""
+
+#: addons/tutor-email/classes/init.php:135
+msgid "Course Edited/Updated"
+msgstr ""
+
+#: addons/tutor-email/views/pages/tutor_emails.php:226
+msgid "Course Edited/Updated (to admin)"
+msgstr ""
+
+#: addons/enrollments/classes/Enrollments.php:95, 
+#: addons/tutor-email/classes/init.php:95, 
+#: addons/tutor-report/views/pages/overview.php:137
+msgid "Course Enrolled"
+msgstr "คอร์สถูกลงทะเบียนเรียน"
+
+#: addons/tutor-email/views/pages/tutor_emails.php:90
+msgid "Course Enrolled (to student)"
+msgstr ""
+
+#: addons/tutor-email/views/pages/tutor_emails.php:72
+msgid "Course Enrolled (to teacher)"
+msgstr "มีการลงทะเบียนเรียนคอร์ส (ส่งถึงผู้สอน)"
+
+#: addons/tutor-email/classes/init.php:104
+msgid "Course enrolment expired"
+msgstr ""
+
+#: addons/tutor-email/views/pages/tutor_emails.php:420
+msgid "Course enrolment expired (to student)"
+msgstr ""
+
+#: templates/email/to_admin_course_updated.php:15
+msgid "Course Link: {course_url}"
+msgstr ""
+
+#: addons/tutor-report/views/pages/courses/course-table.php:147, 
+#: addons/tutor-report/views/pages/students/student-profile.php:187
+msgid "Course List"
+msgstr ""
+
+#: addons/tutor-report/views/pages/overview.php:301, 
+#: addons/tutor-report/views/pages/overview.php:335
+msgid "Course Name"
+msgstr "ชื่อคอร์ส"
+
+#: templates/email/to_instructor_student_submitted_assignment.php:15
+msgid "Course Name - <strong>{course_name}</strong>"
+msgstr ""
+
+#: templates/email/to_admin_new_course_published.php:13, 
+#: templates/email/to_admin_new_course_submitted_for_review.php:13
+msgid "Course name - <strong>{course_name}</strong>"
+msgstr ""
+
+#: templates/single/course/course-prerequisites.php:2
+msgid "Course Prerequisite(s)"
+msgstr "คอร์สที่จำเป็นต้องผ่านมาก่อน"
+
+#: addons/tutor-prerequisites/classes/Prerequisites.php:34, 
+#: addons/tutor-prerequisites/classes/Prerequisites.php:43
+msgid "Course Prerequisites"
+msgstr "คอร์สที่จำเป็นต้องผ่านมาก่อน"
+
+#: addons/tutor-course-preview/tutor-course-preview.php:29, 
+#: addons/tutor-course-preview/classes/init.php:85
+msgid "Course Preview"
+msgstr "ตัวอย่างคอร์ส"
+
+#: addons/buddypress/classes/BuddyPressGroupSettings.php:22
+msgid "Course Settings"
+msgstr ""
+
+#: addons/tutor-report/views/pages/students/student-table.php:37
+msgid "Course Taken"
+msgstr ""
+
+#: addons/tutor-assignments/classes/Assignments_List.php:49, 
+#: addons/tutor-zoom/views/pages/meetings.php:156
+msgid "Course:"
+msgstr ""
+
+#: addons/buddypress/classes/BuddyPressGroups.php:144, 
+#: addons/tutor-report/views/pages/overview.php:128, 
+#: addons/tutor-report/views/pages/report.php:6
+msgid "Courses"
+msgstr "คอร์ส"
+
+#: addons/tutor-zoom/views/metabox/meetings.php:67, 
+#: addons/tutor-zoom/views/metabox/meetings.php:55
+msgid "Create a Zoom Meeting"
+msgstr ""
+
+#: addons/google-classroom/views/components/import-credential.php:3
+msgid ""
+"Create OAuth access data and upload Credentials JSON from %s Google Console "
+"%s. As a redirect URI set %s"
+msgstr ""
+
+#: addons/tutor-report/views/pages/courses/course-single.php:62, 
+#: addons/tutor-report/views/pages/students/student-profile.php:16
+msgid "Created:"
+msgstr ""
+
+#: addons/tutor-assignments/classes/Assignments_List.php:115, 
+#: addons/tutor-zoom/views/pages/meetings.php:79, 
+#: addons/tutor-report/views/pages/courses/course-single.php:435, 
+#: addons/tutor-report/views/pages/courses/course-table.php:137, 
+#: addons/tutor-report/views/pages/sales/sales.php:46, 
+#: addons/tutor-report/views/pages/students/student-profile.php:324
+msgid "Date"
+msgstr "วันที่"
+
+#: addons/enrollments/classes/Enrollments_List.php:62
+#, php-format
+msgid "Date : %s"
+msgstr "วันที่ : %s"
+
+#: addons/content-drip/views/content-drip-lesson.php:45
+msgid "Date Format:"
+msgstr "รูปแบบวันที่ :"
+
+#: classes/Enrollment_Expiry.php:98
+msgid "day"
+msgstr ""
+
+#: addons/content-drip/views/content-drip-lesson.php:54, 
+#: addons/tutor-assignments/views/modal/assignments.php:84
+msgid "Days"
+msgstr "วัน"
+
+#: classes/Enrollment_Expiry.php:98
+msgid "days"
+msgstr ""
+
+#: addons/tutor-assignments/classes/Assignments_List.php:67
+msgid "Deadline"
+msgstr ""
+
+#: templates/email/to_instructor_asked_question_by_student.php:9, 
+#: templates/email/to_instructor_become_application_approved.php:10, 
+#: templates/email/to_instructor_become_application_received.php:9, 
+#: templates/email/to_instructor_become_application_rejected.php:9, 
+#: templates/email/to_instructor_course_completed.php:9, 
+#: templates/email/to_instructor_course_enrolled.php:9, 
+#: templates/email/to_instructor_lesson_completed.php:9, 
+#: templates/email/to_instructor_withdrawal_request_approved.php:9, 
+#: templates/email/to_instructor_withdrawal_request_received.php:9, 
+#: templates/email/to_instructor_withdrawal_request_rejected.php:9
+msgid "Dear {instructor_username},"
+msgstr ""
+
+#: templates/email/to_student_course_completed.php:9, 
+#: templates/email/to_student_new_lqa_published.php:9
+msgid "Dear {student_username},"
+msgstr ""
+
+#: templates/email/to_student_quiz_completed.php:9
+msgid "Dear {username},"
+msgstr ""
+
+#: classes/Instructor_Percentage.php:95
+msgid "Default"
+msgstr ""
+
+#: addons/tutor-assignments/views/modal/assignments.php:132
+#, php-format
+msgid "Define maximum file size attachment in %s"
+msgstr "กำหนดขนาดไฟล์แนบสูงสุดหน่วยเป็น %s"
+
+#: addons/tutor-assignments/views/modal/assignments.php:121
+msgid ""
+"Define the number of files that a student can upload in this assignment. "
+"Input 0 to disable the option to upload."
+msgstr ""
+"กำหนดจำนวนไฟล์ที่ผู้เรียนสามารถอัปโหลดได้ในการมอบหมายงานนี้ ใส่ 0 "
+"เพื่อปิดใช้งานการอัปโหลด"
+
+#: addons/tutor-report/views/pages/reviews/reviews.php:95
+msgid "Delete"
+msgstr "ลบ"
+
+#: addons/google-classroom/views/components/class-list.php:23
+msgid "Delete Permanently"
+msgstr ""
+
+#: addons/tutor-assignments/classes/Assignments_List.php:83
+msgid "Deleted"
+msgstr ""
+
+#: addons/tutor-zoom/classes/Zoom.php:79
+msgid "Description."
+msgstr ""
+
+#: classes/Quiz.php:72
+msgid "Detail Attempt View"
+msgstr "รายละเอียดการทำแบบทดสอบ"
+
+#: addons/tutor-assignments/classes/Assignments_List.php:80, 
+#: addons/tutor-report/views/pages/courses/course-single.php:319, 
+#: addons/tutor-report/views/pages/courses/course-table.php:173, 
+#: addons/tutor-report/views/pages/students/student-table.php:62
+msgid "Details"
+msgstr ""
+
+#: addons/tutor-certificate/classes/Certificate.php:429
+msgid "Disable Certificate"
+msgstr ""
+
+#: addons/content-drip/classes/ContentDrip.php:325
+msgid "Disable WP Cron"
+msgstr ""
+
+#: addons/buddypress/buddypress.php:30
+msgid ""
+"Discuss about course and share your knowledge with your friends through "
+"BuddyPress"
+msgstr ""
+
+#: addons/tutor-report/views/pages/students/student-profile.php:39
+msgid "Display Name"
+msgstr ""
+
+#: addons/gradebook/classes/init.php:107
+#, php-format
+msgid "Display the final grade point to everyone such as 3.8%s"
+msgstr "แสดงเกรดสุดท้ายที่คำนวณแล้วให้ทุกคนเห็น ยกตัวอย่างเช่น 3.8%s"
+
+#: classes/Updater.php:150
+msgid "Documentation"
+msgstr "เอกสาร"
+
+#: addons/buddypress/classes/BuddyPressGroups.php:493
+msgid "Done with %s, it was a challenging quiz."
+msgstr ""
+
+#: addons/tutor-course-attachments/classes/CourseAttachments.php:41
+msgid "Download"
+msgstr ""
+
+#: templates/single-certificate.php:29, 
+#: addons/tutor-certificate/views/lesson-menu-after.php:23
+msgid "Download Certificate"
+msgstr "ดาวน์โหลดประกาศนียบัตร"
+
+#: addons/google-classroom/views/components/import-credential.php:11
+msgid "Drag & Drop your JSON File here"
+msgstr ""
+
+#: classes/Course_Duplicator.php:51, classes/Course_Duplicator.php:52
+msgid "Duplicate"
+msgstr ""
+
+#: addons/tutor-assignments/classes/Assignments_List.php:114
+msgid "Duration"
+msgstr "ระยะเวลา"
+
+#: addons/tutor-email/tutor-email.php:29, 
+#: addons/tutor-report/views/pages/overview.php:477, 
+#: addons/tutor-report/views/pages/overview.php:523
+msgid "E-Mail"
+msgstr "อีเมล"
+
+#: addons/tutor-email/classes/init.php:85
+msgid "E-Mail Notification"
+msgstr "การแจ้งเตือนทางอีเมล"
+
+#: addons/tutor-email/classes/init.php:129
+msgid "E-Mail to Admin"
+msgstr ""
+
+#: addons/tutor-email/classes/init.php:93
+msgid "E-Mail to Students"
+msgstr "อีเมลถึงผู้เรียน"
+
+#: addons/tutor-email/classes/init.php:110
+msgid "E-Mail to Teachers"
+msgstr "อีเมลถึงผู้สอน"
+
+#: addons/tutor-email/classes/EmailNotification.php:76, 
+#: addons/tutor-email/classes/EmailNotification.php:76, 
+#: addons/tutor-email/views/pages/tutor_emails.php:2
+msgid "E-Mails"
+msgstr "อีเมล"
+
+#: templates/single/quiz/previous-attempts.php:14, 
+#: templates/single/quiz/previous-attempts.php:51
+msgid "Earned Marks"
+msgstr "คะแนนที่ได้"
+
+#: addons/tutor-report/views/pages/courses/course-single.php:182, 
+#: addons/tutor-report/views/pages/courses/course-table.php:158
+msgid "Earnings"
+msgstr ""
+
+#: addons/google-classroom/views/components/class-list.php:86
+msgid "Edit"
+msgstr ""
+
+#: addons/tutor-zoom/classes/Zoom.php:68
+msgid "Edit Meeting"
+msgstr ""
+
+#: addons/tutor-report/views/pages/courses/course-single.php:66
+msgid "Edit with Builder"
+msgstr ""
+
+#: classes/Admin.php:181, classes/Admin.php:184, classes/Admin.php:194, 
+#: classes/Admin.php:197
+msgid "Edit With Frontend Course Builder"
+msgstr ""
+
+#: addons/google-classroom/views/email/auto-registration-verification.php:33, 
+#: addons/tutor-report/views/pages/courses/course-single.php:287, 
+#: addons/tutor-report/views/pages/students/student-table.php:35
+msgid "Email"
+msgstr ""
+
+#: addons/tutor-report/views/pages/students/student-profile.php:45
+msgid "Email ID"
+msgstr ""
+
+#: classes/Enrollment_Expiry.php:28, classes/Quiz.php:73, 
+#: addons/buddypress/classes/BuddyPressGroups.php:55, 
+#: addons/content-drip/classes/ContentDrip.php:62, 
+#: addons/gradebook/classes/init.php:98, 
+#: addons/tutor-certificate/classes/init.php:107, 
+#: addons/tutor-certificate/classes/init.php:119, 
+#: addons/tutor-certificate/classes/init.php:125
+msgid "Enable"
+msgstr "เปิดใช้งาน"
+
+#: addons/buddypress/classes/BuddyPressGroups.php:57
+msgid "Enable / Disable BuddyPress group activity feeds"
+msgstr ""
+
+#: addons/content-drip/classes/ContentDrip.php:64
+msgid "Enable / Disable content drip"
+msgstr "เปิด / ปิด การจำกัดเนื้อหา"
+
+#: addons/tutor-course-preview/classes/init.php:94, 
+#: addons/tutor-course-preview/views/metabox/course-preview-metabox.php:15
+msgid "Enable Course Preview"
+msgstr "เปิดใช้งานการดูตัวอย่างคอร์ส"
+
+#: addons/tutor-email/classes/init.php:89
+msgid "Enable Disable Option to on/off notification on various event"
+msgstr "เปิด ปิด ตัวเลือกการใช้งานเพื่อ เปิด/ปิด การแจ้งเตือนเหตุการณ์ต่างๆ"
+
+#: addons/gradebook/classes/init.php:100
+msgid ""
+"Enable this option for the database to calculate in grade points instead of "
+"division."
+msgstr ""
+"เปิดใช้งานตัวเลือกนี้เพื่อให้ระบบฐานข้อมูลคำนวณเป็นระบบตัดเกรดแทนที่ระบบคะแนน"
+
+#: classes/Enrollment_Expiry.php:29
+msgid "Enable to allow enrollment expiration feature in all courses"
+msgstr ""
+
+#: addons/tutor-email/classes/init.php:88
+msgid "Enable/Disable"
+msgstr "เปิดใช้งาน/ปิดใช้งาน"
+
+#: classes/Quiz.php:75
+msgid ""
+"Enabling this option will let the students view quiz attempt details "
+"including the answer to each question."
+msgstr ""
+"เปิดการใช้งานตัวเลือกนี้ เพื่อให้ผู้เรียนดูรายละเอียดในการทำแบบทดสอบ "
+"การตอบคำถามรวมถึงคำตอบของคำถามแต่ละข้อ"
+
+#: addons/tutor-zoom/views/pages/settings.php:28
+msgid "Enforce Login"
+msgstr ""
+
+#: addons/enrollments/views/enrollments.php:8
+msgid "Enroll a student"
+msgstr "ลงทะเบียนผู้เรียน"
+
+#: addons/tutor-report/views/pages/courses/course-single.php:288
+msgid "Enroll Date"
+msgstr ""
+
+#: addons/tutor-report/views/pages/students/student-profile.php:199
+msgid "Enroll Date & Time"
+msgstr ""
+
+#: addons/enrollments/views/enroll_student.php:3, 
+#: addons/enrollments/views/enroll_student.php:64
+msgid "Enroll Student"
+msgstr "ลงทะเบียนผู้เรียน"
+
+#: addons/tutor-report/views/pages/overview.php:302, 
+#: addons/tutor-report/views/pages/overview.php:336
+msgid "Enrolled"
+msgstr "ลงทะเบียนเรียน"
+
+#: addons/tutor-report/views/pages/students/student-profile.php:69
+msgid "Enrolled Courses"
+msgstr ""
+
+#: templates/buddypress/message_thread_recipients.php:69
+msgid "Enrolled in total %s courses by you"
+msgstr ""
+
+#: classes/Enrollment_Expiry.php:27, classes/Enrollment_Expiry.php:43
+msgid "Enrollment Expiration"
+msgstr ""
+
+#: addons/enrollments/classes/Enrollments_List.php:87
+msgid "Enrollment Status"
+msgstr ""
+
+#: classes/Enrollment_Expiry.php:124
+msgid "Enrollment valid until"
+msgstr ""
+
+#: addons/enrollments/classes/Enrollments.php:28, 
+#: addons/enrollments/classes/Enrollments.php:28, 
+#: addons/enrollments/views/enrollments.php:7
+msgid "Enrollments"
+msgstr "การลงทะเบียนเรียน"
+
+#: addons/enrollments/classes/Enrollments.php:124
+msgid "Enrolment has been done"
+msgstr "ลงทะเบียนเรียบร้อยแล้ว"
+
+#: classes/Enrollment_Expiry.php:100, classes/Enrollment_Expiry.php:116
+msgid "Enrolment validity"
+msgstr ""
+
+#: classes/Updater.php:216
+msgid "Enter License Key"
+msgstr "กรอกคีย์ใบอนุญาต"
+
+#: classes/Updater.php:222
+msgid "Enter your license key here"
+msgstr "กรอกคีย์ใบอนุญาตของคุณที่นี่"
+
+#: addons/tutor-zoom/views/pages/set_api.php:14
+msgid "Enter Your Zoom Api Key"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/set_api.php:18
+msgid "Enter Your Zoom Secret Key"
+msgstr ""
+
+#: addons/tutor-assignments/classes/Assignments_List.php:83, 
+#: addons/tutor-assignments/views/modal/assignments.php:140, 
+#: addons/tutor-zoom/views/modal/meeting.php:123
+msgid "Error"
+msgstr ""
+
+#: addons/tutor-assignments/classes/Assignments_List.php:80
+msgid "Evaluate"
+msgstr ""
+
+#: addons/tutor-assignments/views/pages/submitted_assignment.php:105
+#, fuzzy
+#, php-format
+#| msgid "Mark this assignment out of %s"
+msgid "Evaluate this assignment out of %s"
+msgstr "คะแนนของการมอบหมายงานนี้จาก %s"
+
+#: addons/tutor-assignments/views/pages/submitted_assignment.php:116
+msgid "Evaluate this submission"
+msgstr "ประเมินผลการส่งงานนี้"
+
+#: addons/tutor-assignments/views/pages/submitted_assignment.php:93
+msgid "Evaluation"
+msgstr "การประเมินผล"
+
+#: addons/tutor-email/views/pages/tutor_emails.php:8
+msgid "Event"
+msgstr "เหตุการณ์"
+
+#: templates/single/course/zoom-meetings.php:34
+msgid "Expired"
+msgstr ""
+
+#: addons/quiz-import-export/classes/QuizImportExport.php:292
+msgid "Export"
+msgstr ""
+
+#: templates/single/quiz/previous-attempts.php:93
+msgid "Fail"
+msgstr "ไม่ผา่น"
+
+#: addons/gradebook/classes/GradeBook.php:268, 
+#: templates/single/course/enrolled/gradebook.php:102, 
+#: templates/single/course/enrolled/gradebook.php:100, 
+#: templates/single/course/enrolled/gradebook.php:91, 
+#: templates/single/course/enrolled/gradebook.php:88
+msgid "Failed"
+msgstr "ไม่ผ่าน"
+
+#: classes/Updater.php:152, addons/tutor-zoom/views/pages/help.php:7
+msgid "FAQ"
+msgstr "คำถามที่พบบ่อย"
+
+#: addons/tutor-email/classes/init.php:102
+msgid "Feedback submitted for Quiz Attempt"
+msgstr ""
+
+#: addons/tutor-email/views/pages/tutor_emails.php:328
+msgid "Feedback submitted for quizname (to student)"
+msgstr ""
+
+#: addons/tutor-certificate/classes/Instructor_Signature.php:60
+msgid "File Support"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/meetings.php:87
+msgid "Filter"
+msgstr ""
+
+#: addons/gradebook/views/pages/overview.php:75, 
+#: templates/single/course/enrolled/gradebook.php:34
+msgid "Final Grade"
+msgstr "เกรดสุดท้าย"
+
+#: addons/pmpro/classes/PaidMembershipsPro.php:171
+msgid "Free"
+msgstr ""
+
+#: addons/pmpro/views/pmpro-content-settings.php:87
+msgid "Full website membership"
+msgstr "สมาชิกเว็บไซต์เต็มรูปแบบ"
+
+#: addons/tutor-certificate/classes/init.php:91, 
+#: addons/tutor-course-preview/classes/init.php:89
+msgid "General"
+msgstr "การตั้งค่าทั่วไป"
+
+#: includes/functions.php:283
+msgid "Generate Gradebook"
+msgstr "สร้างการตัดเกรด"
+
+#: classes/Updater.php:208
+msgid "Get License Key"
+msgstr "รับคียร์ใบอนุญาต"
+
+#: addons/restrict-content-pro/classes/RestrictContent.php:63
+msgid "Get Membership"
+msgstr ""
+
+#: templates/single/quiz/view_attempt.php:31
+msgid "Given Answers"
+msgstr "ให้คำตอบ"
+
+#: addons/google-classroom/views/components/stream.php:12
+msgid "Go to Classroom"
+msgstr ""
+
+#: templates/single-zoom-meeting.php:44
+msgid "Go to Course Home"
+msgstr ""
+
+#: addons/google-classroom/classes/init.php:189, 
+#: addons/google-classroom/classes/init.php:189, 
+#: addons/google-classroom/views/classroom-dashboard.php:2
+msgid "Google Classroom"
+msgstr ""
+
+#: addons/google-classroom/views/components/footer-settings.php:28
+msgid "Google Classroom Account"
+msgstr ""
+
+#: addons/google-classroom/google-classroom.php:29
+msgid "Google Classroom Integration"
+msgstr ""
+
+#: templates/single/quiz/previous-attempts.php:16, 
+#: templates/single/course/enrolled/gradebook.php:51
+msgid "Grade"
+msgstr "เกรด"
+
+#: addons/gradebook/views/pages/edit_gradebook.php:75
+msgid "Grade Color"
+msgstr "สีของเกรด"
+
+#: addons/gradebook/views/pages/add_new_gradebook.php:71
+msgid "Grade Colour"
+msgstr "สีของเกรด"
+
+#: addons/gradebook/views/pages/add_new_gradebook.php:22, 
+#: addons/gradebook/views/pages/add_new_gradebook.php:27, 
+#: addons/gradebook/views/pages/edit_gradebook.php:27, 
+#: addons/gradebook/views/pages/edit_gradebook.php:32, 
+#: addons/gradebook/views/pages/gradebooks.php:27
+msgid "Grade Name"
+msgstr "ชื่อเกรด"
+
+#: addons/gradebook/classes/GradeBook.php:57, 
+#: addons/gradebook/classes/GradeBook.php:99
+msgid "Grade name field is required"
+msgstr "ต้องกรอกชื่อเกรด"
+
+#: addons/gradebook/classes/init.php:97, 
+#: addons/gradebook/views/pages/add_new_gradebook.php:35, 
+#: addons/gradebook/views/pages/add_new_gradebook.php:39, 
+#: addons/gradebook/views/pages/edit_gradebook.php:39, 
+#: addons/gradebook/views/pages/edit_gradebook.php:43, 
+#: addons/gradebook/views/pages/gradebooks.php:28
+msgid "Grade Point"
+msgstr "ค่าเกรดเฉลี่ย"
+
+#: addons/gradebook/views/pages/gradebooks.php:29
+msgid "Grade Range %"
+msgstr "ช่วง % การตัดเกรด"
+
+#: addons/gradebook/classes/init.php:104, addons/gradebook/classes/init.php:118
+msgid "Grade Scale"
+msgstr "การแบ่งเกรด"
+
+#: addons/gradebook/classes/init.php:111
+msgid "Grade scale separator"
+msgstr "ข้อความแบ่งระดับเกรด"
+
+#: addons/gradebook/classes/GradeBook.php:43, 
+#: addons/gradebook/classes/GradeBook.php:43, 
+#: addons/gradebook/classes/GradeBook.php:491, 
+#: addons/gradebook/classes/GradeBook.php:499, 
+#: addons/gradebook/classes/init.php:89, addons/gradebook/classes/init.php:92, 
+#: addons/gradebook/views/pages/gradebooks.php:3, 
+#: addons/gradebook/views/pages/gradebooks.php:11, 
+#: addons/gradebook/views/pages/overview.php:17
+msgid "Gradebook"
+msgstr "การตัดเกรด"
+
+#: addons/gradebook/classes/GradeBook.php:87
+msgid "Gradebook has been added successfully"
+msgstr "เพิ่มการตัดเกรดเรียบร้อยแล้ว"
+
+#: addons/gradebook/classes/GradeBook.php:531
+msgid "Gradebook has been deleted"
+msgstr "ลบการตัดเกรดเรียบร้อยแล้ว"
+
+#: addons/gradebook/classes/GradeBook.php:521
+msgid "Gradebook has been re-generated"
+msgstr "การตัดเกรดได้รับการสร้างขึ้นใหม่"
+
+#: addons/gradebook/classes/GradeBook.php:129
+msgid "Gradebook has been updated successfully"
+msgstr "ปรับปรุงการตัดเกรดเรียบร้อยแล้ว"
+
+#: templates/single/course/enrolled/gradebook.php:17
+msgid "Gradebook not generated yet"
+msgstr "ยังไม่ได้สร้างการตัดเกรด"
+
+#: addons/gradebook/classes/init.php:93
+msgid "Gradebook Settings"
+msgstr "ตั้งค่าการตัดเกรด"
+
+#: addons/gradebook/views/pages/add_new_gradebook.php:3, 
+#: addons/gradebook/views/pages/overview.php:11
+msgid "Gradebooks"
+msgstr "การตัดเกรด"
+
+#: addons/tutor-certificate/classes/Instructor_Signature.php:59
+msgid "Guidelines"
+msgstr ""
+
+#: addons/tutor-certificate/templates/default/certificate.php:39, 
+#: addons/tutor-certificate/templates/template_1/certificate.php:33, 
+#: addons/tutor-certificate/templates/template_10/certificate.php:28, 
+#: addons/tutor-certificate/templates/template_11/certificate.php:30, 
+#: addons/tutor-certificate/templates/template_12/certificate.php:29, 
+#: addons/tutor-certificate/templates/template_2/certificate.php:28, 
+#: addons/tutor-certificate/templates/template_3/certificate.php:37, 
+#: addons/tutor-certificate/templates/template_4/certificate.php:28, 
+#: addons/tutor-certificate/templates/template_5/certificate.php:39, 
+#: addons/tutor-certificate/templates/template_6/certificate.php:28, 
+#: addons/tutor-certificate/templates/template_7/certificate.php:28, 
+#: addons/tutor-certificate/templates/template_8/certificate.php:30, 
+#: addons/tutor-certificate/templates/template_9/certificate.php:29
+msgid "has successfully completed"
+msgstr ""
+
+#: addons/google-classroom/views/email/auto-registration-verification.php:14
+msgid "Hello"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/main.php:9
+msgid "Help"
+msgstr ""
+
+#: addons/google-classroom/google-classroom.php:30
+msgid ""
+"Helps connect Google Classrooms with Tutor LMS courses, allowing you to use "
+"features like Classroom streams and files directly from the Tutor LMS course."
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/help.php:41
+msgid "here"
+msgstr ""
+
+#: addons/google-classroom/views/components/footer-settings.php:13
+msgid "Here is a list of Classrooms on your current Google account."
+msgstr ""
+
+#: templates/email/to_student_rate_course_and_instructor.php:16
+msgid "Here is the link to post a review for the instructor- {instructor_url}"
+msgstr ""
+
+#: templates/email/to_student_rate_course_and_instructor.php:14
+msgid "Here is the link to post a review on the course- {course_url}"
+msgstr ""
+
+#: templates/email/to_instructor_quiz_completed.php:9
+msgid "Hi {instructor_username},"
+msgstr ""
+
+#: templates/email/to_admin_course_updated.php:9, 
+#: templates/email/to_admin_new_course_published.php:9, 
+#: templates/email/to_admin_new_course_submitted_for_review.php:9, 
+#: templates/email/to_admin_new_instructor_signup.php:9, 
+#: templates/email/to_admin_new_student_signup.php:9, 
+#: templates/email/to_instructor_student_submitted_assignment.php:9, 
+#: templates/email/to_student_announcement_updated.php:9, 
+#: templates/email/to_student_assignment_evaluate.php:9, 
+#: templates/email/to_student_course_enrolled.php:9, 
+#: templates/email/to_student_enrollment_expired.php:9, 
+#: templates/email/to_student_feedback_submitted_for_quiz.php:9, 
+#: templates/email/to_student_new_announcement_posted.php:9, 
+#: templates/email/to_student_question_answered.php:9, 
+#: templates/email/to_student_rate_course_and_instructor.php:9, 
+#: templates/email/to_student_remove_from_course.php:9
+msgid "Hi,"
+msgstr ""
+
+#: classes/Updater.php:142
+msgid "Home"
+msgstr "หน้าแรก"
+
+#: templates/single-zoom-meeting.php:116, 
+#: templates/single-zoom-meeting.php:83, 
+#: templates/single/course/zoom-meetings.php:63, 
+#: addons/tutor-zoom/views/pages/meetings.php:127
+msgid "Host Email"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/settings.php:13
+msgid "Host video"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/settings.php:14
+msgid "Host will join the meeting with video enabled"
+msgstr ""
+
+#: addons/tutor-certificate/templates/default/certificate.php:24, 
+#: addons/tutor-certificate/templates/template_1/certificate.php:18, 
+#: addons/tutor-certificate/templates/template_10/certificate.php:18, 
+#: addons/tutor-certificate/templates/template_11/certificate.php:18, 
+#: addons/tutor-certificate/templates/template_12/certificate.php:18, 
+#: addons/tutor-certificate/templates/template_2/certificate.php:18, 
+#: addons/tutor-certificate/templates/template_3/certificate.php:21, 
+#: addons/tutor-certificate/templates/template_4/certificate.php:18, 
+#: addons/tutor-certificate/templates/template_5/certificate.php:20, 
+#: addons/tutor-certificate/templates/template_6/certificate.php:18, 
+#: addons/tutor-certificate/templates/template_7/certificate.php:17, 
+#: addons/tutor-certificate/templates/template_8/certificate.php:18, 
+#: addons/tutor-certificate/templates/template_9/certificate.php:18
+msgid "hour"
+msgstr ""
+
+#: addons/tutor-assignments/views/modal/assignments.php:85, 
+#: addons/tutor-zoom/views/modal/meeting.php:73
+msgid "Hours"
+msgstr ""
+
+#: addons/tutor-certificate/templates/default/certificate.php:24, 
+#: addons/tutor-certificate/templates/template_1/certificate.php:18, 
+#: addons/tutor-certificate/templates/template_10/certificate.php:18, 
+#: addons/tutor-certificate/templates/template_11/certificate.php:18, 
+#: addons/tutor-certificate/templates/template_12/certificate.php:18, 
+#: addons/tutor-certificate/templates/template_2/certificate.php:18, 
+#: addons/tutor-certificate/templates/template_3/certificate.php:21, 
+#: addons/tutor-certificate/templates/template_4/certificate.php:18, 
+#: addons/tutor-certificate/templates/template_5/certificate.php:20, 
+#: addons/tutor-certificate/templates/template_6/certificate.php:18, 
+#: addons/tutor-certificate/templates/template_7/certificate.php:17, 
+#: addons/tutor-certificate/templates/template_8/certificate.php:18, 
+#: addons/tutor-certificate/templates/template_9/certificate.php:18
+msgid "hours"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/help.php:13
+msgid "How Do I Connect Zoom With my LMS Website?"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/help.php:25
+msgid "How Do I Create a Live Lesson on Tutor MS?"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/help.php:37
+msgid "How Do I Notify Students about Live Lessons?"
+msgstr ""
+
+#: addons/tutor-course-attachments/classes/CourseAttachments.php:44
+msgid "How you want users to view attached files."
+msgstr ""
+
+#: addons/buddypress/classes/BuddyPressGroups.php:350
+msgid "I have created a new lesson %s for my course %s. Go check it out!"
+msgstr ""
+
+#: addons/buddypress/classes/BuddyPressGroups.php:230
+msgid "I just completed learning %s. It was super insightful!"
+msgstr ""
+
+#: addons/buddypress/classes/BuddyPressGroups.php:435
+msgid "I just started taking the quiz %s, come and take it with me."
+msgstr ""
+
+#: addons/buddypress/classes/BuddyPressGroups.php:394
+msgid "I updated my lesson on %s to add more relevant content. See what’s new!"
+msgstr ""
+
+#: templates/single/course/zoom-meetings.php:41, 
+#: addons/tutor-report/views/pages/courses/course-single.php:285, 
+#: addons/tutor-report/views/pages/courses/course-single.php:360, 
+#: addons/tutor-report/views/pages/students/student-table.php:32
+msgid "ID"
+msgstr ""
+
+#: addons/tutor-course-preview/views/metabox/course-preview-metabox.php:19
+msgid "If checked, any users/guest can view this lesson without enroll course"
+msgstr ""
+"หากทำเครื่องหมายไว้ ผู้ใช้/ผู้มาเยือน "
+"จะสามารถดูบทเรียนนี้ได้โดยไม่ต้องลงทะเบียนเรียน"
+
+#: addons/content-drip/classes/ContentDrip.php:327
+msgid "If you use OS native cron, then disable it."
+msgstr ""
+
+#: addons/google-classroom/views/components/class-list.php:10
+msgid "Import Date"
+msgstr ""
+
+#: addons/quiz-import-export/classes/QuizImportExport.php:31
+msgid "Import Quiz"
+msgstr ""
+
+#: addons/tutor-report/views/pages/students/student-profile.php:190
+msgid "Incomplete"
+msgstr ""
+
+#: templates/single/quiz/view_attempt.php:153
+msgid "Incorrect"
+msgstr "ไม่ถูกต้อง"
+
+#: addons/enrollments/views/enrollments.php:14
+msgid "Info"
+msgstr "ข้อมูลเพิ่มเติม"
+
+#: addons/gradebook/classes/init.php:113
+msgid ""
+"Input the separator text or symbol to display. Example: Insert “/” to "
+"display 3.8/4.0 or “out of” 3.8 out of 4."
+msgstr ""
+"ป้อนข้อความหรือสัญลักษณ์เพื่อแสดงเป็นตัวคั่นระหว่างเกรด เช่น : ป้อน \"/\" "
+"เพื่อแสดง 3.8/4.0 หรือ \"จาก\" เพื่อแสดง 3.8 จาก 4.0"
+
+#: addons/gradebook/classes/init.php:120
+msgid ""
+"Insert the grade point out of which the final results will be calculated."
+msgstr "ป้อนระดับเกรดสูงสุดที่จะใช้คำนวณผลลัพธ์สุดท้าย"
+
+#: templates/buddypress/message_thread_recipients.php:26, 
+#: addons/tutor-report/views/pages/sales/sales.php:43
+msgid "Instructor"
+msgstr ""
+
+#: templates/email/to_admin_course_updated.php:12
+msgid ""
+"Instructor <strong>{instructor_name}</strong> has updated {course_name} on "
+"<strong>{site_name}</strong>"
+msgstr ""
+
+#: addons/tutor-email/classes/init.php:121
+msgid "Instructor Application Accepted "
+msgstr ""
+
+#: addons/tutor-email/classes/EmailNotification.php:1433
+msgid "Instructor Application Approval"
+msgstr ""
+
+#: addons/tutor-email/views/pages/tutor_emails.php:385
+msgid "Instructor application approved (to teacher)"
+msgstr ""
+
+#: addons/tutor-email/classes/EmailNotification.php:688, 
+#: addons/tutor-email/classes/init.php:123
+msgid "Instructor Application Received"
+msgstr ""
+
+#: addons/tutor-email/views/pages/tutor_emails.php:381
+msgid "Instructor application received (to teacher)"
+msgstr ""
+
+#: addons/tutor-email/classes/init.php:122
+msgid "Instructor Application Rejected"
+msgstr ""
+
+#: addons/tutor-email/views/pages/tutor_emails.php:389
+msgid "Instructor application rejected (to teacher)"
+msgstr ""
+
+#: addons/tutor-email/classes/EmailNotification.php:1468
+msgid "Instructor Application Rejection"
+msgstr ""
+
+#: templates/email/to_student_assignment_evaluate.php:14
+msgid "Instructor Comment: {assignment_comment}"
+msgstr ""
+
+#: templates/email/to_student_feedback_submitted_for_quiz.php:13
+msgid "Instructor feedback: {instructor_feedback}"
+msgstr ""
+
+#: classes/Instructor_Percentage.php:43
+msgid "Instructor Settings"
+msgstr ""
+
+#: addons/tutor-report/views/pages/overview.php:173, 
+#: addons/tutor-report/views/pages/courses/course-single.php:354
+msgid "Instructors"
+msgstr "ผู้สอน"
+
+#: addons/tutor-zoom/classes/Zoom.php:337, 
+#: addons/tutor-zoom/classes/Zoom.php:373
+msgid "Invalid Api Credentials"
+msgstr ""
+
+#: addons/quiz-import-export/classes/QuizImportExport.php:302
+msgid "Invalid File"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/help.php:49
+msgid "Is Zoom Free to Use?"
+msgstr ""
+
+#: addons/gradebook/views/pages/overview.php:135
+msgid "Items"
+msgstr "รายการ"
+
+#: addons/tutor-report/views/pages/students/student-profile.php:359
+msgid "Items <strong> %s </strong> of<strong> %s </strong> total"
+msgstr ""
+
+#: addons/tutor-report/views/pages/students/student-table.php:82
+msgid "Items <strong>%s</strong> of <strong>%s</strong> total"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/settings.php:8
+msgid "Join Before Host"
+msgstr ""
+
+#: templates/single-zoom-meeting.php:21
+msgid "Join in Browser"
+msgstr ""
+
+#: templates/single-zoom-meeting.php:96
+msgid "Join in Zoom App"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/settings.php:9
+msgid ""
+"Join meeting before the host starts the meeting. Only for scheduled or "
+"recurring meetings"
+msgstr ""
+
+#: templates/single-certificate.php:39
+msgid "JPG"
+msgstr ""
+
+#: addons/buddypress/classes/BuddyPressGroups.php:271
+msgid ""
+"Just got enrolled in %s, looks very promising! You should check it out as "
+"well. "
+msgstr ""
+
+#: addons/tutor-report/views/pages/students/student-profile.php:18
+msgid "Last Activity:"
+msgstr ""
+
+#: addons/tutor-report/views/pages/overview.php:328
+msgid "Last enrolled courses"
+msgstr "คอร์สที่มีการลงทะเบียนเรียนล่าสุด"
+
+#: addons/tutor-report/views/pages/course/graph/top_menu.php:6, 
+#: addons/tutor-report/views/pages/courses/graph/top_menu.php:6
+msgid "Last Month"
+msgstr "เดือนที่แล้ว"
+
+#: addons/tutor-report/views/pages/courses/course-single.php:63
+msgid "Last Update:"
+msgstr ""
+
+#: templates/single/course/enrolled/gradebook.php:73
+msgid "Last Updated at"
+msgstr "อัปเดตล่าสุดเมื่อ"
+
+#: addons/tutor-report/views/pages/course/graph/top_menu.php:8, 
+#: addons/tutor-report/views/pages/courses/graph/top_menu.php:8
+msgid "Last Week"
+msgstr "สัปดาห์ที่แล้ว"
+
+#: addons/tutor-report/views/pages/course/graph/top_menu.php:4, 
+#: addons/tutor-report/views/pages/courses/graph/top_menu.php:4
+msgid "Last Year"
+msgstr "ปีที่แล้ว"
+
+#: addons/tutor-report/views/pages/courses/course-single.php:80, 
+#: addons/tutor-report/views/pages/courses/course-single.php:289, 
+#: addons/tutor-report/views/pages/courses/course-table.php:154, 
+#: addons/tutor-report/views/pages/students/student-profile.php:200, 
+#: addons/tutor-report/views/pages/students/student-profile.php:256
+msgid "Lesson"
+msgstr ""
+
+#: addons/tutor-course-preview/classes/CoursePreview.php:27
+msgid "Lesson Preview"
+msgstr "ตัวอย่างบทเรียน"
+
+#: addons/content-drip/views/content-drip-lesson.php:41
+msgid "Lesson unlocking date:"
+msgstr "บทเรียนจะถูกปลดล็อควันที่ : "
+
+#: addons/tutor-report/views/pages/overview.php:146
+msgid "Lessons"
+msgstr "บทเรียน"
+
+#: classes/Updater.php:177
+msgid "License Type : "
+msgstr "ประเภทใบอนุญาต :"
+
+#: classes/Updater.php:174
+msgid "License Valid Until : "
+msgstr "ใบอนุญาตใช้ได้จนถึง :"
+
+#: classes/Updater.php:167
+msgid "Licensed To"
+msgstr "ใบอนุญาตถึง"
+
+#: classes/Enrollment_Expiry.php:98, classes/Enrollment_Expiry.php:116
+msgid "Lifetime"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/set_api.php:11
+msgid "link"
+msgstr ""
+
+#: addons/tutor-prerequisites/views/metabox/course-prerequisites-lists.php:35
+msgid "List courses that must be completed before enrolling for this course."
+msgstr "รายการคอร์สที่จะต้องเรียนให้จบ ก่อนที่จะลงทะเบียนเรียนคอร์สนี้"
+
+#: templates/single/course/zoom-meetings.php:36
+msgid "Live"
+msgstr ""
+
+#: addons/tutor-report/views/pages/report.php:22
+msgid "LMS Report"
+msgstr ""
+
+#: addons/google-classroom/views/components/import-credential.php:19
+msgid "Load Credentials"
+msgstr ""
+
+#: addons/tutor-zoom/views/modal/meeting.php:101
+msgid "Local"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/settings.php:36
+msgid "Local Drive"
+msgstr ""
+
+#: templates/single/quiz/previous-attempts.php:36
+msgid "Manually reviewed at"
+msgstr "รีวิวด้วยคนเองเมื่อ"
+
+#: addons/pmpro/pmpro.php:30
+msgid "Maximize revenue by selling membership access to all of your courses."
+msgstr ""
+
+#: addons/tutor-assignments/classes/Assignments.php:390
+#, php-format
+msgid "Maximum attachment upload size allowed is %d MB"
+msgstr "ขนาดสูงสุดของไฟล์แนบที่อนุญาตให้อัปโหลดคือ %d MB"
+
+#: addons/tutor-assignments/views/modal/assignments.php:127
+msgid "Maximum file size limit"
+msgstr "ขนาดไฟล์สูงสุด"
+
+#: addons/gradebook/classes/GradeBook.php:59, 
+#: addons/gradebook/classes/GradeBook.php:101, 
+#: addons/gradebook/views/pages/add_new_gradebook.php:59, 
+#: addons/gradebook/views/pages/add_new_gradebook.php:64
+msgid "Maximum Grade Percentile"
+msgstr "เปอร์เซ็นต์เกรดสูงสุด"
+
+#: addons/tutor-assignments/views/modal/assignments.php:100
+msgid "Maximum points a student can score"
+msgstr "คะแนนสูงสุดที่ผู้เรียนสามารถทำได้"
+
+#: addons/enrollments/classes/Enrollments.php:88
+msgid "Maximum student is reached!"
+msgstr ""
+
+#: templates/single-zoom-meeting.php:104, templates/single-zoom-meeting.php:79
+msgid "Meeting Date"
+msgstr ""
+
+#: addons/tutor-zoom/views/modal/meeting.php:65
+msgid "Meeting Duration"
+msgstr ""
+
+#: addons/tutor-zoom/views/modal/meeting.php:14
+msgid "Meeting Host"
+msgstr ""
+
+#: templates/single-zoom-meeting.php:108, 
+#: addons/tutor-zoom/views/metabox/meetings.php:40, 
+#: addons/tutor-zoom/views/pages/meetings.php:125
+msgid "Meeting ID"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/meetings.php:51
+msgid "Meeting List"
+msgstr ""
+
+#: addons/tutor-zoom/views/metabox/meetings.php:36, 
+#: addons/tutor-zoom/views/modal/meeting.php:27, 
+#: addons/tutor-zoom/views/pages/meetings.php:120
+msgid "Meeting Name"
+msgstr ""
+
+#: templates/single-zoom-meeting.php:92
+msgid "Meeting Starts in"
+msgstr ""
+
+#: addons/tutor-zoom/classes/Zoom.php:367
+msgid "Meeting Successfully Deleted"
+msgstr ""
+
+#: addons/tutor-zoom/classes/Zoom.php:329
+msgid "Meeting Successfully Saved"
+msgstr ""
+
+#: addons/tutor-zoom/views/modal/meeting.php:36
+msgid "Meeting Summary"
+msgstr ""
+
+#: addons/tutor-zoom/views/modal/meeting.php:47
+msgid "Meeting Time"
+msgstr ""
+
+#: addons/tutor-zoom/classes/Zoom.php:70
+msgid "Meetings"
+msgstr ""
+
+#: addons/pmpro/views/pmpro-content-settings.php:80
+msgid "Membership Model"
+msgstr "รูปแบบการเป็นสมาชิก"
+
+#: addons/pmpro/classes/PaidMembershipsPro.php:171
+msgid "Membership Required"
+msgstr ""
+
+#: addons/gradebook/classes/GradeBook.php:58, 
+#: addons/gradebook/classes/GradeBook.php:100, 
+#: addons/gradebook/views/pages/add_new_gradebook.php:47, 
+#: addons/gradebook/views/pages/add_new_gradebook.php:52
+msgid "Minimum Grade Percentile"
+msgstr "เปอร์เซ็นต์เกรดต่ำสุด"
+
+#: addons/tutor-assignments/views/modal/assignments.php:106
+msgid "Minimum Pass Points"
+msgstr "คะแนนขั้นต่ำเพื่อผ่าน"
+
+#: addons/tutor-assignments/views/modal/assignments.php:110
+msgid "Minimum points required for the student to pass this assignment."
+msgstr ""
+"ต้องหรอกคะแนนขั้นต่ำ เพราะต้องใช้เพื่อคำนวณว่าผู้เรียนทำงานนี้ผ่านหรือไม่"
+
+#: addons/tutor-certificate/templates/default/certificate.php:28, 
+#: addons/tutor-certificate/templates/template_1/certificate.php:22, 
+#: addons/tutor-certificate/templates/template_10/certificate.php:22, 
+#: addons/tutor-certificate/templates/template_11/certificate.php:22, 
+#: addons/tutor-certificate/templates/template_12/certificate.php:22, 
+#: addons/tutor-certificate/templates/template_2/certificate.php:22, 
+#: addons/tutor-certificate/templates/template_3/certificate.php:25, 
+#: addons/tutor-certificate/templates/template_4/certificate.php:22, 
+#: addons/tutor-certificate/templates/template_5/certificate.php:24, 
+#: addons/tutor-certificate/templates/template_6/certificate.php:22, 
+#: addons/tutor-certificate/templates/template_7/certificate.php:21, 
+#: addons/tutor-certificate/templates/template_8/certificate.php:22, 
+#: addons/tutor-certificate/templates/template_9/certificate.php:22
+msgid "minute"
+msgstr ""
+
+#: addons/tutor-zoom/views/modal/meeting.php:72
+msgid "Minutes"
+msgstr ""
+
+#: addons/tutor-certificate/templates/default/certificate.php:28, 
+#: addons/tutor-certificate/templates/template_1/certificate.php:22, 
+#: addons/tutor-certificate/templates/template_10/certificate.php:22, 
+#: addons/tutor-certificate/templates/template_11/certificate.php:22, 
+#: addons/tutor-certificate/templates/template_12/certificate.php:22, 
+#: addons/tutor-certificate/templates/template_2/certificate.php:22, 
+#: addons/tutor-certificate/templates/template_3/certificate.php:25, 
+#: addons/tutor-certificate/templates/template_4/certificate.php:22, 
+#: addons/tutor-certificate/templates/template_5/certificate.php:24, 
+#: addons/tutor-certificate/templates/template_6/certificate.php:22, 
+#: addons/tutor-certificate/templates/template_7/certificate.php:21, 
+#: addons/tutor-certificate/templates/template_8/certificate.php:22, 
+#: addons/tutor-certificate/templates/template_9/certificate.php:22
+msgid "minutes"
+msgstr ""
+
+#: addons/tutor-report/views/pages/overview.php:294
+msgid "Most popular courses"
+msgstr "คอร์สยอดนิยม"
+
+#: addons/tutor-multi-instructors/tutor-multi-instructors.php:29
+msgid "Multi Instructors"
+msgstr "ผู้สอนหลายคน"
+
+#: addons/tutor-zoom/views/pages/settings.php:23
+msgid "Mute Participants"
+msgstr ""
+
+#: addons/tutor-certificate/classes/Certificate.php:405
+msgid "My course completion certificate for"
+msgstr ""
+
+#: addons/tutor-report/views/pages/overview.php:476, 
+#: addons/tutor-report/views/pages/overview.php:522, 
+#: addons/tutor-report/views/pages/courses/course-single.php:286, 
+#: addons/tutor-report/views/pages/courses/course-single.php:361, 
+#: addons/tutor-report/views/pages/courses/course-single.php:434, 
+#: addons/tutor-report/views/pages/students/student-table.php:33
+msgid "Name"
+msgstr "ชื่อ"
+
+#: addons/tutor-report/views/pages/students/student-profile.php:24
+msgid "Never Login Before"
+msgstr ""
+
+#: addons/tutor-email/classes/EmailNotification.php:1180
+msgid "New Announcement on course"
+msgstr ""
+
+#: addons/tutor-email/classes/init.php:100
+msgid "New Announcement Posted"
+msgstr ""
+
+#: addons/tutor-email/views/pages/tutor_emails.php:294
+msgid "New announcement posted to course (to students)"
+msgstr ""
+
+#: addons/tutor-email/views/pages/tutor_emails.php:243
+msgid "New Assignment Submitted (to instructor)"
+msgstr ""
+
+#: addons/tutor-email/classes/init.php:134
+msgid "New Course Published"
+msgstr ""
+
+#: addons/tutor-email/views/pages/tutor_emails.php:209
+msgid "New Course Published (to admin)"
+msgstr ""
+
+#: addons/tutor-email/classes/init.php:133
+msgid "New Course Submitted for Review"
+msgstr ""
+
+#: addons/tutor-email/views/pages/tutor_emails.php:192
+msgid "New Course Submitted for Review (to admin)"
+msgstr ""
+
+#: addons/tutor-email/views/pages/tutor_emails.php:158
+msgid "New Instructor Sign Up (to admin)"
+msgstr ""
+
+#: addons/tutor-email/classes/init.php:131
+msgid "New Instructor Signup"
+msgstr ""
+
+#: addons/tutor-zoom/classes/Zoom.php:67
+msgid "New Meeting"
+msgstr ""
+
+#: addons/tutor-report/views/pages/overview.php:470
+msgid "New registered students"
+msgstr "ผู้เรียนที่สมัครสมาชิกใหม่"
+
+#: addons/tutor-report/views/pages/overview.php:516
+msgid "New registered teachers"
+msgstr "ผู้สอนที่สมัครสมาชิกใหม่"
+
+#: addons/tutor-email/views/pages/tutor_emails.php:175
+msgid "New Student Sign Up (to admin)"
+msgstr ""
+
+#: addons/tutor-email/classes/init.php:132
+msgid "New Student Signup"
+msgstr ""
+
+#: addons/tutor-email/classes/EmailNotification.php:1566, 
+#: addons/tutor-email/classes/init.php:136
+msgid "New Withdrawal Request"
+msgstr ""
+
+#: addons/tutor-email/views/pages/tutor_emails.php:365
+msgid "New withdrawal request (to admin)"
+msgstr ""
+
+#: addons/tutor-email/views/pages/tutor_emails.php:369
+msgid "New withdrawal request received (to teacher)"
+msgstr ""
+
+#: addons/google-classroom/views/components/class-list-shortcode.php:77
+msgid "Next"
+msgstr ""
+
+#: addons/tutor-assignments/classes/Assignments_List.php:97, 
+#: addons/tutor-report/views/pages/courses/course-single.php:433, 
+#: addons/tutor-report/views/pages/students/student-profile.php:322
+msgid "No"
+msgstr ""
+
+#: addons/google-classroom/views/components/class-list-shortcode.php:54
+msgid "No Class"
+msgstr ""
+
+#: addons/tutor-report/views/pages/courses/course-table.php:184
+msgid "No Course Data Found!"
+msgstr ""
+
+#: addons/gradebook/views/pages/overview.php:156
+msgid "No enough data to show"
+msgstr "ข้อมูลไม่เพียงพอที่จะแสดง"
+
+#: addons/gradebook/views/pages/gradebooks.php:63
+#, php-format
+msgid ""
+"No grading system has been defined to manage student grades. %s Import "
+"Sample Grade Data %s"
+msgstr ""
+"ไม่ได้กำหนดระบบการให้เกรดเพื่อจัดการคะแนนของผู้เรียน %s "
+"นำเข้าข้อมูลตัวอย่างเกรด %s"
+
+#: addons/tutor-report/views/pages/courses/course-single.php:411
+msgid "No Instructor Data Found!"
+msgstr ""
+
+#: addons/tutor-assignments/classes/Assignments_List.php:59
+msgid "No Limit"
+msgstr ""
+
+#: addons/tutor-zoom/classes/Zoom.php:73
+msgid "No Meeting found."
+msgstr ""
+
+#: addons/tutor-zoom/classes/Zoom.php:74
+msgid "No Meetings found in Trash."
+msgstr ""
+
+#: addons/tutor-zoom/views/modal/meeting.php:100, 
+#: addons/tutor-zoom/views/pages/settings.php:35
+msgid "No Recordings"
+msgstr ""
+
+#: addons/tutor-report/views/pages/courses/course-single.php:474, 
+#: addons/tutor-report/views/pages/reviews/reviews.php:110, 
+#: addons/tutor-report/views/pages/students/student-profile.php:350
+msgid "No Review Data Found!"
+msgstr ""
+
+#: addons/tutor-report/views/pages/sales/sales.php:119
+msgid "No Sales Data Found!"
+msgstr ""
+
+#: addons/tutor-report/views/pages/courses/course-single.php:326, 
+#: addons/tutor-report/views/pages/students/student-table.php:73
+msgid "No Students Data Found!"
+msgstr ""
+
+#: addons/tutor-certificate/classes/Instructor_Signature.php:60
+msgid "no text on the image"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/meetings.php:176
+msgid "No Zoom meetings found"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/meetings.php:206
+msgid "No Zoom meetings have been added yet"
+msgstr ""
+
+#: templates/single/quiz/view_attempt.php:29
+msgid "No."
+msgstr "เลขที่"
+
+#: addons/gradebook/views/pages/edit_gradebook.php:50, 
+#: addons/gradebook/views/pages/edit_gradebook.php:56
+msgid "Number Percent From"
+msgstr "เปอร์เซ็นต์จาก"
+
+#: addons/gradebook/views/pages/edit_gradebook.php:63, 
+#: addons/gradebook/views/pages/edit_gradebook.php:68
+msgid "Number Percent To"
+msgstr "เปอร์เซ็นต์ถึง"
+
+#: addons/tutor-email/views/pages/tutor_emails.php:23, 
+#: addons/tutor-email/views/pages/tutor_emails.php:42, 
+#: addons/tutor-email/views/pages/tutor_emails.php:60, 
+#: addons/tutor-email/views/pages/tutor_emails.php:78, 
+#: addons/tutor-email/views/pages/tutor_emails.php:96, 
+#: addons/tutor-email/views/pages/tutor_emails.php:113, 
+#: addons/tutor-email/views/pages/tutor_emails.php:130, 
+#: addons/tutor-email/views/pages/tutor_emails.php:147, 
+#: addons/tutor-email/views/pages/tutor_emails.php:164, 
+#: addons/tutor-email/views/pages/tutor_emails.php:181, 
+#: addons/tutor-email/views/pages/tutor_emails.php:198, 
+#: addons/tutor-email/views/pages/tutor_emails.php:215, 
+#: addons/tutor-email/views/pages/tutor_emails.php:232, 
+#: addons/tutor-email/views/pages/tutor_emails.php:249, 
+#: addons/tutor-email/views/pages/tutor_emails.php:266, 
+#: addons/tutor-email/views/pages/tutor_emails.php:283, 
+#: addons/tutor-email/views/pages/tutor_emails.php:300, 
+#: addons/tutor-email/views/pages/tutor_emails.php:317, 
+#: addons/tutor-email/views/pages/tutor_emails.php:334, 
+#: addons/tutor-email/views/pages/tutor_emails.php:351, 
+#: addons/tutor-email/views/pages/tutor_emails.php:405, 
+#: addons/tutor-email/views/pages/tutor_emails.php:426
+msgid "On"
+msgstr ""
+
+#: addons/tutor-certificate/templates/default/certificate.php:41, 
+#: addons/tutor-certificate/templates/template_1/certificate.php:35, 
+#: addons/tutor-certificate/templates/template_10/certificate.php:30, 
+#: addons/tutor-certificate/templates/template_11/certificate.php:32, 
+#: addons/tutor-certificate/templates/template_12/certificate.php:31, 
+#: addons/tutor-certificate/templates/template_2/certificate.php:30, 
+#: addons/tutor-certificate/templates/template_3/certificate.php:39, 
+#: addons/tutor-certificate/templates/template_4/certificate.php:30, 
+#: addons/tutor-certificate/templates/template_5/certificate.php:41, 
+#: addons/tutor-certificate/templates/template_6/certificate.php:30, 
+#: addons/tutor-certificate/templates/template_7/certificate.php:30, 
+#: addons/tutor-certificate/templates/template_8/certificate.php:32, 
+#: addons/tutor-certificate/templates/template_9/certificate.php:31
+msgid "on"
+msgstr ""
+
+#: addons/tutor-certificate/templates/default/certificate.php:39, 
+#: addons/tutor-certificate/templates/template_1/certificate.php:33, 
+#: addons/tutor-certificate/templates/template_10/certificate.php:28, 
+#: addons/tutor-certificate/templates/template_11/certificate.php:30, 
+#: addons/tutor-certificate/templates/template_12/certificate.php:29, 
+#: addons/tutor-certificate/templates/template_2/certificate.php:28, 
+#: addons/tutor-certificate/templates/template_3/certificate.php:37, 
+#: addons/tutor-certificate/templates/template_4/certificate.php:28, 
+#: addons/tutor-certificate/templates/template_5/certificate.php:39, 
+#: addons/tutor-certificate/templates/template_6/certificate.php:28, 
+#: addons/tutor-certificate/templates/template_7/certificate.php:28, 
+#: addons/tutor-certificate/templates/template_8/certificate.php:30, 
+#: addons/tutor-certificate/templates/template_9/certificate.php:29
+msgid "online course of"
+msgstr ""
+
+#: addons/google-classroom/views/components/footer-settings.php:52
+msgid "Only logged in students can see the classroom invite code"
+msgstr ""
+
+#: addons/google-classroom/views/components/class-list-shortcode.php:29
+msgid "Only logged in students in a specific classrooom can join."
+msgstr ""
+
+#: addons/tutor-assignments/views/pages/submitted_assignment.php:104
+msgid "Only number is allowed"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/settings.php:29
+msgid "Only users logged into Zoom App can join the meeting"
+msgstr ""
+
+#: addons/google-classroom/views/components/import-credential.php:13
+msgid "or"
+msgstr ""
+
+#: addons/enrollments/classes/Enrollments_List.php:86, 
+#: addons/tutor-report/views/pages/sales/sales.php:42
+msgid "Order"
+msgstr "การสั่งซื้อ"
+
+#: addons/gradebook/views/pages/gradebooks.php:10, 
+#: addons/gradebook/views/pages/overview.php:16, 
+#: addons/tutor-report/views/pages/report.php:5
+msgid "Overview"
+msgstr "ภาพรวม"
+
+#: addons/pmpro/pmpro.php:29, addons/pmpro/classes/init.php:86
+msgid "Paid Memberships Pro"
+msgstr "Paid Memberships Pro"
+
+#: addons/tutor-zoom/classes/Zoom.php:72
+msgid "Parent Meetings:"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/settings.php:19
+msgid "Participant will join the meeting with video enabled"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/settings.php:18
+msgid "Participants video"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/settings.php:24
+msgid "Participants will join the meeting with audio muted"
+msgstr ""
+
+#: templates/single/quiz/previous-attempts.php:91
+msgid "Pass"
+msgstr "ผ่าน"
+
+#: templates/single/quiz/previous-attempts.php:15, 
+#: templates/single/quiz/previous-attempts.php:58
+msgid "Pass Mark"
+msgstr "คะแนนเพื่อผ่าน"
+
+#: addons/tutor-assignments/classes/Assignments_List.php:113
+msgid "Pass Points"
+msgstr ""
+
+#: addons/gradebook/classes/GradeBook.php:268, 
+#: templates/single/course/enrolled/gradebook.php:100, 
+#: templates/single/course/enrolled/gradebook.php:88
+msgid "Passed"
+msgstr "ผ่าน"
+
+#: templates/single-zoom-meeting.php:112, 
+#: templates/single/course/zoom-meetings.php:42, 
+#: addons/google-classroom/views/components/password-setup.php:5, 
+#: addons/tutor-zoom/views/metabox/meetings.php:44, 
+#: addons/tutor-zoom/views/modal/meeting.php:111, 
+#: addons/tutor-zoom/views/pages/meetings.php:126
+msgid "Password"
+msgstr ""
+
+#: addons/google-classroom/classes/Classroom.php:522
+msgid "Password Setup"
+msgstr ""
+
+#: templates/single-certificate.php:34
+msgid "PDF"
+msgstr ""
+
+#: addons/tutor-report/views/pages/students/student-profile.php:203
+msgid "Percentage"
+msgstr ""
+
+#: addons/tutor-certificate/classes/Instructor_Signature.php:59
+msgid "pixels"
+msgstr ""
+
+#: addons/content-drip/classes/ContentDrip.php:169, 
+#: addons/content-drip/classes/ContentDrip.php:183
+#, php-format
+msgid "Please complete previous %s first"
+msgstr "คุณต้องจบ %s ก่อน"
+
+#: addons/google-classroom/views/components/consent-screen.php:2
+msgid "Please complete the authorization process"
+msgstr ""
+
+#: templates/single-zoom-meeting.php:72, 
+#: templates/single/course/zoom-meetings.php:55
+msgid "Please contact your instructor for further information"
+msgstr ""
+
+#: addons/tutor-zoom/classes/Zoom.php:444
+msgid "Please Enter Valid Credentials"
+msgstr ""
+
+#: classes/Updater.php:211
+msgid ""
+"Please enter your license key. An active license key is needed for automatic "
+"plugin updates and"
+msgstr ""
+"โปรดป้อนคีย์ใบอนุญาตของคุณ จำเป็นต้องมีคีย์ใบอนุญาตที่ใช้งานได้ "
+"สำหรับการอัปเดตปลั๊กอินอัตโนมัติและ"
+
+#: templates/single/course/course-prerequisites.php:12
+msgid ""
+"Please note that this course has the following prerequisites which must be "
+"completed before it can be accessed"
+msgstr ""
+"โปรดทราบว่า คอร์สนี้มีข้อกำหนดเบื้องต้นตามรายการ "
+"ซึ่งจะต้องเรียนให้จบก่อนจึงจะสามารถเข้าเรียนคอร์สนี้ได้"
+
+#: addons/tutor-zoom/views/pages/main.php:16
+msgid ""
+"Please set your API Credentials. Without valid credentials, Zoom integration "
+"will not work"
+msgstr ""
+
+#: addons/content-drip/classes/ContentDrip.php:176
+#, php-format
+msgid "Please submit previous %s first"
+msgstr "โปรดส่ง %s ก่อน"
+
+#: addons/google-classroom/views/email/auto-registration-verification.php:10
+msgid "Please, Verify Your Email Address"
+msgstr ""
+
+#: classes/Updater.php:144
+msgid "Plugins"
+msgstr "ปลั๊กอิน"
+
+#: addons/tutor-zoom/classes/Zoom.php:61
+msgctxt "post type general name"
+msgid "Meetings"
+msgstr ""
+
+#: addons/tutor-zoom/classes/Zoom.php:62
+msgctxt "post type singular name"
+msgid "Meeting"
+msgstr ""
+
+#: classes/Updater.php:206
+msgid "Power Up your Plugin"
+msgstr "เพิ่มพลังให้ปลั๊กอินของคุณ"
+
+#: addons/tutor-prerequisites/tutor-prerequisites.php:29, 
+#: addons/content-drip/views/content-drip-lesson.php:71
+msgid "Prerequisites"
+msgstr "เนื้อหาที่จำเป็นต้องผ่านมาก่อน"
+
+#: addons/google-classroom/views/components/consent-screen.php:3
+msgid ""
+"Press the button to grant permissions to your Google Classroom. Please allow "
+"all required permissions."
+msgstr ""
+
+#: addons/google-classroom/views/components/class-list.php:85
+msgid "Preview"
+msgstr ""
+
+#: addons/google-classroom/views/components/class-list-shortcode.php:69
+msgid "Previous"
+msgstr ""
+
+#: templates/single/quiz/previous-attempts.php:5
+msgid "Previous attempts"
+msgstr "การทำแบบทดสอบก่อนหน้า"
+
+#: addons/tutor-report/views/pages/sales/sales.php:47
+msgid "Price"
+msgstr ""
+
+#: addons/tutor-report/views/pages/courses/course-single.php:290, 
+#: addons/tutor-report/views/pages/students/student-table.php:38
+msgid "Progress"
+msgstr ""
+
+#: addons/google-classroom/views/components/class-list.php:84
+msgid "Publish"
+msgstr ""
+
+#: addons/tutor-email/classes/init.php:101
+msgid "Q&A Message Answered"
+msgstr ""
+
+#: addons/tutor-email/views/pages/tutor_emails.php:311
+msgid "Q&A message answered (to student)"
+msgstr ""
+
+#: templates/single/quiz/view_attempt.php:30, 
+#: addons/tutor-report/views/pages/overview.php:432
+msgid "Question"
+msgstr "คำถาม"
+
+#: templates/single/quiz/previous-attempts.php:12, 
+#: templates/single/quiz/previous-attempts.php:43, 
+#: addons/tutor-report/views/pages/overview.php:164
+msgid "Questions"
+msgstr "คำถาม"
+
+#: classes/General.php:175, classes/Quiz.php:64, 
+#: addons/gradebook/views/pages/overview.php:73, 
+#: addons/tutor-report/views/pages/overview.php:155, 
+#: templates/single/course/enrolled/gradebook.php:32, 
+#: addons/tutor-report/views/pages/courses/course-table.php:155, 
+#: addons/tutor-report/views/pages/students/student-profile.php:201, 
+#: addons/tutor-report/views/pages/students/student-profile.php:271
+msgid "Quiz"
+msgstr "แบบทดสอบ"
+
+#: addons/tutor-email/classes/init.php:96
+msgid "Quiz Completed"
+msgstr "แบบทดสอบที่เสร็จสิ้น"
+
+#: addons/tutor-email/views/pages/tutor_emails.php:17
+msgid "Quiz Finished"
+msgstr "ทำแบบทดสอบเสร็จแล้ว"
+
+#: addons/tutor-email/views/pages/tutor_emails.php:345
+msgid "Rate course and instructor (to student)"
+msgstr ""
+
+#: addons/tutor-email/classes/init.php:103
+msgid "Rate Course and Instructor After Course Completed"
+msgstr ""
+
+#: addons/tutor-report/views/pages/overview.php:374, 
+#: addons/tutor-report/views/pages/courses/course-single.php:362, 
+#: addons/tutor-report/views/pages/reviews/reviews.php:64
+msgid "Rating"
+msgstr "การให้คะแนน"
+
+#: addons/tutor-report/views/pages/courses/course-single.php:436, 
+#: addons/tutor-report/views/pages/students/student-profile.php:325
+msgid "Rating & Feedback"
+msgstr ""
+
+#: addons/tutor-report/views/pages/courses/course-single.php:148
+msgid "Ratings"
+msgstr ""
+
+#: includes/functions.php:283, addons/gradebook/views/pages/overview.php:41
+msgid "Re-generate Gradebook"
+msgstr "ล้างค่าและสร้างการตัดเกรดขึ้นใหม่"
+
+#: addons/google-classroom/views/components/password-setup.php:10
+msgid "Re-type Password"
+msgstr ""
+
+#: addons/tutor-report/views/pages/overview.php:425
+msgid "Recent questions from students"
+msgstr "คำถามล่าสุดของผู้เรียน"
+
+#: addons/tutor-report/views/pages/overview.php:365
+msgid "Recent reviews"
+msgstr "รีวิวล่าสุด"
+
+#: addons/tutor-zoom/views/pages/settings.php:33
+msgid "Recording Settings"
+msgstr ""
+
+#: addons/tutor-report/views/pages/courses/course-single.php:252
+msgid "Refund"
+msgstr ""
+
+#: templates/email/to_student_enrollment_expired.php:15, 
+#: templates/email/to_student_remove_from_course.php:15
+msgid "Regards"
+msgstr ""
+
+#: addons/tutor-report/views/pages/students/student-table.php:36
+msgid "Registered"
+msgstr ""
+
+#: addons/tutor-report/views/pages/overview.php:478, 
+#: addons/tutor-report/views/pages/overview.php:524
+msgid "Registered at"
+msgstr "สมัครสมาชิกเมื่อ"
+
+#: addons/tutor-assignments/views/modal/assignments.php:53
+msgid "Remove"
+msgstr "ลบออก"
+
+#: addons/tutor-email/classes/init.php:98
+msgid "Remove from Course"
+msgstr ""
+
+#: addons/tutor-report/views/pages/overview.php:449
+msgid "Reply"
+msgstr ""
+
+#: templates/email/to_admin_course_updated.php:17, 
+#: templates/email/to_admin_new_course_published.php:18, 
+#: templates/email/to_admin_new_course_submitted_for_review.php:18, 
+#: templates/email/to_instructor_student_submitted_assignment.php:22
+msgid "Reply to this email to communicate with the instructor."
+msgstr ""
+
+#: addons/tutor-report/tutor-report.php:29, 
+#: addons/tutor-report/classes/Report.php:39, 
+#: addons/tutor-report/classes/Report.php:39
+msgid "Report"
+msgstr "รายงาน"
+
+#: addons/tutor-zoom/views/modal/meeting.php:123
+msgid "Request Error"
+msgstr ""
+
+#: addons/tutor-course-attachments/classes/CourseAttachments.php:55, 
+#: addons/tutor-course-attachments/classes/CourseAttachments.php:62
+msgid "Resources"
+msgstr ""
+
+#: addons/google-classroom/views/components/class-list.php:87
+msgid "Restore"
+msgstr ""
+
+#: addons/restrict-content-pro/restrict-content-pro.php:29, 
+#: addons/restrict-content-pro/classes/init.php:84
+msgid "Restrict Content Pro"
+msgstr ""
+
+#: templates/single/quiz/previous-attempts.php:17, 
+#: templates/single/quiz/previous-attempts.php:85
+msgid "Result"
+msgstr "ผลลัพธ์"
+
+#: addons/tutor-report/views/pages/students/student-profile.php:307
+msgid "Review"
+msgstr ""
+
+#: templates/single/quiz/view_attempt.php:151
+msgid "Review Required"
+msgstr "ต้องตรวจคำตอบ"
+
+#: templates/email/to_instructor_student_submitted_assignment.php:19
+msgid "Review Submission - {review_link}"
+msgstr ""
+
+#: addons/tutor-report/views/pages/overview.php:191, 
+#: addons/tutor-report/views/pages/overview.php:375, 
+#: addons/tutor-report/views/pages/report.php:7, 
+#: addons/tutor-report/views/pages/courses/course-single.php:419, 
+#: addons/tutor-report/views/pages/reviews/reviews.php:53, 
+#: addons/tutor-report/views/pages/reviews/reviews.php:65
+msgid "Reviews"
+msgstr "รีวิว"
+
+#: addons/tutor-report/views/pages/students/student-profile.php:109
+msgid "Reviews Placed"
+msgstr ""
+
+#: addons/tutor-report/views/pages/report.php:8, 
+#: addons/tutor-report/views/pages/sales/sales.php:33
+msgid "Sales"
+msgstr ""
+
+#: addons/tutor-report/views/pages/courses/course-single.php:160
+msgid "Sales Graph"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/set_api.php:21
+msgid "Save Changes"
+msgstr ""
+
+#: addons/tutor-zoom/views/modal/meeting.php:123
+msgid "Save Meeting"
+msgstr ""
+
+#: addons/content-drip/classes/ContentDrip.php:71
+msgid "Schedule course contents by date"
+msgstr "กำหนดเนื้อหารายวิชาตามวันที่"
+
+#: addons/enrollments/views/enrollments.php:25, 
+#: addons/tutor-assignments/classes/Assignments_List.php:199, 
+#: addons/tutor-zoom/views/pages/meetings.php:55, 
+#: addons/tutor-report/views/pages/courses/course-table.php:102, 
+#: addons/tutor-report/views/pages/students/student-table.php:9
+msgid "Search"
+msgstr "ค้นหา"
+
+#: addons/gradebook/views/pages/overview.php:53
+msgid "Search by course or student name"
+msgstr "ค้นหาจากคอร์สหรือชื่อผู้เรียน"
+
+#: addons/tutor-zoom/views/pages/meetings.php:57, 
+#: addons/tutor-report/views/pages/courses/course-table.php:104
+msgid "Search in here."
+msgstr ""
+
+#: addons/tutor-zoom/classes/Zoom.php:71
+msgid "Search Meetings"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/set_api.php:17
+msgid "Secret Key"
+msgstr ""
+
+#: addons/tutor-prerequisites/views/metabox/course-prerequisites-lists.php:25
+msgid "Select a Course"
+msgstr "เลือกคอร์ส"
+
+#: addons/pmpro/views/pmpro-content-settings.php:86
+msgid "Select a membership model"
+msgstr "เลือกรูปแบบแพ็คเกจสมาชิก"
+
+#: addons/google-classroom/views/components/class-list.php:6
+msgid "Select All"
+msgstr ""
+
+#: addons/tutor-certificate/views/template_options.php:9
+msgid "Select Certificate Template"
+msgstr "เลือกเทมเพลตของประกาศนียบัตร"
+
+#: addons/tutor-prerequisites/views/metabox/course-prerequisites-lists.php:15
+msgid "Select course"
+msgstr "เลือกคอร์ส"
+
+#: addons/content-drip/views/content-drip-lesson.php:95
+msgid "Select items that should be complete before this item"
+msgstr "เลือกเนื้อหาที่ต้องเรียนให้จบก่อน จึงจะเข้าดูเนื้อหานี้ได้"
+
+#: addons/content-drip/views/content-drip-lesson.php:75
+msgid "Select prerequisites item"
+msgstr "เลือกเนื้อหาที่จำเป็นต้องผ่านมาก่อน"
+
+#: addons/tutor-email/classes/init.php:138
+msgid "Select when to send notification to the admin"
+msgstr ""
+
+#: addons/tutor-email/classes/init.php:106
+msgid "Select when to send notification to the students"
+msgstr "เลือกว่าเวลาไหนที่จะส่งการแจ้งเตือนไปยังผู้เรียน"
+
+#: addons/tutor-email/classes/init.php:125
+msgid "Select when to send notification to the teachers"
+msgstr "เลือกว่าเวลาไหนที่จะส่งการแจ้งเตือนไปยังผู้สอน"
+
+#: addons/tutor-zoom/views/pages/settings.php:39
+msgid "Select Where You Want to Record"
+msgstr ""
+
+#: addons/tutor-certificate/classes/init.php:126
+msgid ""
+"Send certificate link along with the course completion email. Student must "
+"be logged in to access the certificate if public view is not enabled."
+msgstr ""
+
+#: addons/tutor-email/tutor-email.php:30
+msgid "Send email on various tutor events"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/main.php:7
+msgid "Set API"
+msgstr ""
+
+#: addons/google-classroom/views/components/password-setup.php:18
+msgid "Set Password"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/main.php:8, 
+#: addons/tutor-zoom/views/pages/settings.php:46
+msgid "Settings"
+msgstr ""
+
+#: addons/tutor-zoom/classes/Zoom.php:421, 
+#: addons/tutor-zoom/classes/Zoom.php:433
+msgid "Settings Updated"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/set_api.php:10
+msgid "Setup your Zoom Integration"
+msgstr ""
+
+#: addons/gradebook/classes/init.php:105
+msgid "Show"
+msgstr "แสดง"
+
+#: addons/tutor-certificate/classes/init.php:106
+msgid "Show instructor name on certificate"
+msgstr ""
+
+#: addons/tutor-certificate/classes/init.php:108
+msgid "Show instructor name on certificate before Authorised Name"
+msgstr ""
+
+#: addons/tutor-report/views/pages/courses/graph/body.php:18, 
+#: addons/tutor-report/views/pages/courses/graph/body.php:21
+#, php-format
+msgid "Showing results for the month of %s"
+msgstr "แสดงผลลัพธ์เดือน %s"
+
+#: addons/tutor-report/views/pages/courses/graph/body.php:12, 
+#: addons/tutor-report/views/pages/courses/graph/body.php:15
+#, php-format
+msgid "Showing results for the year %s"
+msgstr "แสดงผลลัพธ์ปี %s"
+
+#: addons/tutor-report/views/pages/courses/graph/body.php:24, 
+#: addons/tutor-report/views/pages/courses/graph/body.php:27, 
+#: addons/tutor-report/views/pages/courses/graph/body.php:30
+#, php-format
+msgid "Showing results from %s to %s"
+msgstr "แสดงผลลัพธ์จาก %s ถึง %s"
+
+#: addons/gradebook/gradebook.php:30
+msgid "Shows student progress from assignment and quiz"
+msgstr ""
+
+#: addons/tutor-report/views/pages/courses/course-table.php:127
+msgid "Sort By"
+msgstr ""
+
+#: addons/tutor-prerequisites/tutor-prerequisites.php:30
+msgid ""
+"Specific course you must complete before you can enroll new course by Tutor "
+"Prerequisites"
+msgstr ""
+
+#: addons/tutor-multi-instructors/tutor-multi-instructors.php:30
+msgid "Start a course with multiple instructors by Tutor Multi Instructors"
+msgstr ""
+
+#: addons/google-classroom/views/components/start-class.php:3
+msgid "Start Course"
+msgstr ""
+
+#: templates/single-zoom-meeting.php:25, 
+#: addons/tutor-zoom/views/metabox/meetings.php:48, 
+#: addons/tutor-zoom/views/pages/meetings.php:163
+msgid "Start Meeting"
+msgstr ""
+
+#: addons/tutor-zoom/views/metabox/meetings.php:32, 
+#: addons/tutor-zoom/views/pages/meetings.php:114
+msgid "Start Time"
+msgstr ""
+
+#: addons/tutor-assignments/classes/Assignments_List.php:73
+msgid "Started"
+msgstr "เริ่มต้น"
+
+#: addons/buddypress/classes/BuddyPressGroups.php:310
+msgid "Starting with %s from today. Wish me luck! "
+msgstr ""
+
+#: addons/google-classroom/views/components/class-list.php:11, 
+#: templates/single/course/enrolled/gradebook.php:52, 
+#: addons/tutor-report/views/pages/sales/sales.php:48
+msgid "Status"
+msgstr "สถานะ"
+
+#: addons/google-classroom/classes/init.php:209, 
+#: addons/google-classroom/classes/init.php:216
+msgid "Stream"
+msgstr ""
+
+#: templates/buddypress/message_thread_recipients.php:57, 
+#: addons/enrollments/classes/Enrollments_List.php:84, 
+#: addons/enrollments/views/enroll_student.php:18, 
+#: addons/tutor-assignments/classes/Assignments_List.php:111, 
+#: addons/gradebook/views/pages/overview.php:71, 
+#: addons/tutor-assignments/views/pages/submitted_assignment.php:31, 
+#: addons/tutor-report/views/pages/sales/sales.php:45
+msgid "Student"
+msgstr "ผู้เรียน"
+
+#: addons/tutor-email/views/pages/tutor_emails.php:124
+msgid "Student completed a lesson (to teacher)"
+msgstr "ผู้เรียน เรียนจบบทเรียน (ส่งถึงผู้สอน)"
+
+#: addons/tutor-email/views/pages/tutor_emails.php:141
+msgid "Student completed Submitted quiz"
+msgstr ""
+
+#: addons/tutor-report/views/pages/overview.php:201
+#, php-format
+msgid "Student enrolment graph for %s"
+msgstr "กราฟการลงทะเบียนของผู้เรียน %s"
+
+#: templates/email/to_instructor_student_submitted_assignment.php:13
+msgid "Student Name - <strong>{student_name}</strong>"
+msgstr ""
+
+#: addons/tutor-email/views/pages/tutor_emails.php:277
+msgid "Student removed from course (to student)"
+msgstr ""
+
+#: addons/tutor-email/classes/init.php:117
+msgid "Student Submitted Assignment"
+msgstr ""
+
+#: addons/tutor-email/classes/init.php:116
+msgid "Student Submitted Quiz"
+msgstr ""
+
+#: classes/Enrollment_Expiry.php:45
+msgid ""
+"Student's enrollment will be removed after this number of days. Set 0 for "
+"lifetime enrollment."
+msgstr ""
+
+#: addons/tutor-report/views/pages/overview.php:182, 
+#: addons/tutor-report/views/pages/report.php:9, 
+#: addons/tutor-report/views/pages/courses/course-single.php:262, 
+#: addons/tutor-report/views/pages/students/student-table.php:18
+msgid "Students"
+msgstr "ผู้เรียน"
+
+#: addons/tutor-certificate/tutor-certificate.php:30
+msgid ""
+"Students will be able to download a certificate after course completion."
+msgstr ""
+
+#: addons/tutor-email/classes/EmailNotification.php:391
+msgid "Submitted %s answers, Review it"
+msgstr ""
+
+#: addons/tutor-assignments/classes/Assignments.php:124
+msgid "Submitted Assignments"
+msgstr "งานที่มีการส่งเข้ามา"
+
+#: addons/tutor-assignments/views/pages/submitted_assignment.php:36
+msgid "Submitted Date"
+msgstr ""
+
+#: addons/tutor-assignments/classes/Assignments_List.php:83, 
+#: addons/tutor-assignments/views/modal/assignments.php:140, 
+#: addons/tutor-zoom/views/modal/meeting.php:123
+msgid "Success"
+msgstr ""
+
+#: classes/Updater.php:146
+msgid "Support"
+msgstr "การสนับสนุน"
+
+#: classes/Updater.php:212
+msgid "support"
+msgstr "การสนับสนุน"
+
+#: classes/Updater.php:148
+msgid "Support Forum"
+msgstr "ฟอรั่มการสนับสนุน"
+
+#: addons/google-classroom/views/components/footer-settings.php:18
+msgid "Sure to use another account?"
+msgstr ""
+
+#: addons/enrollments/enrollments.php:30
+msgid "Take advanced control on enrollments. Enroll the student manually."
+msgstr ""
+
+#: addons/tutor-report/views/pages/students/student-profile.php:138
+msgid "Take Quiz"
+msgstr ""
+
+#: templates/email/to_student_course_completed.php:12
+msgid ""
+"Thank you for completing <strong>{course_name}</strong> on <strong>"
+"{completion_time}</strong>. This message is to confirm that you have "
+"successfully completed the mentioned course. For future access, the course "
+"will be available on <strong>{course_url}</strong>."
+msgstr ""
+
+#: templates/email/to_student_quiz_completed.php:12
+msgid ""
+"Thank you for submitting your answers for <strong>{quiz_name}</strong> in "
+"course <strong>{course_name}</strong> at <strong>{submission_time}</strong>. "
+"This message is to confirm that we have received your answers. You can "
+"access this quiz on: <strong>{quiz_url}</strong>."
+msgstr ""
+
+#: addons/gradebook/classes/GradeBook.php:139
+msgid "The grade has been deleted successfully."
+msgstr "ลบเกรดสำเร็จแล้ว"
+
+#: templates/email/to_student_assignment_evaluate.php:10
+msgid ""
+"The grade has been submitted for the assignment <strong>{assignment_name}"
+"</strong> for the course <strong>{course_name}</strong>"
+msgstr ""
+
+#: templates/email/to_student_question_answered.php:11
+msgid ""
+"The instructor has answered your question on the course- <strong>"
+"{course_name}</strong>. Here is the answer-"
+msgstr ""
+
+#: templates/email/to_student_feedback_submitted_for_quiz.php:11
+msgid ""
+"The instructor has submitted the marks for the quiz <strong>{quiz_name}"
+"</strong> in the course <strong>{course_name}</strong>. You have got- "
+"<strong>{earned_marks}</strong>"
+msgstr ""
+
+#: templates/email/to_student_new_announcement_posted.php:11
+msgid ""
+"The instructor posted a new announcement on course - <strong>{course_name}"
+"</strong>"
+msgstr ""
+
+#: templates/email/to_student_announcement_updated.php:11
+msgid ""
+"The instructor updated announcement on course - <strong>{course_name}"
+"</strong>"
+msgstr ""
+
+#: classes/Quiz.php:68
+msgid ""
+"The values you set here define the default values that are used in the "
+"settings form when you create a new quiz."
+msgstr ""
+"ค่าที่คุณตั้งไว้ที่นี่ "
+"จะเป็นค่าเริ่มต้นที่ใช้ในแบบฟอร์มการตั้งค่าเมื่อคุณสร้างแบบทดสอบใหม่"
+
+#: templates/single-zoom-meeting.php:71, 
+#: templates/single/course/zoom-meetings.php:54
+msgid "The video conference has expired"
+msgstr ""
+
+#: classes/Updater.php:143
+msgid "Themes"
+msgstr "ธีม"
+
+#: classes/Updater.php:341
+#, php-format
+msgid ""
+"There is an error with your Tutor Pro License. Automatic update has been "
+"turned off, %s Please check license %s"
+msgstr ""
+"มีข้อผิดพลาดเกี่ยวกับใบอนุญาต Tutor Pro ของคุณ "
+"การอัปเดตอัตโนมัติจะถูกปิดการทำงาน %s โปรดตรวจสอบใบอนุญาต %s"
+
+#: addons/content-drip/classes/ContentDrip.php:135
+#, php-format
+msgid "This %s will be available from %s"
+msgstr "%s จะสามารถเข้าใช้งานได้ตอน %s"
+
+#: addons/tutor-certificate/templates/default/certificate.php:35, 
+#: addons/tutor-certificate/templates/template_1/certificate.php:29, 
+#: addons/tutor-certificate/templates/template_10/certificate.php:26, 
+#: addons/tutor-certificate/templates/template_11/certificate.php:28, 
+#: addons/tutor-certificate/templates/template_12/certificate.php:26, 
+#: addons/tutor-certificate/templates/template_2/certificate.php:26, 
+#: addons/tutor-certificate/templates/template_3/certificate.php:33, 
+#: addons/tutor-certificate/templates/template_4/certificate.php:26, 
+#: addons/tutor-certificate/templates/template_5/certificate.php:28, 
+#: addons/tutor-certificate/templates/template_6/certificate.php:26, 
+#: addons/tutor-certificate/templates/template_7/certificate.php:25, 
+#: addons/tutor-certificate/templates/template_8/certificate.php:26, 
+#: addons/tutor-certificate/templates/template_9/certificate.php:26
+msgid "This is to certify that"
+msgstr ""
+
+#: templates/email/to_student_enrollment_expired.php:11
+msgid ""
+"This is to notify that your enrolment for the course <strong>{course_name}"
+"</strong> has expired. You will now have to re-enrol to the course to get "
+"access to its content."
+msgstr ""
+
+#: templates/email/to_student_remove_from_course.php:11
+msgid ""
+"This is to notify you that the instructor has removed you from the course - "
+"<strong>{course_name}</strong>"
+msgstr ""
+
+#: addons/content-drip/views/content-drip-lesson.php:58
+msgid "This lesson will be available after the given number of days."
+msgstr "บทเรียนนี้จะสามารถเข้าเรียนได้หลังจากกำหนดตัวเลขวันที่"
+
+#: addons/content-drip/classes/ContentDrip.php:151
+#, php-format
+msgid "This lesson will be available for you from %s"
+msgstr "บทเรียนนี้จะสามารถเข้าใช้งานได้ตอน %s"
+
+#: addons/tutor-report/views/pages/course/graph/top_menu.php:7, 
+#: addons/tutor-report/views/pages/courses/graph/top_menu.php:7
+msgid "This Month"
+msgstr "เดือนนี้"
+
+#: addons/enrollments/classes/Enrollments.php:86
+msgid "This user has been already enrolled on this course"
+msgstr "ผู้ใช้รายนี้ได้ลงทะเบียนคอร์สนี้แล้ว"
+
+#: addons/tutor-report/views/pages/course/graph/top_menu.php:9, 
+#: addons/tutor-report/views/pages/courses/graph/top_menu.php:9
+msgid "This Week"
+msgstr "สัปดาห์นี้"
+
+#: addons/tutor-course-preview/classes/init.php:95
+msgid ""
+"This will allow user/guest to check some preview lesson in course before "
+"enroll"
+msgstr ""
+"ตัวเลือกนี้จะช่วยให้ ผู้ใช้/ผู้มาเยือน "
+"ทดลองดูบทเรียนตัวอย่างบางส่วนในคอร์สก่อนที่จะลงทะเบียน"
+
+#: addons/tutor-report/views/pages/course/graph/top_menu.php:5, 
+#: addons/tutor-report/views/pages/courses/graph/top_menu.php:5
+msgid "This Year"
+msgstr "ปีนี้"
+
+#: templates/single/quiz/previous-attempts.php:11, 
+#: templates/single/quiz/previous-attempts.php:28, 
+#: addons/tutor-report/views/pages/overview.php:376, 
+#: addons/tutor-report/views/pages/reviews/reviews.php:66
+msgid "Time"
+msgstr "เวลา"
+
+#: addons/tutor-assignments/views/modal/assignments.php:73
+msgid "Time Duration"
+msgstr "ระยะเวลา"
+
+#: addons/tutor-zoom/views/modal/meeting.php:84
+msgid "Time Zone"
+msgstr ""
+
+#: templates/single/course/enrolled/gradebook.php:50
+msgid "Title"
+msgstr "ชื่อเรื่อง"
+
+#: addons/tutor-zoom/views/pages/meetings.php:202
+msgid "To add a new meeting, please open a course in editing mode."
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/help.php:17
+msgid ""
+"To connect Zoom with your eLearning website powered by Tutor LMS, you need "
+"to first create an app on Zoom by following this link. Then create a JWT, "
+"copy the API Credentials, and paste it to the Tutor LMS backend by "
+"navigating to <strong>WP Admin > Tutor LMS Pro > Zoom > Set API</strong>."
+msgstr ""
+
+#: addons/tutor-certificate/classes/Certificate.php:477
+msgid "To view or download certificate please click %s"
+msgstr ""
+
+#: addons/tutor-report/views/pages/courses/course-single.php:363
+msgid "Total Courses"
+msgstr ""
+
+#: addons/tutor-report/views/pages/courses/course-single.php:230
+msgid "Total Discount"
+msgstr ""
+
+#: addons/tutor-report/views/pages/students/student-profile.php:177
+msgid "Total Discussion"
+msgstr ""
+
+#: addons/tutor-report/views/pages/courses/course-single.php:207
+msgid "Total Earning"
+msgstr ""
+
+#: addons/tutor-report/views/pages/overview.php:246
+msgid "Total Enrolled Course"
+msgstr "การลงทะเบียนเรียนทั้งหมด"
+
+#: addons/tutor-report/views/pages/students/student-profile.php:128
+msgid "Total Lesson"
+msgstr ""
+
+#: templates/single/quiz/previous-attempts.php:13, 
+#: templates/single/quiz/previous-attempts.php:47
+msgid "Total Marks"
+msgstr "คะแนนทั้งหมด"
+
+#: addons/tutor-report/views/pages/sales/sales.php:35
+msgid "Total Order  %d"
+msgstr ""
+
+#: addons/tutor-assignments/classes/Assignments_List.php:112, 
+#: addons/tutor-assignments/views/modal/assignments.php:96
+msgid "Total Points"
+msgstr "คะแนนเต็ม"
+
+#: addons/tutor-report/views/pages/courses/course-single.php:98
+msgid "Total Quiz"
+msgstr ""
+
+#: addons/tutor-report/views/pages/reviews/reviews.php:55
+#, php-format
+msgid "Total reviews %d"
+msgstr "รีวิวทั้งหมด %d"
+
+#: addons/tutor-report/views/pages/courses/course-single.php:120, 
+#: addons/tutor-report/views/pages/courses/course-single.php:364, 
+#: addons/tutor-report/views/pages/courses/course-table.php:157
+msgid "Total Students"
+msgstr ""
+
+#: addons/tutor-assignments/tutor-assignments.php:30
+msgid "Tutor assignments is a great way to assign tasks to students."
+msgstr ""
+
+#: addons/tutor-certificate/classes/init.php:87, 
+#: addons/tutor-certificate/classes/init.php:92
+msgid "Tutor Certificate"
+msgstr "ประกาศนียบัตร"
+
+#: addons/content-drip/classes/ContentDrip.php:55
+msgid "Tutor Content Drip allow you to schedule publish topics / lesson"
+msgstr "การจำกัดเนื้อหา ช่วยให้คุณสามารถกำหนดเวลาเผยแพร่หัวข้อ / บทเรียน"
+
+#: addons/tutor-course-preview/classes/init.php:90
+msgid "Tutor Course Attachments Settings"
+msgstr "การตั้งค่าไฟล์แนบของคอร์ส"
+
+#: classes/Admin.php:50, classes/Admin.php:50
+msgid "Tutor LMS Pro"
+msgstr "Tutor LMS Pro"
+
+#: classes/General.php:178, classes/Quiz.php:67
+msgid "Tutor LMS Pro Settings"
+msgstr "ตั้งค่า Tutor LMS Pro"
+
+#: classes/Updater.php:39, classes/Updater.php:39
+msgid "Tutor Pro License"
+msgstr "ใบอนุญาต Tutor Pro"
+
+#: addons/tutor-report/views/pages/students/student-profile.php:11
+msgid "tutor student profile photo"
+msgstr ""
+
+#: templates/single/quiz/view_attempt.php:28
+msgid "Type"
+msgstr "ประเภท"
+
+#: templates/single/quiz/previous-attempts.php:88
+msgid "Under Review"
+msgstr ""
+
+#: templates/email/to_instructor_become_application_rejected.php:12
+msgid ""
+"Unfortunately, your instructor application has been rejected. Please contact "
+"the site administrator for further information."
+msgstr ""
+
+#: templates/email/to_instructor_withdrawal_request_rejected.php:12
+msgid ""
+"Unfortunately, your withdrawal request has been rejected. Please contact the "
+"site admins directly for further information."
+msgstr ""
+
+#: addons/restrict-content-pro/restrict-content-pro.php:30
+msgid "Unlock Course depending on Restrict Content Permission."
+msgstr ""
+
+#: addons/content-drip/content-drip.php:30
+msgid ""
+"Unlock lessons by schedule or when the student meets specific condition."
+msgstr ""
+
+#: addons/tutor-course-preview/tutor-course-preview.php:30
+msgid "Unlock some lessons for students before enrollment."
+msgstr ""
+
+#: addons/tutor-assignments/views/modal/assignments.php:141
+msgid "Update Assignment"
+msgstr "อัปเดตการมอบหมายงาน"
+
+#: addons/gradebook/views/pages/edit_gradebook.php:8, 
+#: addons/gradebook/views/pages/edit_gradebook.php:90
+msgid "Update Gradebook"
+msgstr "อัปเดตการตัดเกรด"
+
+#: classes/General.php:185
+msgid "Upload a logo to show in frontend course builder page."
+msgstr "อัปโหลดโลโก้เพื่อแสดงในหน้าตัวสร้างหลักสูตรที่ระบบหน้าบ้าน"
+
+#: addons/tutor-certificate/classes/init.php:114
+msgid "Upload a signature that will be printed at certificate."
+msgstr "อัปโหลดลายเซ็นที่จะพิมพ์ที่ประกาศนียบัตร"
+
+#: addons/tutor-course-attachments/views/metabox/course-attachments-metabox.php:19
+msgid "Upload Attachment"
+msgstr "อัปโหลดไฟล์แนบ"
+
+#: classes/General.php:183
+msgid "Upload Logo"
+msgstr "อัปโหลดโลโก้"
+
+#: addons/tutor-certificate/classes/init.php:112, 
+#: addons/tutor-certificate/classes/Instructor_Signature.php:54
+msgid "Upload Signature"
+msgstr "อัปโหลดภาพลายเซ็น"
+
+#: addons/google-classroom/views/components/footer-settings.php:19
+msgid "Use Another Account"
+msgstr ""
+
+#: addons/tutor-report/views/pages/overview.php:372, 
+#: addons/tutor-report/views/pages/overview.php:431, 
+#: addons/tutor-report/views/pages/reviews/reviews.php:62
+msgid "User"
+msgstr "ผู้ใช้งาน"
+
+#: addons/buddypress/classes/BuddyPressGroupSettings.php:71
+msgid "User completes a course"
+msgstr ""
+
+#: addons/buddypress/classes/BuddyPressGroupSettings.php:76
+msgid "User creates a lesson"
+msgstr ""
+
+#: addons/buddypress/classes/BuddyPressGroupSettings.php:61
+msgid "User Enrolled a course"
+msgstr ""
+
+#: addons/buddypress/classes/BuddyPressGroupSettings.php:90
+msgid "User finished quiz"
+msgstr ""
+
+#: addons/tutor-report/views/pages/students/student-profile.php:48
+msgid "User ID"
+msgstr ""
+
+#: addons/tutor-report/views/pages/students/student-profile.php:42
+msgid "User Name"
+msgstr ""
+
+#: addons/tutor-report/views/pages/students/student-table.php:7
+msgid "User Search"
+msgstr ""
+
+#: addons/buddypress/classes/BuddyPressGroupSettings.php:86
+msgid "User started quiz"
+msgstr ""
+
+#: addons/buddypress/classes/BuddyPressGroupSettings.php:66
+msgid "User Starts a course"
+msgstr ""
+
+#: addons/buddypress/classes/BuddyPressGroupSettings.php:80
+msgid "User updated a lesson"
+msgstr ""
+
+#: addons/tutor-report/views/pages/students/student-table.php:34
+msgid "Username"
+msgstr ""
+
+#: addons/tutor-certificate/templates/default/certificate.php:62, 
+#: addons/tutor-certificate/templates/template_1/certificate.php:57, 
+#: addons/tutor-certificate/templates/template_10/certificate.php:48, 
+#: addons/tutor-certificate/templates/template_11/certificate.php:52, 
+#: addons/tutor-certificate/templates/template_12/certificate.php:46, 
+#: addons/tutor-certificate/templates/template_2/certificate.php:45, 
+#: addons/tutor-certificate/templates/template_3/certificate.php:44, 
+#: addons/tutor-certificate/templates/template_4/certificate.php:48, 
+#: addons/tutor-certificate/templates/template_5/certificate.php:57, 
+#: addons/tutor-certificate/templates/template_6/certificate.php:47, 
+#: addons/tutor-certificate/templates/template_7/certificate.php:53, 
+#: addons/tutor-certificate/templates/template_8/certificate.php:47, 
+#: addons/tutor-certificate/templates/template_9/certificate.php:55
+msgid "Valid Certificate ID"
+msgstr ""
+
+#: classes/Updater.php:191
+msgid "Valid license required"
+msgstr "ต้องการใบอนุญาตที่ถูกต้อง"
+
+#: addons/tutor-email/views/pages/tutor_emails.php:11
+msgid "Variables that can be used inside templates"
+msgstr "ตัวแปรที่สามารถใช้ภายในเทมเพลตอีเมล"
+
+#: addons/tutor-certificate/templates/default/certificate.php:14
+msgid "VERIFIED"
+msgstr ""
+
+#: addons/tutor-report/views/pages/overview.php:406
+#, fuzzy
+#| msgid "View "
+msgid "View"
+msgstr "ดู"
+
+#: classes/Quiz.php:28
+msgid "View Attempt"
+msgstr "ดูการทำแบบทดสอบ"
+
+#: templates/single/quiz/view_attempt.php:20
+msgid "View Attempts"
+msgstr "ดูการทำแบบทดสอบ"
+
+#: addons/tutor-certificate/classes/init.php:118, 
+#: addons/tutor-certificate/views/lesson-menu-after.php:31
+msgid "View Certificate"
+msgstr ""
+
+#: addons/tutor-report/views/pages/courses/course-single.php:67
+msgid "View Course"
+msgstr ""
+
+#: addons/tutor-course-attachments/classes/CourseAttachments.php:42
+msgid "View in new tab"
+msgstr ""
+
+#: addons/tutor-zoom/classes/Zoom.php:69
+msgid "View Meeting"
+msgstr ""
+
+#: addons/tutor-report/views/pages/courses/course-single.php:403, 
+#: addons/tutor-report/views/pages/students/student-profile.php:32
+msgid "View Profile"
+msgstr ""
+
+#: templates/email/to_admin_new_course_published.php:15, 
+#: templates/email/to_admin_new_course_submitted_for_review.php:15
+msgid "View the course - {course_url}"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/set_api.php:11
+msgid ""
+"Visit your Zoom account and fetch the API key to connect Zoom with your "
+"eLearning website. Create an app on Zoom by following this"
+msgstr ""
+
+#: addons/tutor-assignments/views/modal/assignments.php:83
+msgid "Weeks"
+msgstr ""
+
+#: templates/email/to_student_course_enrolled.php:11
+msgid ""
+"Welcome to the course <strong>{course_name}</strong> at {site_url}. You can "
+"start learning from here-"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/help.php:61
+msgid "What Equipment Do I Need To Hold a Live Class?"
+msgstr ""
+
+#: addons/buddypress/classes/BuddyPressGroupSettings.php:55
+msgid "Which Tutor LMS activity should be displayed in this group?"
+msgstr ""
+
+#: addons/tutor-email/classes/EmailNotification.php:1506
+msgid "Withdrawal Request Approval"
+msgstr ""
+
+#: addons/tutor-email/classes/init.php:118
+msgid "Withdrawal Request Approved"
+msgstr ""
+
+#: addons/tutor-email/views/pages/tutor_emails.php:377
+msgid "Withdrawal request approved (to teacher)"
+msgstr ""
+
+#: addons/tutor-email/classes/EmailNotification.php:1595, 
+#: addons/tutor-email/classes/init.php:120
+msgid "Withdrawal Request Received"
+msgstr ""
+
+#: addons/tutor-email/classes/init.php:119
+msgid "Withdrawal Request Rejected"
+msgstr ""
+
+#: addons/tutor-email/views/pages/tutor_emails.php:373
+msgid "Withdrawal request rejected (to teacher)"
+msgstr ""
+
+#: addons/tutor-email/classes/EmailNotification.php:1535
+msgid "Withdrawal Request Rejection"
+msgstr ""
+
+#: addons/wc-subscriptions/wc-subscriptions.php:29
+msgid "WooCommerce Subscriptions"
+msgstr "สมัครรับบริการด้วย WooCommerce"
+
+#: addons/tutor-assignments/views/pages/submitted_assignment.php:110
+msgid "Write a feedback"
+msgstr ""
+
+#: addons/tutor-assignments/classes/Assignments_List.php:97
+msgid "Yes"
+msgstr ""
+
+#: templates/email/to_instructor_become_application_approved.php:13
+msgid ""
+"You are now an instructor for the <b>{site_name}</b> team. Go ahead and "
+"start creating your first course today!"
+msgstr ""
+
+#: addons/google-classroom/views/email/auto-registration-verification.php:18
+msgid ""
+"You are now enrolled in a course on %site_url% from Google Classroom "
+"%class_name%. Your validated credentials for %site_url% are attached below."
+msgstr ""
+
+#: templates/email/to_student_question_answered.php:16
+msgid "You can continue the discussion here - {course_url}"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/help.php:29
+msgid ""
+"You can create a live lesson by going into any Tutor LMS course editor. "
+"There, you will see a section called Zoom Meeting from where you can "
+"schedule a General Zoom meeting. You can also add lesson-specific meetings "
+"by navigating into any topic and then selecting the <strong>Zoom Live "
+"Lesson</strong> option."
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/help.php:41
+msgid ""
+"You can notify students about live lessons using Email Notifications and "
+"Announcements. Docs for Email Notifications can be found."
+msgstr ""
+
+#: addons/content-drip/classes/ContentDrip.php:76
+msgid ""
+"You can schedule your course content using the above content drip options."
+msgstr ""
+"คุณสามารถกำหนดเงื่อนไขสำหรับแสดงเนื้อหาได้ โดยใช้ตัวเลือกตามรายการด้านบน"
+
+#: addons/enrollments/views/enrollments.php:15
+msgid ""
+"You can search enrollments with enrol id, enrolment name, enrolment email, "
+"course title"
+msgstr ""
+"คุณสามารถค้นหาการลงทะเบียนด้วยเลข ID, ชื่อผู้ลงทะเบียน, อีเมลที่ใช้ลงทะเบียน,"
+" ชื่อคอร์ส"
+
+#: addons/content-drip/classes/ContentDrip.php:232
+#, php-format
+msgid "You can take this %s after finishing the following prerequisites:"
+msgstr "คุณจะเข้าเรียน %s ได้หลังจากที่เรียนเนื้อหาเหล่านี้จบแล้ว : "
+
+#: templates/email/to_instructor_student_submitted_assignment.php:11
+msgid "You have received a submission for an assignment."
+msgstr ""
+
+#: templates/email/to_student_feedback_submitted_for_quiz.php:16
+msgid "You may reply to this email to communicate with the instructor."
+msgstr ""
+
+#: addons/pmpro/classes/PaidMembershipsPro.php:197
+#, fuzzy
+#, php-format
+#| msgid "You must have a %s membership plan %s to enroll in this course."
+msgid "You must have a %s membership plan %s to enrol in this course."
+msgstr "คุณต้องสมัคร %s แพ็คเกจบริการ %s เพื่อจะลงทะเบียนเรียนคอร์สนี้"
+
+#: addons/gradebook/classes/GradeBook.php:263
+#, php-format
+msgid "You received %s points out of %s"
+msgstr "คุณได้ %s จาก %s คะแนน"
+
+#: addons/tutor-zoom/views/pages/help.php:65
+msgid ""
+"You will need a Microphone, a PC running Windows or Mac OS, and preferably a "
+"Webcam to effectively hold a live class."
+msgstr ""
+
+#: templates/email/to_instructor_become_application_received.php:12
+msgid ""
+"Your application for becoming an instructor has been received. Please hold "
+"tight as we review your application. You will receive a notification about "
+"your status as soon as possible."
+msgstr ""
+
+#. translators: %s refers to the course_name
+#: addons/tutor-email/classes/EmailNotification.php:1131
+msgid "Your enrolment for the course %s has expired"
+msgstr ""
+
+#: addons/gradebook/classes/GradeBook.php:265
+msgid "Your grade is "
+msgstr "เกรดของคุณคือ"
+
+#: classes/Updater.php:166
+msgid "Your license is connected with"
+msgstr "ใบอนุญาตของคุณเชื่อมต่อกับ"
+
+#: classes/Updater.php:189
+msgid "Your license is not connected"
+msgstr "ใบอนุญาตของคุณไม่ได้เชื่อมต่อ"
+
+#: addons/tutor-assignments/views/pages/submitted_assignment.php:102
+msgid "Your Points"
+msgstr ""
+
+#: templates/email/to_student_assignment_evaluate.php:12
+msgid "Your score: <strong>{assignemnt_score}</strong>"
+msgstr ""
+
+#: templates/email/to_instructor_withdrawal_request_approved.php:12
+msgid ""
+"Your withdrawal request has been approved. Please check the transaction "
+"notification on your connected withdrawal method."
+msgstr ""
+
+#: templates/email/to_instructor_withdrawal_request_received.php:12
+msgid ""
+"Your withdrawal request has been received. Please hold tight as the admins "
+"take a look at it."
+msgstr ""
+
+#: addons/tutor-zoom/classes/Zoom.php:136, 
+#: addons/tutor-zoom/classes/Zoom.php:136, 
+#: addons/tutor-zoom/views/pages/main.php:27
+msgid "Zoom"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/settings.php:37
+msgid "Zoom Cloud"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/help.php:53
+msgid ""
+"Zoom follows a freemium monetization plan. Therefore, for smaller-scaled and "
+"limited operations, Zoom is free. However, for medium to larger websites, "
+"it's best to upgrade to a premium plan to get the most out of this platform."
+msgstr ""
+
+#: addons/tutor-zoom/tutor-zoom.php:30
+msgid "Zoom Integration"
+msgstr ""
+
+#: addons/tutor-zoom/classes/Zoom.php:169
+msgid "Zoom Live Lesson"
+msgstr ""
+
+#: templates/single/course/zoom-meetings.php:18, 
+#: addons/tutor-zoom/views/metabox/meetings.php:12
+msgid "Zoom Live Meetings"
+msgstr ""
+
+#: addons/tutor-zoom/views/pages/meetings.php:215
+msgid "Zoom Meeting"
+msgstr ""
+
+#: addons/tutor-zoom/classes/Zoom.php:442
+msgid "Zoom successfully connected"
+msgstr ""
+
+#: templates/email/to_admin_new_withdrawal_request.php:10
+msgid "{instructor_username}  has submitted a new withdrawal request."
+msgstr ""
+
+#: templates/email/to_instructor_asked_question_by_student.php:12
+msgid ""
+"{student_username} asked a question on <strong>{course_name}</strong> at "
+"<strong>{enroll_time}</strong>. The reply URL is: <strong>{course_url}"
+"</strong>. You will find the question below."
+msgstr ""
+
+#: templates/email/to_instructor_course_enrolled.php:12
+msgid ""
+"{student_username} has enrolled on <strong>{course_name}</strong> at <strong>"
+"{enroll_time}</strong>. The enrolled course URL is: <strong>{course_url}"
+"</strong>."
+msgstr ""
+
+#: templates/email/to_instructor_course_completed.php:12
+msgid ""
+"{student_username} has recently completed <strong>{course_name}</strong> at "
+"<strong>{completion_time}</strong>. The completed course URL is: <strong>"
+"{course_url}</strong>."
+msgstr ""
