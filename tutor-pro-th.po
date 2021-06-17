@@ -3,8 +3,8 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Project-Id-Version: Tutor LMS Pro\n"
 "POT-Creation-Date: 2019-10-10 13:20+0600\n"
-"PO-Revision-Date: 2021-06-17 16:56+0000\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2021-06-17 19:24+0000\n"
+"Last-Translator: อภินันท์ รังสูงเนิน <ninesola.rt@gmail.com>\n"
 "Language-Team: ไทย\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "Report-Msgid-Bugs-To: \n"
 "Language: th\n"
-"X-Loco-Version: 2.5.2; wp-5.7.2"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
 
 #: addons/tutor-assignments/classes/Assignments_List.php:83
 msgid " Delete"
@@ -29,7 +29,7 @@ msgstr "ลบ"
 #: addons/tutor-zoom/classes/Zoom.php:65
 msgctxt "$this->zoom_meeting_post_type"
 msgid "Add New"
-msgstr ""
+msgstr "เพิ่มใหม่"
 
 #: addons/enrollments/classes/Enrollments.php:60
 #, php-format
@@ -43,7 +43,7 @@ msgstr "%d แบบทดสอบ, %d การมอบหมายงาน"
 
 #: addons/tutor-report/views/pages/courses/course-single.php:398
 msgid "%s (%s Ratings)"
-msgstr ""
+msgstr "%s (%s ดาว)"
 
 #: templates/email/to_instructor_lesson_completed.php:12
 msgid ""
@@ -142,12 +142,12 @@ msgstr "เพิ่มเกรดใหม่"
 
 #: addons/tutor-zoom/classes/Zoom.php:66
 msgid "Add New Meeting"
-msgstr ""
+msgstr "เพิ่มการประชุมใหม่"
 
 #: addons/tutor-zoom/classes/Zoom.php:64
 msgctxt "add new on admin bar"
 msgid "Meeting"
-msgstr ""
+msgstr "การประชุม"
 
 #: addons/tutor-course-attachments/tutor-course-attachments.php:30
 msgid "Add unlimited attachments/ private files to any Tutor course"
@@ -156,7 +156,7 @@ msgstr ""
 #: addons/tutor-zoom/classes/Zoom.php:63
 msgctxt "admin menu"
 msgid "Meetings"
-msgstr ""
+msgstr "การประชุม"
 
 #: templates/single/course/enrolled/gradebook.php:18
 msgid ""
@@ -180,7 +180,7 @@ msgstr ""
 
 #: addons/tutor-zoom/views/pages/main.php:6
 msgid "All Meetings"
-msgstr ""
+msgstr "การประชุมทั้งหมด"
 
 #: addons/google-classroom/views/components/consent-screen.php:12
 msgid "Allow Permissions"
@@ -377,12 +377,12 @@ msgstr ""
 
 #: addons/tutor-certificate/classes/Instructor_Signature.php:44
 msgid "Certificate Signature"
-msgstr ""
+msgstr "ลายเซ็นประกาศนียบัตร"
 
 #: addons/tutor-certificate/classes/Certificate.php:66, 
 #: addons/tutor-certificate/classes/Certificate.php:90
 msgid "Certificate Template"
-msgstr ""
+msgstr "เทมเพลตของประกาศนียบัตร"
 
 #: addons/google-classroom/views/components/consent-screen.php:16
 msgid "Change Credential"
@@ -509,7 +509,7 @@ msgstr "ประเภทเนื้อหา"
 
 #: templates/single/course/zoom-meetings.php:64
 msgid "Continue to Meeting"
-msgstr ""
+msgstr "ประชุมต่อ"
 
 #: addons/google-classroom/views/components/footer-settings.php:43
 msgid "Control the visibility and privacy for the Google Classroom data"
@@ -673,7 +673,7 @@ msgstr "คอร์ส"
 #: addons/tutor-zoom/views/metabox/meetings.php:67, 
 #: addons/tutor-zoom/views/metabox/meetings.php:55
 msgid "Create a Zoom Meeting"
-msgstr ""
+msgstr "สร้างการประชุมด้วย Zoom"
 
 #: addons/google-classroom/views/components/import-credential.php:3
 msgid ""
@@ -797,7 +797,7 @@ msgstr ""
 
 #: addons/tutor-certificate/classes/Certificate.php:470
 msgid "Disable Certificate"
-msgstr ""
+msgstr "ปิดการใช้งานประกาศนียบัตร"
 
 #: addons/buddypress/buddypress.php:30
 msgid ""
@@ -883,7 +883,7 @@ msgstr ""
 
 #: addons/tutor-zoom/classes/Zoom.php:68
 msgid "Edit Meeting"
-msgstr ""
+msgstr "แก้ไขการประชุม"
 
 #: addons/tutor-report/views/pages/courses/course-single.php:66
 msgid "Edit with Builder"
@@ -898,11 +898,11 @@ msgstr ""
 #: addons/tutor-report/views/pages/courses/course-single.php:287, 
 #: addons/tutor-report/views/pages/students/student-table.php:35
 msgid "Email"
-msgstr ""
+msgstr "อีเมล"
 
 #: addons/tutor-report/views/pages/students/student-profile.php:45
 msgid "Email ID"
-msgstr ""
+msgstr "อีเมล ID"
 
 #: addons/tutor-email/classes/init.php:161
 msgid "Email per cron execution"
@@ -1045,18 +1045,17 @@ msgstr "ป้อน Zoom Secret Key ของคุณ"
 
 #: addons/tutor-assignments/assets/js/assignment.js:32
 msgid "Error"
-msgstr ""
+msgstr "ผิดพลาด "
 
 #: addons/tutor-assignments/classes/Assignments_List.php:80
 msgid "Evaluate"
-msgstr ""
+msgstr "ประเมินผล"
 
 #: addons/tutor-assignments/views/pages/submitted_assignment.php:105
-#, fuzzy
 #, php-format
 #| msgid "Mark this assignment out of %s"
 msgid "Evaluate this assignment out of %s"
-msgstr "คะแนนของการมอบหมายงานนี้จาก %s"
+msgstr "ประเมินผลการบ้านนี้จาก %s"
 
 #: addons/tutor-assignments/views/pages/submitted_assignment.php:116
 msgid "Evaluate this submission"
@@ -1458,7 +1457,7 @@ msgstr "ป้อนระดับเกรดสูงสุดที่จะ
 #: templates/buddypress/message_thread_recipients.php:26, 
 #: addons/tutor-report/views/pages/sales/sales.php:43
 msgid "Instructor"
-msgstr ""
+msgstr "ผู้สอน"
 
 #: templates/email/to_admin_course_updated.php:12
 msgid ""
@@ -1509,7 +1508,7 @@ msgstr ""
 
 #: classes/Instructor_Percentage.php:43
 msgid "Instructor Settings"
-msgstr ""
+msgstr "ตั้งค่าผู้สอน"
 
 #: addons/tutor-report/views/pages/overview.php:173, 
 #: addons/tutor-report/views/pages/courses/course-single.php:354
@@ -1519,15 +1518,15 @@ msgstr "ผู้สอน"
 #: addons/tutor-zoom/classes/Zoom.php:338, 
 #: addons/tutor-zoom/classes/Zoom.php:374
 msgid "Invalid Api Credentials"
-msgstr ""
+msgstr "ข้อมูลรับรอง API ไม่ถูกต้อง"
 
 #: addons/quiz-import-export/classes/QuizImportExport.php:278
 msgid "Invalid File"
-msgstr ""
+msgstr "ไฟล์ไม่ถูกต้อง"
 
 #: addons/tutor-zoom/views/pages/help.php:49
 msgid "Is Zoom Free to Use?"
-msgstr ""
+msgstr "Zoom ใช้งานได้ฟรีหรือไม่?"
 
 #: addons/gradebook/views/pages/overview.php:135
 msgid "Items"
@@ -1535,11 +1534,11 @@ msgstr "รายการ"
 
 #: addons/tutor-report/views/pages/students/student-profile.php:359
 msgid "Items <strong> %s </strong> of<strong> %s </strong> total"
-msgstr ""
+msgstr "<strong> %s </strong>รายการ จากทั้งหมด <strong> %s </strong> รายการ"
 
 #: addons/tutor-report/views/pages/students/student-table.php:82
 msgid "Items <strong>%s</strong> of <strong>%s</strong> total"
-msgstr ""
+msgstr "<strong> %s </strong>รายการ จากทั้งหมด <strong> %s </strong> รายการ"
 
 #: addons/tutor-zoom/views/pages/settings.php:8
 msgid "Join Before Host"
@@ -1551,7 +1550,7 @@ msgstr ""
 
 #: templates/single-zoom-meeting.php:96
 msgid "Join in Zoom App"
-msgstr ""
+msgstr "เข้าร่วมในแอพ Zoom"
 
 #: addons/tutor-zoom/views/pages/settings.php:9
 msgid ""
@@ -1561,7 +1560,7 @@ msgstr ""
 
 #: templates/single-certificate.php:39
 msgid "JPG"
-msgstr ""
+msgstr "JPG"
 
 #: addons/buddypress/classes/BuddyPressGroups.php:271
 msgid ""
@@ -1571,7 +1570,7 @@ msgstr ""
 
 #: addons/tutor-report/views/pages/students/student-profile.php:18
 msgid "Last Activity:"
-msgstr ""
+msgstr "กิจกรรมล่าสุด:"
 
 #: addons/tutor-report/views/pages/overview.php:328
 msgid "Last enrolled courses"
@@ -1584,7 +1583,7 @@ msgstr "เดือนที่แล้ว"
 
 #: addons/tutor-report/views/pages/courses/course-single.php:63
 msgid "Last Update:"
-msgstr ""
+msgstr "อัปเดตล่าสุด:"
 
 #: templates/single/course/enrolled/gradebook.php:73
 msgid "Last Updated at"
@@ -1606,7 +1605,7 @@ msgstr "ปีที่แล้ว"
 #: addons/tutor-report/views/pages/students/student-profile.php:200, 
 #: addons/tutor-report/views/pages/students/student-profile.php:256
 msgid "Lesson"
-msgstr ""
+msgstr "บทเรียน"
 
 #: addons/tutor-course-preview/classes/CoursePreview.php:27
 msgid "Lesson Preview"
@@ -1622,11 +1621,11 @@ msgstr "บทเรียน"
 
 #: classes/Enrollment_Expiry.php:98, classes/Enrollment_Expiry.php:116
 msgid "Lifetime"
-msgstr ""
+msgstr "ตลอดชีวิต"
 
 #: addons/tutor-zoom/views/pages/set_api.php:11
 msgid "link"
-msgstr ""
+msgstr "ลิงค์"
 
 #: addons/tutor-prerequisites/views/metabox/course-prerequisites-lists.php:35
 msgid "List courses that must be completed before enrolling for this course."
@@ -1634,15 +1633,15 @@ msgstr "รายการคอร์สที่จะต้องเรีย
 
 #: templates/single/course/zoom-meetings.php:36
 msgid "Live"
-msgstr ""
+msgstr "Live"
 
 #: addons/tutor-report/views/pages/report.php:22
 msgid "LMS Report"
-msgstr ""
+msgstr "รายงาน LMS"
 
 #: addons/google-classroom/views/components/import-credential.php:19
 msgid "Load Credentials"
-msgstr ""
+msgstr "โหลดข้อมูลรับรอง"
 
 #: addons/tutor-zoom/views/modal/meeting.php:101
 msgid "Local"
@@ -1654,15 +1653,15 @@ msgstr ""
 
 #: addons/tutor-email/classes/init.php:152
 msgid "Low"
-msgstr ""
+msgstr "ต่ำ"
 
 #: addons/tutor-email/classes/init.php:151
 msgid "Lowest"
-msgstr ""
+msgstr "ต่ำสุด"
 
 #: templates/single/quiz/previous-attempts.php:36
 msgid "Manually reviewed at"
-msgstr "รีวิวด้วยคนเองเมื่อ"
+msgstr "รีวิวด้วยตนเองเมื่อ"
 
 #: addons/pmpro/pmpro.php:30
 msgid "Maximize revenue by selling membership access to all of your courses."
@@ -1690,15 +1689,15 @@ msgstr "คะแนนสูงสุดที่ผู้เรียนสา
 
 #: addons/enrollments/classes/Enrollments.php:86
 msgid "Maximum student is reached!"
-msgstr ""
+msgstr "ถึงจำนวนผู้เรียนสูงสุด! "
 
 #: templates/single-zoom-meeting.php:104, templates/single-zoom-meeting.php:79
 msgid "Meeting Date"
-msgstr ""
+msgstr "วันประชุม"
 
 #: addons/tutor-zoom/views/modal/meeting.php:65
 msgid "Meeting Duration"
-msgstr ""
+msgstr "ระยะเวลาการประชุม "
 
 #: addons/tutor-zoom/views/modal/meeting.php:14
 msgid "Meeting Host"
@@ -1708,41 +1707,41 @@ msgstr ""
 #: addons/tutor-zoom/views/metabox/meetings.php:40, 
 #: addons/tutor-zoom/views/pages/meetings.php:125
 msgid "Meeting ID"
-msgstr ""
+msgstr "ID การประชุม"
 
 #: addons/tutor-zoom/views/pages/meetings.php:51
 msgid "Meeting List"
-msgstr ""
+msgstr "รายการประชุม"
 
 #: addons/tutor-zoom/views/metabox/meetings.php:36, 
 #: addons/tutor-zoom/views/modal/meeting.php:27, 
 #: addons/tutor-zoom/views/pages/meetings.php:120
 msgid "Meeting Name"
-msgstr ""
+msgstr "ชื่อการประชุม"
 
 #: templates/single-zoom-meeting.php:92
 msgid "Meeting Starts in"
-msgstr ""
+msgstr "การประชุมเริ่มต้นใน"
 
 #: addons/tutor-zoom/classes/Zoom.php:368
 msgid "Meeting Successfully Deleted"
-msgstr ""
+msgstr "ลบการประชุมเรียบร้อยแล้ว"
 
 #: addons/tutor-zoom/classes/Zoom.php:330
 msgid "Meeting Successfully Saved"
-msgstr ""
+msgstr "บันทึกการประชุมเรียบร้อยแล้ว"
 
 #: addons/tutor-zoom/views/modal/meeting.php:36
 msgid "Meeting Summary"
-msgstr ""
+msgstr "สรุปการประชุม"
 
 #: addons/tutor-zoom/views/modal/meeting.php:47
 msgid "Meeting Time"
-msgstr ""
+msgstr "เวลาประชุม"
 
 #: addons/tutor-zoom/classes/Zoom.php:70
 msgid "Meetings"
-msgstr ""
+msgstr "การประชุม"
 
 #: addons/pmpro/views/pmpro-content-settings.php:80
 msgid "Membership Model"
@@ -1750,7 +1749,7 @@ msgstr "รูปแบบการเป็นสมาชิก"
 
 #: addons/pmpro/classes/PaidMembershipsPro.php:171
 msgid "Membership Required"
-msgstr ""
+msgstr "จำเป็นต้องเป็นสมาชิก"
 
 #: addons/gradebook/classes/GradeBook.php:58, 
 #: addons/gradebook/classes/GradeBook.php:100, 
@@ -1782,7 +1781,7 @@ msgstr ""
 #: addons/tutor-certificate/templates/template_8/certificate.php:22, 
 #: addons/tutor-certificate/templates/template_9/certificate.php:22
 msgid "minute"
-msgstr ""
+msgstr "นาที"
 
 #: addons/tutor-zoom/views/modal/meeting.php:72
 msgid "Minutes"
@@ -1859,7 +1858,7 @@ msgstr ""
 
 #: addons/tutor-email/classes/init.php:133
 msgid "New Course Submitted for Review"
-msgstr ""
+msgstr "ส่งคอร์สใหม่เพื่อทำการรีวิว"
 
 #: addons/tutor-email/views/pages/tutor_emails.php:192
 msgid "New Course Submitted for Review (to admin)"
@@ -1875,7 +1874,7 @@ msgstr ""
 
 #: addons/tutor-zoom/classes/Zoom.php:67
 msgid "New Meeting"
-msgstr ""
+msgstr "การประชุมใหม่"
 
 #: addons/tutor-report/views/pages/overview.php:470
 msgid "New registered students"
@@ -1908,7 +1907,7 @@ msgstr ""
 
 #: addons/google-classroom/views/components/class-list-shortcode.php:77
 msgid "Next"
-msgstr ""
+msgstr "ต่อไป"
 
 #: addons/tutor-assignments/classes/Assignments_List.php:97, 
 #: addons/tutor-report/views/pages/courses/course-single.php:433, 
@@ -1943,15 +1942,15 @@ msgstr ""
 
 #: addons/tutor-assignments/classes/Assignments_List.php:59
 msgid "No Limit"
-msgstr ""
+msgstr "ไม่จำกัด"
 
 #: addons/tutor-zoom/classes/Zoom.php:73
 msgid "No Meeting found."
-msgstr ""
+msgstr "ไม่พบการประชุม"
 
 #: addons/tutor-zoom/classes/Zoom.php:74
 msgid "No Meetings found in Trash."
-msgstr ""
+msgstr "ไม่พบการประชุมในถังขยะ"
 
 #: addons/tutor-zoom/views/modal/meeting.php:100, 
 #: addons/tutor-zoom/views/pages/settings.php:35
@@ -1962,7 +1961,7 @@ msgstr ""
 #: addons/tutor-report/views/pages/reviews/reviews.php:110, 
 #: addons/tutor-report/views/pages/students/student-profile.php:350
 msgid "No Review Data Found!"
-msgstr ""
+msgstr "ไม่พบข้อมูลรีวิว!"
 
 #: addons/tutor-report/views/pages/sales/sales.php:119
 msgid "No Sales Data Found!"
@@ -1979,11 +1978,11 @@ msgstr ""
 
 #: addons/tutor-zoom/views/pages/meetings.php:176
 msgid "No Zoom meetings found"
-msgstr ""
+msgstr "ไม่พบการประชุมด้วย Zoom"
 
 #: addons/tutor-zoom/views/pages/meetings.php:206
 msgid "No Zoom meetings have been added yet"
-msgstr ""
+msgstr "ไม่พบการเพิ่มการประชุมด้วย Zoom"
 
 #: templates/single/quiz/view_attempt.php:29
 msgid "No."
@@ -1991,7 +1990,7 @@ msgstr "เลขที่"
 
 #: addons/tutor-email/classes/init.php:153
 msgid "Normal"
-msgstr ""
+msgstr "ปกติ"
 
 #: addons/tutor-email/classes/init.php:163
 msgid "Number of emails you'd like to send per cron execution"
@@ -2078,11 +2077,11 @@ msgstr ""
 
 #: addons/tutor-zoom/views/pages/settings.php:29
 msgid "Only users logged into Zoom App can join the meeting"
-msgstr ""
+msgstr "เฉพาะผู้ใช้ที่เข้าสู่ระบบในแอพ Zoom ที่สามารถเข้าร่วมประชุมได้"
 
 #: addons/google-classroom/views/components/import-credential.php:13
 msgid "or"
-msgstr ""
+msgstr "หรือ"
 
 #: addons/enrollments/classes/Enrollments_List.php:86, 
 #: addons/tutor-report/views/pages/sales/sales.php:42
@@ -2141,15 +2140,15 @@ msgstr "ผ่าน"
 #: addons/tutor-zoom/views/modal/meeting.php:111, 
 #: addons/tutor-zoom/views/pages/meetings.php:126
 msgid "Password"
-msgstr ""
+msgstr "รหัสผ่าน"
 
 #: addons/google-classroom/classes/Classroom.php:531
 msgid "Password Setup"
-msgstr ""
+msgstr "ตั้งรหัสผ่าน"
 
 #: templates/single-certificate.php:34
 msgid "PDF"
-msgstr ""
+msgstr "PDF"
 
 #: addons/tutor-report/views/pages/students/student-profile.php:203
 msgid "Percentage"
@@ -2157,7 +2156,7 @@ msgstr ""
 
 #: addons/tutor-certificate/classes/Instructor_Signature.php:59
 msgid "pixels"
-msgstr ""
+msgstr "พิกเซล"
 
 #: addons/content-drip/classes/ContentDrip.php:184, 
 #: addons/content-drip/classes/ContentDrip.php:198
@@ -2191,6 +2190,8 @@ msgid ""
 "Please set your API Credentials. Without valid credentials, Zoom integration "
 "will not work"
 msgstr ""
+"โปรดตั้งค่าข้อมูลรับรอง API ของคุณ หากไม่มีข้อมูลที่ถูกต้อง การใช้งานร่วมกับ "
+"Zoom จะไม่ทำงาน "
 
 #: addons/content-drip/classes/ContentDrip.php:191
 #, php-format
@@ -2199,17 +2200,17 @@ msgstr "โปรดส่ง %s ก่อน"
 
 #: addons/google-classroom/views/email/auto-registration-verification.php:10
 msgid "Please, Verify Your Email Address"
-msgstr ""
+msgstr "กรุณายืนยันที่อยู่อีเมลของคุณ"
 
 #: addons/tutor-zoom/classes/Zoom.php:61
 msgctxt "post type general name"
 msgid "Meetings"
-msgstr ""
+msgstr "การประชุม"
 
 #: addons/tutor-zoom/classes/Zoom.php:62
 msgctxt "post type singular name"
 msgid "Meeting"
-msgstr ""
+msgstr "การประชุม"
 
 #: addons/tutor-prerequisites/tutor-prerequisites.php:29, 
 #: addons/content-drip/views/content-drip-lesson.php:116
@@ -2305,7 +2306,7 @@ msgstr ""
 
 #: addons/tutor-report/views/pages/courses/course-single.php:148
 msgid "Ratings"
-msgstr ""
+msgstr "ดาว"
 
 #: includes/functions.php:283, addons/gradebook/views/pages/overview.php:41
 msgid "Re-generate Gradebook"
@@ -2391,7 +2392,7 @@ msgstr "ผลลัพธ์"
 
 #: addons/tutor-report/views/pages/students/student-profile.php:307
 msgid "Review"
-msgstr ""
+msgstr "รีวิว"
 
 #: templates/single/quiz/view_attempt.php:151
 msgid "Review Required"
@@ -2429,7 +2430,7 @@ msgstr "บันทึกการเปลี่ยนแปลง"
 
 #: addons/tutor-zoom/views/modal/meeting.php:123
 msgid "Save Meeting"
-msgstr ""
+msgstr "บันทึกการประชุม"
 
 #: addons/content-drip/classes/ContentDrip.php:87
 msgid "Schedule course contents by date"
@@ -2454,7 +2455,7 @@ msgstr ""
 
 #: addons/tutor-zoom/classes/Zoom.php:71
 msgid "Search Meetings"
-msgstr ""
+msgstr "ค้นหาการประชุม"
 
 #: addons/tutor-email/classes/EmailNotification.php:1711
 msgid "second"
@@ -2524,21 +2525,21 @@ msgstr ""
 
 #: addons/tutor-zoom/views/pages/main.php:7
 msgid "Set API"
-msgstr ""
+msgstr "ตั้งค่า API"
 
 #: addons/google-classroom/views/components/password-setup.php:18
 msgid "Set Password"
-msgstr ""
+msgstr "ตั้งรหัสผ่าน "
 
 #: addons/tutor-zoom/views/pages/main.php:8, 
 #: addons/tutor-zoom/views/pages/settings.php:46
 msgid "Settings"
-msgstr ""
+msgstr "ตั้งค่า"
 
 #: addons/tutor-zoom/classes/Zoom.php:422, 
 #: addons/tutor-zoom/classes/Zoom.php:434
 msgid "Settings Updated"
-msgstr ""
+msgstr "อัปเดตการตั้งค่า"
 
 #: addons/tutor-zoom/views/pages/set_api.php:10
 msgid "Setup your Zoom Integration"
@@ -2550,7 +2551,7 @@ msgstr "แสดง"
 
 #: addons/tutor-certificate/classes/init.php:106
 msgid "Show instructor name on certificate"
-msgstr ""
+msgstr "แสดงชื่อผู้สอนในประกาศนียบัตร"
 
 #: addons/tutor-certificate/classes/init.php:108
 msgid "Show instructor name on certificate before Authorised Name"
@@ -2581,7 +2582,7 @@ msgstr ""
 
 #: addons/tutor-report/views/pages/courses/course-table.php:127
 msgid "Sort By"
-msgstr ""
+msgstr "เรียงตาม"
 
 #: addons/tutor-prerequisites/tutor-prerequisites.php:30
 msgid ""
@@ -2595,18 +2596,18 @@ msgstr ""
 
 #: addons/google-classroom/views/components/start-class.php:3
 msgid "Start Course"
-msgstr ""
+msgstr "เริ่มคอร์ส"
 
 #: templates/single-zoom-meeting.php:25, 
 #: addons/tutor-zoom/views/metabox/meetings.php:48, 
 #: addons/tutor-zoom/views/pages/meetings.php:163
 msgid "Start Meeting"
-msgstr ""
+msgstr "เริ่มการประชุม"
 
 #: addons/tutor-zoom/views/metabox/meetings.php:32, 
 #: addons/tutor-zoom/views/pages/meetings.php:114
 msgid "Start Time"
-msgstr ""
+msgstr "เวลาเริ่ม"
 
 #: addons/tutor-assignments/classes/Assignments_List.php:73
 msgid "Started"
@@ -2698,7 +2699,7 @@ msgstr ""
 
 #: addons/tutor-assignments/assets/js/assignment.js:26
 msgid "Success"
-msgstr ""
+msgstr "สำเร็จ"
 
 #: addons/google-classroom/views/components/footer-settings.php:18
 msgid "Sure to use another account?"
@@ -2859,7 +2860,7 @@ msgstr "ระยะเวลา"
 
 #: addons/tutor-zoom/views/modal/meeting.php:84
 msgid "Time Zone"
-msgstr ""
+msgstr "เขตเวลา"
 
 #: templates/single/course/enrolled/gradebook.php:50
 msgid "Title"
@@ -2883,15 +2884,15 @@ msgstr ""
 
 #: addons/tutor-certificate/classes/Certificate.php:518
 msgid "To view or download certificate please click %s"
-msgstr ""
+msgstr "หากต้องการดูหรือดาวน์โหลดใบรับรอง โปรดคลิ๊ก %s"
 
 #: addons/tutor-report/views/pages/courses/course-single.php:363
 msgid "Total Courses"
-msgstr ""
+msgstr "คอร์สทั้งหมด"
 
 #: addons/tutor-report/views/pages/courses/course-single.php:230
 msgid "Total Discount"
-msgstr ""
+msgstr "ส่วนลดทั้งหมด"
 
 #: addons/tutor-report/views/pages/students/student-profile.php:177
 msgid "Total Discussion"
@@ -2907,7 +2908,7 @@ msgstr "การลงทะเบียนเรียนทั้งหมด
 
 #: addons/tutor-report/views/pages/students/student-profile.php:128
 msgid "Total Lesson"
-msgstr ""
+msgstr "บทเรียนทั้งหมด"
 
 #: templates/single/quiz/previous-attempts.php:13, 
 #: templates/single/quiz/previous-attempts.php:47
@@ -2973,7 +2974,7 @@ msgstr "ประเภท"
 
 #: templates/single/quiz/previous-attempts.php:88
 msgid "Under Review"
-msgstr ""
+msgstr "อยู่ระหว่างการรีวิว"
 
 #: templates/email/to_instructor_become_application_rejected.php:12
 msgid ""
@@ -3032,7 +3033,7 @@ msgstr "อัปโหลดภาพลายเซ็น"
 
 #: addons/google-classroom/views/components/footer-settings.php:19
 msgid "Use Another Account"
-msgstr ""
+msgstr "ใช้บัญชีอื่น"
 
 #: addons/tutor-report/views/pages/overview.php:372, 
 #: addons/tutor-report/views/pages/overview.php:431, 
@@ -3058,11 +3059,11 @@ msgstr ""
 
 #: addons/tutor-report/views/pages/students/student-profile.php:48
 msgid "User ID"
-msgstr ""
+msgstr "ID ผู้ใช้"
 
 #: addons/tutor-report/views/pages/students/student-profile.php:42
 msgid "User Name"
-msgstr ""
+msgstr "ชื่อผู้ใช้"
 
 #: addons/tutor-report/views/pages/students/student-table.php:7
 msgid "User Search"
@@ -3098,7 +3099,7 @@ msgstr ""
 #: addons/tutor-certificate/templates/template_8/certificate.php:47, 
 #: addons/tutor-certificate/templates/template_9/certificate.php:55
 msgid "Valid Certificate ID"
-msgstr ""
+msgstr "ID ประกาศนียบัตรไม่ถูกต้อง"
 
 #: addons/tutor-email/views/pages/tutor_emails.php:11
 msgid "Variables that can be used inside templates"
@@ -3106,10 +3107,9 @@ msgstr "ตัวแปรที่สามารถใช้ภายในเ
 
 #: addons/tutor-certificate/templates/default/certificate.php:14
 msgid "VERIFIED"
-msgstr ""
+msgstr "ยืนยันแล้ว "
 
 #: addons/tutor-report/views/pages/overview.php:406
-#, fuzzy
 #| msgid "View "
 msgid "View"
 msgstr "ดู"
@@ -3125,29 +3125,29 @@ msgstr "ดูการทำแบบทดสอบ"
 #: addons/tutor-certificate/classes/init.php:118, 
 #: addons/tutor-certificate/views/lesson-menu-after.php:31
 msgid "View Certificate"
-msgstr ""
+msgstr "ดูประกาศนียบัตร"
 
 #: addons/tutor-report/views/pages/courses/course-single.php:67
 msgid "View Course"
-msgstr ""
+msgstr "ดูคอร์ส"
 
 #: addons/tutor-course-attachments/classes/CourseAttachments.php:47
 msgid "View in new tab"
-msgstr ""
+msgstr "ดูในแท็บใหม่ "
 
 #: addons/tutor-zoom/classes/Zoom.php:69
 msgid "View Meeting"
-msgstr ""
+msgstr "ดูการประชุม"
 
 #: addons/tutor-report/views/pages/courses/course-single.php:403, 
 #: addons/tutor-report/views/pages/students/student-profile.php:32
 msgid "View Profile"
-msgstr ""
+msgstr "ดูโปรไฟล์"
 
 #: templates/email/to_admin_new_course_published.php:15, 
 #: templates/email/to_admin_new_course_submitted_for_review.php:15
 msgid "View the course - {course_url}"
-msgstr ""
+msgstr "ดูคอร์ส - {course_url}"
 
 #: addons/tutor-zoom/views/pages/set_api.php:11
 msgid ""
@@ -3159,7 +3159,7 @@ msgstr ""
 
 #: addons/tutor-assignments/views/modal/assignments.php:83
 msgid "Weeks"
-msgstr ""
+msgstr "สัปดาห์"
 
 #: templates/email/to_student_course_enrolled.php:11
 msgid ""
@@ -3344,7 +3344,7 @@ msgstr ""
 #: addons/tutor-zoom/classes/Zoom.php:137, 
 #: addons/tutor-zoom/views/pages/main.php:27
 msgid "Zoom"
-msgstr ""
+msgstr "Zoom"
 
 #: addons/tutor-zoom/views/pages/settings.php:37
 msgid "Zoom Cloud"
@@ -3368,15 +3368,15 @@ msgstr ""
 #: templates/single/course/zoom-meetings.php:18, 
 #: addons/tutor-zoom/views/metabox/meetings.php:12
 msgid "Zoom Live Meetings"
-msgstr ""
+msgstr "การประชุมแบบ Live ด้วย Zoom"
 
 #: addons/tutor-zoom/views/pages/meetings.php:215
 msgid "Zoom Meeting"
-msgstr ""
+msgstr "การประชุมด้วย Zoom"
 
 #: addons/tutor-zoom/classes/Zoom.php:443
 msgid "Zoom successfully connected"
-msgstr ""
+msgstr "เชื่อมต่อ Zoom สำเร็จแล้ว "
 
 #: templates/email/to_admin_new_withdrawal_request.php:10
 msgid "{instructor_username}  has submitted a new withdrawal request."
