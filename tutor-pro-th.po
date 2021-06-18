@@ -3,8 +3,8 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Project-Id-Version: Tutor LMS Pro\n"
 "POT-Creation-Date: 2019-10-10 13:20+0600\n"
-"PO-Revision-Date: 2021-06-17 19:24+0000\n"
-"Last-Translator: อภินันท์ รังสูงเนิน <ninesola.rt@gmail.com>\n"
+"PO-Revision-Date: 2021-06-18 20:08+0000\n"
+"Last-Translator: \n"
 "Language-Team: ไทย\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "Report-Msgid-Bugs-To: \n"
 "Language: th\n"
-"X-Loco-Version: 2.3.1; wp-5.3.2"
+"X-Loco-Version: 2.5.2; wp-5.7.2"
 
 #: addons/tutor-assignments/classes/Assignments_List.php:83
 msgid " Delete"
@@ -89,10 +89,9 @@ msgid ""
 msgstr ""
 
 #: addons/tutor-email/classes/init.php:115
-#, fuzzy
 #| msgid "A Student asked a question in Q&amp;A"
 msgid "A Student asked a Question in Q&amp;A"
-msgstr "ผู้เรียนถามคำถามใน Q&amp;A"
+msgstr "ผู้เรียนถามคำถามใน ถาม&amp;ตอบ"
 
 #: addons/tutor-email/classes/init.php:113
 msgid "A Student Completed Course"
@@ -103,10 +102,9 @@ msgid "A Student Completed Lesson"
 msgstr "ผู้เรียนที่เรียนจบบทเรียนแล้ว"
 
 #: addons/tutor-email/classes/init.php:112
-#, fuzzy
 #| msgid "A Student enrolled in course "
 msgid "A Student Enrolled in Course"
-msgstr "ผู้เรียนลงทะเบียนเรียนในหลักสูตร"
+msgstr "ผู้เรียนที่ลงทะเบียนเรียนในคอร์ส"
 
 #: templates/single-certificate.php:58
 msgid "About Course"
@@ -176,7 +174,7 @@ msgstr "มาแล้ว"
 
 #: addons/tutor-zoom/views/pages/meetings.php:66
 msgid "All"
-msgstr ""
+msgstr "ทั้งหมด"
 
 #: addons/tutor-zoom/views/pages/main.php:6
 msgid "All Meetings"
@@ -208,7 +206,7 @@ msgstr "API Key"
 
 #: addons/google-classroom/views/components/class-list.php:26
 msgid "Apply"
-msgstr ""
+msgstr "นำไปใช้"
 
 #: addons/gradebook/views/pages/gradebooks.php:52
 msgid "Are you Sure?"
@@ -318,7 +316,7 @@ msgstr ""
 
 #: addons/tutor-assignments/views/pages/submitted_assignment.php:17
 msgid "Back"
-msgstr ""
+msgstr "ย้อนกลับ"
 
 #: templates/single/quiz/view_attempt.php:22
 msgid "Back to quiz"
@@ -330,7 +328,7 @@ msgstr ""
 
 #: addons/buddypress/buddypress.php:29
 msgid "BuddyPress"
-msgstr ""
+msgstr "BuddyPress"
 
 #: addons/buddypress/classes/BuddyPressGroups.php:47, 
 #: addons/buddypress/views/bp-group-course.php:9
@@ -343,7 +341,7 @@ msgstr "คำสั่งจำนวนมาก"
 
 #: templates/single-certificate.php:70
 msgid "by"
-msgstr ""
+msgstr "โดย"
 
 #: addons/tutor-certificate/classes/init.php:120
 msgid ""
@@ -357,7 +355,7 @@ msgstr ""
 
 #: addons/tutor-report/views/pages/courses/course-table.php:110
 msgid "Category"
-msgstr ""
+msgstr "หมวดหมู่"
 
 #: addons/pmpro/views/pmpro-content-settings.php:88
 msgid "Category wise membership"
@@ -427,17 +425,16 @@ msgstr ""
 
 #: classes/Instructor_Percentage.php:47
 msgid "Commission"
-msgstr ""
+msgstr "ค่าคอมมิชชั่น"
 
 #: addons/tutor-report/views/pages/students/student-profile.php:189
 msgid "Complete"
 msgstr ""
 
 #: addons/tutor-email/classes/init.php:97
-#, fuzzy
 #| msgid "Completed a course"
 msgid "Completed a Course"
-msgstr "จบคอร์ส"
+msgstr "จบการเรียนคอร์สนี้"
 
 #: addons/tutor-report/views/pages/students/student-profile.php:84
 msgid "Completed Courses"
@@ -525,7 +522,7 @@ msgstr "ถูกต้อง"
 
 #: templates/single/quiz/view_attempt.php:32
 msgid "Correct/Incorrect"
-msgstr "ถูกต้อง/ไม่ถูกต้อง"
+msgstr "ตอบถูก/ตอบผิด"
 
 #: addons/enrollments/classes/Enrollments_List.php:85, 
 #: addons/enrollments/views/enroll_student.php:32, 
@@ -1137,7 +1134,7 @@ msgstr ""
 
 #: templates/single/quiz/view_attempt.php:31
 msgid "Given Answers"
-msgstr "ให้คำตอบ"
+msgstr "คำตอบของคุณ"
 
 #: addons/google-classroom/views/components/stream.php:12
 msgid "Go to Classroom"
@@ -1435,7 +1432,7 @@ msgstr ""
 
 #: templates/single/quiz/view_attempt.php:153
 msgid "Incorrect"
-msgstr "ไม่ถูกต้อง"
+msgstr "ตอบผิด"
 
 #: addons/enrollments/views/enrollments.php:14
 msgid "Info"
@@ -2121,11 +2118,11 @@ msgstr "ผ่าน"
 #: templates/single/quiz/previous-attempts.php:15, 
 #: templates/single/quiz/previous-attempts.php:58
 msgid "Pass Mark"
-msgstr "คะแนนเพื่อผ่าน"
+msgstr "เกณฑ์ผ่าน"
 
 #: addons/tutor-assignments/classes/Assignments_List.php:113
 msgid "Pass Points"
-msgstr ""
+msgstr "คะแนนเพื่อผ่าน"
 
 #: addons/gradebook/classes/GradeBook.php:268, 
 #: templates/single/course/enrolled/gradebook.php:100, 
@@ -2152,7 +2149,7 @@ msgstr "PDF"
 
 #: addons/tutor-report/views/pages/students/student-profile.php:203
 msgid "Percentage"
-msgstr ""
+msgstr "เปอร์เซ็นต์"
 
 #: addons/tutor-certificate/classes/Instructor_Signature.php:59
 msgid "pixels"
@@ -2596,7 +2593,7 @@ msgstr ""
 
 #: addons/google-classroom/views/components/start-class.php:3
 msgid "Start Course"
-msgstr "เริ่มคอร์ส"
+msgstr "เริ่มเรียนคอร์สนี้"
 
 #: templates/single-zoom-meeting.php:25, 
 #: addons/tutor-zoom/views/metabox/meetings.php:48, 
@@ -2913,7 +2910,7 @@ msgstr "บทเรียนทั้งหมด"
 #: templates/single/quiz/previous-attempts.php:13, 
 #: templates/single/quiz/previous-attempts.php:47
 msgid "Total Marks"
-msgstr "คะแนนทั้งหมด"
+msgstr "คะแนนเต็ม"
 
 #: addons/tutor-report/views/pages/sales/sales.php:35
 msgid "Total Order  %d"
