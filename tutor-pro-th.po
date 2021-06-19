@@ -3,8 +3,8 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Project-Id-Version: Tutor LMS Pro\n"
 "POT-Creation-Date: 2019-10-10 13:20+0600\n"
-"PO-Revision-Date: 2021-06-19 00:48+0000\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2021-06-19 22:06+0000\n"
+"Last-Translator: อภินันท์ รังสูงเนิน\n"
 "Language-Team: ไทย\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -108,7 +108,7 @@ msgstr "ผู้เรียนที่ลงทะเบียนเรีย
 
 #: templates/single-certificate.php:58
 msgid "About Course"
-msgstr ""
+msgstr "เกี่ยวกับคอร์ส"
 
 #: classes/General.php:34, 
 #: addons/quiz-import-export/classes/QuizImportExport.php:156
@@ -182,7 +182,7 @@ msgstr "การประชุมทั้งหมด"
 
 #: addons/google-classroom/views/components/consent-screen.php:12
 msgid "Allow Permissions"
-msgstr ""
+msgstr "อนุญาตสิทธิ์"
 
 #: addons/tutor-assignments/views/modal/assignments.php:116
 msgid "Allow to upload files"
@@ -194,7 +194,7 @@ msgstr "ตอนนี้กำลังส่งการมอบหมาย
 
 #: addons/tutor-email/classes/EmailNotification.php:1204
 msgid "Announcement updated on course"
-msgstr ""
+msgstr "อัปเดตประกาศในคอร์ส "
 
 #: addons/tutor-assignments/classes/Assignments.php:342
 msgid "Answer has been added successfully"
@@ -324,7 +324,7 @@ msgstr "กลับไปที่แบบทดสอบ"
 
 #: addons/google-classroom/views/components/import-credential.php:14
 msgid "Browse File"
-msgstr ""
+msgstr "เรียกดูไฟล์"
 
 #: addons/buddypress/buddypress.php:29
 msgid "BuddyPress"
@@ -333,7 +333,7 @@ msgstr "BuddyPress"
 #: addons/buddypress/classes/BuddyPressGroups.php:47, 
 #: addons/buddypress/views/bp-group-course.php:9
 msgid "BuddyPress Groups"
-msgstr ""
+msgstr "กลุ่ม BuddyPress"
 
 #: addons/gradebook/views/pages/overview.php:40
 msgid "Bulk Actions"
@@ -429,7 +429,7 @@ msgstr "ค่าคอมมิชชั่น"
 
 #: addons/tutor-report/views/pages/students/student-profile.php:189
 msgid "Complete"
-msgstr ""
+msgstr "เสร็จสมบูรณ์"
 
 #: addons/tutor-email/classes/init.php:97
 #| msgid "Completed a course"
@@ -438,11 +438,11 @@ msgstr "จบการเรียนคอร์สนี้"
 
 #: addons/tutor-report/views/pages/students/student-profile.php:84
 msgid "Completed Courses"
-msgstr ""
+msgstr "คอร์สที่เรียนจบแล้ว"
 
 #: templates/email/to_instructor_become_application_approved.php:9
 msgid "Congrats!"
-msgstr ""
+msgstr "ยินดีด้วย!"
 
 #: templates/email/to_student_rate_course_and_instructor.php:11
 msgid ""
@@ -456,7 +456,7 @@ msgstr ""
 #: addons/google-classroom/classes/init.php:120, 
 #: addons/google-classroom/classes/init.php:171
 msgid "Connect Tutor Course"
-msgstr ""
+msgstr "เชื่อต่อคอร์สของ Tutor"
 
 #: addons/tutor-zoom/tutor-zoom.php:31
 msgid ""
@@ -466,7 +466,7 @@ msgstr ""
 
 #: addons/tutor-zoom/views/metabox/meetings.php:64
 msgid "Connect with your students using Zoom"
-msgstr ""
+msgstr "เชื่อมต่อกับผู้เรียนของคุณโดยใช้ Zoom "
 
 #: addons/content-drip/classes/ContentDrip.php:88
 msgid "Content available after X days from enrollment"
@@ -514,7 +514,7 @@ msgstr ""
 
 #: templates/single-certificate.php:47
 msgid "Copy Link"
-msgstr ""
+msgstr "คัดลอกลิงค์"
 
 #: templates/single/quiz/view_attempt.php:148
 msgid "Correct"
@@ -554,7 +554,7 @@ msgstr "หมวดหมู่คอร์ส"
 
 #: addons/tutor-report/views/pages/courses/course-single.php:126
 msgid "Course Completed"
-msgstr ""
+msgstr "คอร์สที่เรียนจบ"
 
 #: addons/tutor-email/views/pages/tutor_emails.php:35
 msgid "Course Completed (to students)"
@@ -613,12 +613,12 @@ msgstr ""
 
 #: templates/email/to_admin_course_updated.php:15
 msgid "Course Link: {course_url}"
-msgstr ""
+msgstr "รายการคอร์ส: {course_url}"
 
 #: addons/tutor-report/views/pages/courses/course-table.php:147, 
 #: addons/tutor-report/views/pages/students/student-profile.php:187
 msgid "Course List"
-msgstr ""
+msgstr "รายการคอร์ส"
 
 #: addons/tutor-report/views/pages/overview.php:301, 
 #: addons/tutor-report/views/pages/overview.php:335
@@ -627,12 +627,12 @@ msgstr "ชื่อคอร์ส"
 
 #: templates/email/to_instructor_student_submitted_assignment.php:15
 msgid "Course Name - <strong>{course_name}</strong>"
-msgstr ""
+msgstr "ชื่อคอร์ส - <strong>{course_name}</strong>"
 
 #: templates/email/to_admin_new_course_published.php:13, 
 #: templates/email/to_admin_new_course_submitted_for_review.php:13
 msgid "Course name - <strong>{course_name}</strong>"
-msgstr ""
+msgstr "ชื่อคอร์ส - <strong>{course_name}</strong>"
 
 #: templates/single/course/course-prerequisites.php:2
 msgid "Course Prerequisite(s)"
@@ -650,7 +650,7 @@ msgstr "ตัวอย่างคอร์ส"
 
 #: addons/buddypress/classes/BuddyPressGroupSettings.php:22
 msgid "Course Settings"
-msgstr ""
+msgstr "ตั้งค่าคอร์ส"
 
 #: addons/tutor-report/views/pages/students/student-table.php:37
 msgid "Course Taken"
@@ -659,7 +659,7 @@ msgstr ""
 #: addons/tutor-assignments/classes/Assignments_List.php:49, 
 #: addons/tutor-zoom/views/pages/meetings.php:156
 msgid "Course:"
-msgstr ""
+msgstr "คอร์ส:"
 
 #: addons/buddypress/classes/BuddyPressGroups.php:144, 
 #: addons/tutor-report/views/pages/overview.php:128, 
@@ -681,7 +681,7 @@ msgstr ""
 #: addons/tutor-report/views/pages/courses/course-single.php:62, 
 #: addons/tutor-report/views/pages/students/student-profile.php:16
 msgid "Created:"
-msgstr ""
+msgstr "สร้าง:"
 
 #: addons/tutor-assignments/classes/Assignments_List.php:115, 
 #: addons/tutor-zoom/views/pages/meetings.php:79, 
@@ -703,7 +703,7 @@ msgstr "รูปแบบวันที่ :"
 
 #: classes/Enrollment_Expiry.php:98
 msgid "day"
-msgstr ""
+msgstr "วัน"
 
 #: addons/content-drip/views/content-drip-lesson.php:99, 
 #: addons/tutor-assignments/views/modal/assignments.php:84
@@ -712,11 +712,11 @@ msgstr "วัน"
 
 #: classes/Enrollment_Expiry.php:98
 msgid "days"
-msgstr ""
+msgstr "วัน"
 
 #: addons/tutor-assignments/classes/Assignments_List.php:67
 msgid "Deadline"
-msgstr ""
+msgstr "กำหนดส่ง"
 
 #: templates/email/to_instructor_asked_question_by_student.php:9, 
 #: templates/email/to_instructor_become_application_approved.php:10, 
@@ -729,20 +729,20 @@ msgstr ""
 #: templates/email/to_instructor_withdrawal_request_received.php:9, 
 #: templates/email/to_instructor_withdrawal_request_rejected.php:9
 msgid "Dear {instructor_username},"
-msgstr ""
+msgstr "เรียน {instructor_username},"
 
 #: templates/email/to_student_course_completed.php:9, 
 #: templates/email/to_student_new_lqa_published.php:9
 msgid "Dear {student_username},"
-msgstr ""
+msgstr "เรียน {student_username},"
 
 #: templates/email/to_student_quiz_completed.php:9
 msgid "Dear {username},"
-msgstr ""
+msgstr "เรียน username},"
 
 #: classes/Instructor_Percentage.php:95
 msgid "Default"
-msgstr ""
+msgstr "ค่าเริ่มต้น"
 
 #: addons/tutor-assignments/views/modal/assignments.php:132
 #, php-format
@@ -767,11 +767,11 @@ msgstr ""
 
 #: addons/tutor-assignments/classes/Assignments_List.php:83
 msgid "Deleted"
-msgstr ""
+msgstr "ถูกลบ"
 
 #: addons/tutor-zoom/classes/Zoom.php:79
 msgid "Description."
-msgstr ""
+msgstr "คำอธิบาย"
 
 #: classes/Quiz.php:77
 msgid "Detail Attempt View in Course"
@@ -786,11 +786,11 @@ msgstr "ดูรายละเอียดการทำแบบทดสอ
 #: addons/tutor-report/views/pages/courses/course-table.php:173, 
 #: addons/tutor-report/views/pages/students/student-table.php:62
 msgid "Details"
-msgstr ""
+msgstr "รายละเอียด"
 
 #: addons/tutor-email/classes/init.php:143
 msgid "Disable"
-msgstr ""
+msgstr "ปิดใช้งาน"
 
 #: addons/tutor-certificate/classes/Certificate.php:470
 msgid "Disable Certificate"
@@ -817,7 +817,7 @@ msgstr ""
 
 #: addons/tutor-course-attachments/classes/CourseAttachments.php:46
 msgid "Download"
-msgstr ""
+msgstr "ดาวน์โหลด"
 
 #: templates/single-certificate.php:29, 
 #: addons/tutor-certificate/views/lesson-menu-after.php:23
@@ -826,11 +826,11 @@ msgstr "ดาวน์โหลดประกาศนียบัตร"
 
 #: addons/google-classroom/views/components/import-credential.php:11
 msgid "Drag & Drop your JSON File here"
-msgstr ""
+msgstr "ลากและวางไฟล์ JSON ที่นี่"
 
 #: classes/Course_Duplicator.php:51, classes/Course_Duplicator.php:52
 msgid "Duplicate"
-msgstr ""
+msgstr "ทำสำเนา"
 
 #: addons/tutor-assignments/classes/Assignments_List.php:114
 msgid "Duration"
@@ -848,7 +848,7 @@ msgstr "การแจ้งเตือนทางอีเมล"
 
 #: addons/tutor-email/classes/init.php:129
 msgid "E-Mail to Admin"
-msgstr ""
+msgstr "อีเมลถึงผู้ดูแลระบบ"
 
 #: addons/tutor-email/classes/init.php:93
 msgid "E-Mail to Students"
@@ -872,11 +872,11 @@ msgstr "คะแนนที่ได้"
 #: addons/tutor-report/views/pages/courses/course-single.php:182, 
 #: addons/tutor-report/views/pages/courses/course-table.php:158
 msgid "Earnings"
-msgstr ""
+msgstr "รายได้"
 
 #: addons/google-classroom/views/components/class-list.php:86
 msgid "Edit"
-msgstr ""
+msgstr "แก้ไข"
 
 #: addons/tutor-zoom/classes/Zoom.php:68
 msgid "Edit Meeting"
@@ -1072,7 +1072,7 @@ msgstr ""
 
 #: addons/quiz-import-export/classes/QuizImportExport.php:268
 msgid "Export"
-msgstr ""
+msgstr "ส่งออก"
 
 #: templates/single/quiz/previous-attempts.php:93
 msgid "Fail"
@@ -1100,11 +1100,11 @@ msgstr ""
 
 #: addons/tutor-certificate/classes/Instructor_Signature.php:60
 msgid "File Support"
-msgstr ""
+msgstr "ไฟล์ที่รองรับ"
 
 #: addons/tutor-zoom/views/pages/meetings.php:87
 msgid "Filter"
-msgstr ""
+msgstr "ตัวกรอง"
 
 #: addons/gradebook/views/pages/overview.php:75, 
 #: templates/single/course/enrolled/gradebook.php:34
@@ -1113,7 +1113,7 @@ msgstr "เกรดสุดท้าย"
 
 #: addons/pmpro/classes/PaidMembershipsPro.php:171
 msgid "Free"
-msgstr ""
+msgstr "ฟรี"
 
 #: addons/pmpro/views/pmpro-content-settings.php:87
 msgid "Full website membership"
@@ -1148,11 +1148,11 @@ msgstr ""
 #: addons/google-classroom/classes/init.php:187, 
 #: addons/google-classroom/views/classroom-dashboard.php:2
 msgid "Google Classroom"
-msgstr ""
+msgstr "Google Classroom"
 
 #: addons/google-classroom/views/components/footer-settings.php:28
 msgid "Google Classroom Account"
-msgstr ""
+msgstr "บัญชี Google Classroom"
 
 #: addons/google-classroom/google-classroom.php:29
 msgid "Google Classroom Integration"
@@ -1267,11 +1267,11 @@ msgstr ""
 
 #: addons/google-classroom/views/email/auto-registration-verification.php:14
 msgid "Hello"
-msgstr ""
+msgstr "สวัสดี"
 
 #: addons/tutor-zoom/views/pages/main.php:9
 msgid "Help"
-msgstr ""
+msgstr "ช่วยเหลือ"
 
 #: addons/google-classroom/google-classroom.php:30
 msgid ""
@@ -1281,7 +1281,7 @@ msgstr ""
 
 #: addons/tutor-zoom/views/pages/help.php:41
 msgid "here"
-msgstr ""
+msgstr "ที่นี่"
 
 #: addons/google-classroom/views/components/footer-settings.php:13
 msgid "Here is a list of Classrooms on your current Google account."
@@ -1297,7 +1297,7 @@ msgstr ""
 
 #: templates/email/to_instructor_quiz_completed.php:9
 msgid "Hi {instructor_username},"
-msgstr ""
+msgstr "สวัสดี {instructor_username},"
 
 #: templates/email/to_admin_course_updated.php:9, 
 #: templates/email/to_admin_new_course_published.php:9, 
@@ -1315,11 +1315,11 @@ msgstr ""
 #: templates/email/to_student_rate_course_and_instructor.php:9, 
 #: templates/email/to_student_remove_from_course.php:9
 msgid "Hi,"
-msgstr ""
+msgstr "สวัสดี,"
 
 #: addons/tutor-email/classes/init.php:154
 msgid "High"
-msgstr ""
+msgstr "สูง"
 
 #: templates/single-zoom-meeting.php:116, 
 #: templates/single-zoom-meeting.php:83, 
@@ -1404,6 +1404,8 @@ msgstr ""
 #: addons/buddypress/classes/BuddyPressGroups.php:394
 msgid "I updated my lesson on %s to add more relevant content. See what’s new!"
 msgstr ""
+"ฉันอัปเดตบทเรียนของฉันใน %s โดยเพิ่มเนื้อหาที่มากขึ้น "
+"มาดูกันว่ามีอะไรใหม่ๆบ้าง!"
 
 #: templates/single/course/zoom-meetings.php:41, 
 #: addons/tutor-report/views/pages/courses/course-single.php:285, 
@@ -2375,7 +2377,7 @@ msgstr ""
 
 #: addons/google-classroom/views/components/class-list.php:87
 msgid "Restore"
-msgstr ""
+msgstr "คืนค่า"
 
 #: addons/restrict-content-pro/restrict-content-pro.php:29, 
 #: addons/restrict-content-pro/classes/init.php:84
@@ -2415,7 +2417,7 @@ msgstr ""
 #: addons/tutor-report/views/pages/report.php:8, 
 #: addons/tutor-report/views/pages/sales/sales.php:33
 msgid "Sales"
-msgstr ""
+msgstr "การขาย"
 
 #: addons/tutor-report/views/pages/courses/course-single.php:160
 msgid "Sales Graph"
@@ -2575,7 +2577,7 @@ msgstr "แสดงผลลัพธ์จาก %s ถึง %s"
 
 #: addons/gradebook/gradebook.php:30
 msgid "Shows student progress from assignment and quiz"
-msgstr ""
+msgstr "แสดงความคืบหน้าของผู้เรียนจากการบ้านและแบบทดสอบ "
 
 #: addons/tutor-report/views/pages/courses/course-table.php:127
 msgid "Sort By"
@@ -2650,7 +2652,7 @@ msgstr "กราฟการลงทะเบียนของผู้เร
 
 #: templates/email/to_instructor_student_submitted_assignment.php:13
 msgid "Student Name - <strong>{student_name}</strong>"
-msgstr ""
+msgstr "ชื่อผู้เรียน - <strong>{student_name}</strong>"
 
 #: addons/tutor-email/views/pages/tutor_emails.php:277
 msgid "Student removed from course (to student)"
@@ -2708,7 +2710,7 @@ msgstr ""
 
 #: addons/tutor-report/views/pages/students/student-profile.php:138
 msgid "Take Quiz"
-msgstr ""
+msgstr "ทำแบบทดสอบ"
 
 #: templates/email/to_student_course_completed.php:12
 msgid ""
@@ -2923,7 +2925,7 @@ msgstr "คะแนนเต็ม"
 
 #: addons/tutor-report/views/pages/courses/course-single.php:98
 msgid "Total Quiz"
-msgstr ""
+msgstr "แบบทดสอบทั้งหมด"
 
 #: addons/tutor-report/views/pages/reviews/reviews.php:55
 #, php-format
@@ -2934,7 +2936,7 @@ msgstr "รีวิวทั้งหมด %d"
 #: addons/tutor-report/views/pages/courses/course-single.php:364, 
 #: addons/tutor-report/views/pages/courses/course-table.php:157
 msgid "Total Students"
-msgstr ""
+msgstr "ผู้เรียนทั้งหมด"
 
 #: addons/tutor-assignments/tutor-assignments.php:30
 msgid "Tutor assignments is a great way to assign tasks to students."
@@ -3281,7 +3283,7 @@ msgstr ""
 
 #: templates/email/to_student_feedback_submitted_for_quiz.php:16
 msgid "You may reply to this email to communicate with the instructor."
-msgstr ""
+msgstr "คุณอาจตอบกลับอีเมลนี้เพื่อสื่อสารกับผู้สอน "
 
 #: addons/pmpro/classes/PaidMembershipsPro.php:197
 #, fuzzy
@@ -3319,11 +3321,11 @@ msgstr "เกรดของคุณคือ"
 
 #: addons/tutor-assignments/views/pages/submitted_assignment.php:102
 msgid "Your Points"
-msgstr ""
+msgstr "คะแนนของคุณ"
 
 #: templates/email/to_student_assignment_evaluate.php:12
 msgid "Your score: <strong>{assignemnt_score}</strong>"
-msgstr ""
+msgstr "คะแนนของคุณ: <strong>{assignemnt_score}</strong>"
 
 #: templates/email/to_instructor_withdrawal_request_approved.php:12
 msgid ""
