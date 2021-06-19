@@ -3,7 +3,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Project-Id-Version: Tutor LMS Pro\n"
 "POT-Creation-Date: 2019-10-10 13:20+0600\n"
-"PO-Revision-Date: 2021-06-19 22:06+0000\n"
+"PO-Revision-Date: 2021-06-19 22:35+0000\n"
 "Last-Translator: อภินันท์ รังสูงเนิน\n"
 "Language-Team: ไทย\n"
 "MIME-Version: 1.0\n"
@@ -77,10 +77,12 @@ msgstr ""
 msgid ""
 "A new instructor has signed up to your site <strong>{site_name}</strong>"
 msgstr ""
+"มีผู้สอนได้สมัครสมาชิกใหม่ในเว็บไซต์ <strong>{site_name}</strong> ของคุณ"
 
 #: templates/email/to_admin_new_student_signup.php:11
 msgid "A new student has signed up to your site <strong>{site_name}</strong>"
 msgstr ""
+"มีผู้เรียนได้สมัครสมาชิกใหม่ในเว็บไซต์ <strong>{site_name}</strong> ของคุณ"
 
 #: templates/email/to_student_new_lqa_published.php:12
 msgid ""
@@ -226,7 +228,7 @@ msgstr ""
 
 #: addons/buddypress/views/bp-group-course.php:24
 msgid "Assign this course to BuddyPress Groups"
-msgstr ""
+msgstr "กำหนดคอร์สนี้ให้กับกลุ่ม BuddyPress"
 
 #: addons/tutor-report/views/pages/courses/course-single.php:109, 
 #: addons/tutor-report/views/pages/courses/course-table.php:156, 
@@ -238,7 +240,7 @@ msgstr "การมอบหมายงาน"
 
 #: addons/tutor-assignments/views/pages/submitted_assignment.php:53
 msgid "Assignment Description"
-msgstr ""
+msgstr "รายละเอียดการบ้าน"
 
 #: addons/tutor-email/classes/init.php:99
 msgid "Assignment Graded"
@@ -250,11 +252,11 @@ msgstr ""
 
 #: addons/tutor-assignments/classes/Assignments_List.php:110
 msgid "Assignment Name"
-msgstr ""
+msgstr "หัวข้อการบ้าน"
 
 #: templates/email/to_instructor_student_submitted_assignment.php:17
 msgid "Assignment Name - <strong>{assignment_name}</strong>"
-msgstr ""
+msgstr "หัวข้อการบ้าน - <strong>{assignment_name}</strong>"
 
 #: addons/tutor-assignments/views/modal/assignments.php:90
 msgid "Assignment time duration, set 0 for no limit."
@@ -266,7 +268,7 @@ msgstr "หัวข้อการมอบหมายงาน"
 
 #: addons/tutor-assignments/views/modal/assignments.php:140
 msgid "Assignment Updated"
-msgstr ""
+msgstr "อัปเดตการบ้าน"
 
 #: addons/tutor-assignments/tutor-assignments.php:29, 
 #: addons/tutor-assignments/classes/Assignments.php:138, 
@@ -312,7 +314,7 @@ msgstr "ชื่อผู้มีอำนาจออกใบประกา
 
 #: addons/tutor-zoom/views/modal/meeting.php:96
 msgid "Auto Recording"
-msgstr ""
+msgstr "บันทึกอัตโนมัติ"
 
 #: addons/tutor-assignments/views/pages/submitted_assignment.php:17
 msgid "Back"
@@ -384,7 +386,7 @@ msgstr "เทมเพลตของประกาศนียบัตร"
 
 #: addons/google-classroom/views/components/consent-screen.php:16
 msgid "Change Credential"
-msgstr ""
+msgstr "เปลี่ยนข้อมูลรับรอง"
 
 #: addons/tutor-zoom/views/pages/set_api.php:22
 msgid "Check API Connection"
@@ -583,11 +585,11 @@ msgstr ""
 
 #: addons/tutor-email/classes/init.php:135
 msgid "Course Edited/Updated"
-msgstr ""
+msgstr "มีการ แก้ไข/อัปเดต คอร์ส"
 
 #: addons/tutor-email/views/pages/tutor_emails.php:226
 msgid "Course Edited/Updated (to admin)"
-msgstr ""
+msgstr "มีการ แก้ไข/อัปเดต คอร์ส (ถึงผู้ดูแล) "
 
 #: addons/enrollments/classes/Enrollments.php:93, 
 #: addons/tutor-email/classes/init.php:95, 
@@ -763,7 +765,7 @@ msgstr "ลบ"
 
 #: addons/google-classroom/views/components/class-list.php:23
 msgid "Delete Permanently"
-msgstr ""
+msgstr "ลบถาวร"
 
 #: addons/tutor-assignments/classes/Assignments_List.php:83
 msgid "Deleted"
@@ -804,7 +806,7 @@ msgstr ""
 
 #: addons/tutor-report/views/pages/students/student-profile.php:39
 msgid "Display Name"
-msgstr ""
+msgstr "ชื่อที่แสดง"
 
 #: addons/gradebook/classes/init.php:107
 #, php-format
@@ -1068,7 +1070,7 @@ msgstr "เหตุการณ์"
 
 #: templates/single/course/zoom-meetings.php:34
 msgid "Expired"
-msgstr ""
+msgstr "หมดอายุ"
 
 #: addons/quiz-import-export/classes/QuizImportExport.php:268
 msgid "Export"
@@ -1138,7 +1140,7 @@ msgstr "คำตอบของคุณ"
 
 #: addons/google-classroom/views/components/stream.php:12
 msgid "Go to Classroom"
-msgstr ""
+msgstr "ไปที่ Classroom"
 
 #: templates/single-zoom-meeting.php:44
 msgid "Go to Course Home"
@@ -1247,7 +1249,7 @@ msgstr "การตัดเกรด"
 
 #: addons/tutor-certificate/classes/Instructor_Signature.php:59
 msgid "Guidelines"
-msgstr ""
+msgstr "แนวทาง"
 
 #: addons/tutor-certificate/templates/default/certificate.php:39, 
 #: addons/tutor-certificate/templates/template_1/certificate.php:33, 
@@ -1263,7 +1265,7 @@ msgstr ""
 #: addons/tutor-certificate/templates/template_8/certificate.php:30, 
 #: addons/tutor-certificate/templates/template_9/certificate.php:29
 msgid "has successfully completed"
-msgstr ""
+msgstr "สำเร็จแล้ว"
 
 #: addons/google-classroom/views/email/auto-registration-verification.php:14
 msgid "Hello"
@@ -1278,6 +1280,9 @@ msgid ""
 "Helps connect Google Classrooms with Tutor LMS courses, allowing you to use "
 "features like Classroom streams and files directly from the Tutor LMS course."
 msgstr ""
+"ช่วยเชื่อมต่อ Google Classrooms กับคอร์สของ Tutor LMS "
+"ช่วยให้คุณใช้ฟีเจอร์ต่างๆ เช่น สตรีมและไฟล์ของ Classroom "
+"ได้โดยตรงจากคอร์สของ Tutor LMS "
 
 #: addons/tutor-zoom/views/pages/help.php:41
 msgid "here"
@@ -1350,12 +1355,12 @@ msgstr ""
 #: addons/tutor-certificate/templates/template_8/certificate.php:18, 
 #: addons/tutor-certificate/templates/template_9/certificate.php:18
 msgid "hour"
-msgstr ""
+msgstr "ชั่วโมง"
 
 #: addons/tutor-assignments/views/modal/assignments.php:85, 
 #: addons/tutor-zoom/views/modal/meeting.php:73
 msgid "Hours"
-msgstr ""
+msgstr "ชั่วโมง"
 
 #: addons/tutor-certificate/templates/default/certificate.php:24, 
 #: addons/tutor-certificate/templates/template_1/certificate.php:18, 
@@ -1371,7 +1376,7 @@ msgstr ""
 #: addons/tutor-certificate/templates/template_8/certificate.php:18, 
 #: addons/tutor-certificate/templates/template_9/certificate.php:18
 msgid "hours"
-msgstr ""
+msgstr "ชั่วโมง"
 
 #: addons/tutor-zoom/views/pages/help.php:13
 msgid "How Do I Connect Zoom With my LMS Website?"
@@ -1412,7 +1417,7 @@ msgstr ""
 #: addons/tutor-report/views/pages/courses/course-single.php:360, 
 #: addons/tutor-report/views/pages/students/student-table.php:32
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: addons/tutor-course-preview/views/metabox/course-preview-metabox.php:19
 msgid "If checked, any users/guest can view this lesson without enroll course"
@@ -1422,11 +1427,11 @@ msgstr ""
 
 #: addons/google-classroom/views/components/class-list.php:10
 msgid "Import Date"
-msgstr ""
+msgstr "วันที่นำเข้า"
 
 #: addons/quiz-import-export/classes/QuizImportExport.php:31
 msgid "Import Quiz"
-msgstr ""
+msgstr "นำเข้าแบบทดสอบ"
 
 #: addons/tutor-report/views/pages/students/student-profile.php:190
 msgid "Incomplete"
@@ -2625,7 +2630,7 @@ msgstr "สถานะ"
 #: addons/google-classroom/classes/init.php:207, 
 #: addons/google-classroom/classes/init.php:214
 msgid "Stream"
-msgstr ""
+msgstr "สตรีม"
 
 #: templates/buddypress/message_thread_recipients.php:57, 
 #: addons/enrollments/classes/Enrollments_List.php:84, 
@@ -2719,6 +2724,11 @@ msgid ""
 "successfully completed the mentioned course. For future access, the course "
 "will be available on <strong>{course_url}</strong>."
 msgstr ""
+"ขอบคุณสำหรับการเรียนคอร์ส <strong>{course_name}</strong> จนจบ เมื่อ <strong>"
+"{completion_time}</strong> "
+"ข้อความนี้เป็นการยืนยันว่าคุณเรียนเนื้อหาในคอร์สนี้จบแล้ว "
+"สำหรับการเข้าถึงเนื้อหาของคอร์สในอนาคตสามารถเข้าได้จาก <strong>{course_url}"
+"</strong>"
 
 #: templates/email/to_student_quiz_completed.php:12
 msgid ""
@@ -3189,19 +3199,19 @@ msgstr ""
 #: addons/tutor-email/classes/EmailNotification.php:1613, 
 #: addons/tutor-email/classes/init.php:120
 msgid "Withdrawal Request Received"
-msgstr ""
+msgstr "ได้รับคำขอถอนเงิน "
 
 #: addons/tutor-email/classes/init.php:119
 msgid "Withdrawal Request Rejected"
-msgstr ""
+msgstr "คำขอถอนเงินถูกปฏิเสธ "
 
 #: addons/tutor-email/views/pages/tutor_emails.php:373
 msgid "Withdrawal request rejected (to teacher)"
-msgstr ""
+msgstr "คำขอถอนเงินถูกปฏิเสธ (ถึงผู้สอน) "
 
 #: addons/tutor-email/classes/EmailNotification.php:1553
 msgid "Withdrawal Request Rejection"
-msgstr ""
+msgstr "การปฏิเสธคำขอถอนเงิน"
 
 #: addons/wc-subscriptions/wc-subscriptions.php:29
 msgid "WooCommerce Subscriptions"
