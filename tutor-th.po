@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Tutor LMS &#8211; eLearning and online course solution - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-06-18 20:08+0000\n"
+"PO-Revision-Date: 2021-06-19 00:48+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -763,7 +763,7 @@ msgstr "ผู้เขียน"
 
 #: restapi/REST_Author.php:35
 msgid "Author details retrieved successfully"
-msgstr ""
+msgstr "เรียกคืนรายละเอียดของผู้แต่งเรียบร้อยแล้ว"
 
 #: restapi/REST_Author.php:44
 msgid "Author not found"
@@ -969,6 +969,8 @@ msgid ""
 "Choose between open and closed instructor signup. If you’re creating a "
 "course marketplace, instructor signup should be open."
 msgstr ""
+"เลือกระหว่างการเปิดและปิดการลงทะเบียนผู้สอน หากคุณกำลังสร้างตลาดซื้อขายคอร์ส "
+"ควรเปิดการลงทะเบียนผู้สอน "
 
 #: classes/Post_types.php:107
 msgid "Choose from the most used categories"
@@ -1000,6 +1002,8 @@ msgid ""
 "Choose video sources you'd like to support. Unchecking all will not disable "
 "video feature."
 msgstr ""
+"เลือกแหล่งวิดีโอที่คุณต้องการสนับสนุน "
+"การยกเลิกการเลือกทั้งหมดจะไม่ปิดการทำงานของวิดีโอ"
 
 #: classes/Tutor_Setup.php:502
 msgid ""
@@ -1016,7 +1020,7 @@ msgstr "เลือกการทำงานที่จะเกิดขึ
 
 #: classes/Tutor_Setup.php:532
 msgid "Choose your preferred withdrawal method from the options."
-msgstr ""
+msgstr "เลือกวิธีการถอนเงินที่คุณต้องการจากตัวเลือก"
 
 #: classes/Options.php:437, views/modal/edit-lesson.php:12
 msgid "Classic Editor"
@@ -1058,7 +1062,7 @@ msgstr "อัตราค่าคอมมิชชั่น"
 
 #: classes/Course.php:1111
 msgid "complete all lessons to mark this course as complete"
-msgstr ""
+msgstr "เรียนให้ครบทุกบทเรียนเพื่อทำเครื่องว่าเรียนจบคอร์สนี้แล้ว"
 
 #: templates/single/course/complete_form.php:30
 msgid "Complete Course"
@@ -1130,7 +1134,7 @@ msgstr "ต้องยืนยันรหัสผ่าน"
 
 #: templates/dashboard/instructor/logged-in.php:40
 msgid "Congratulations! You are now registered as an instructor."
-msgstr ""
+msgstr "ขอแสดงความยินดีด้วย! คุณลงทะเบียนเป็นผู้สอนเรียบร้อยแล้ว"
 
 #: classes/Tutor_Setup.php:579
 msgid "Congratulations, you’re all set!"
@@ -1271,7 +1275,7 @@ msgstr "คำอธิบายคอร์ส"
 
 #: restapi/REST_Course.php:128
 msgid "Course detail retrieved successfully"
-msgstr ""
+msgstr "เรียกคืนรายละเอียดของคอร์สเรียบร้อยแล้ว"
 
 #: classes/Options.php:291
 msgid "Course Display Settings"
@@ -1360,7 +1364,7 @@ msgstr "เผยแพร่คอร์สแล้ว"
 
 #: restapi/REST_Rating.php:45
 msgid "Course rating retrieved successfully"
-msgstr ""
+msgstr "เรียกคืนดาวของคอร์สสำเร็จแล้ว "
 
 #: classes/Ajax.php:277
 msgid "Course removed from wish list"
@@ -1983,7 +1987,7 @@ msgstr "รายได้"
 
 #: templates/dashboard/earning.php:102
 msgid "Earnings Chart for this month"
-msgstr ""
+msgstr "ตารางรายได้เดือนนี้"
 
 #: classes/TutorEDD.php:100
 msgid "Easy Digital Downloads"
@@ -2083,7 +2087,7 @@ msgstr "เปิดหรือปิดตัวเลือกนี้เพ
 
 #: classes/Tutor_Setup.php:485
 msgid "Enable earning for instructors?"
-msgstr ""
+msgstr "เปิดใช้งานรายได้สำหรับผู้สอน?"
 
 #: classes/TutorEDD.php:78
 msgid "Enable EDD"
@@ -2790,7 +2794,7 @@ msgstr "ผู้สอนควรมีรายได้มากกว่า
 
 #: classes/Withdraw.php:223
 msgid "Insufficient balance."
-msgstr ""
+msgstr "สมดุลไม่ดี"
 
 #: classes/Utils.php:4685, templates/course-filter/filters.php:5
 msgid "Intermediate"
@@ -2815,6 +2819,8 @@ msgid ""
 "Just deactivate tutor plugin or completely uninstall and erase all of data "
 "saved before by tutor."
 msgstr ""
+"เพียงปิดการใช้งานปลั๊กอินหรือถอนการติดตั้ง Tutor และลบข้อมูลทั้งหมดที่ระบบ "
+"Tutor บันทึกไว้ก่อนหน้านี้"
 
 #: classes/Options.php:85
 msgid "Keyword Search"
@@ -3139,7 +3145,7 @@ msgstr "ตัวเลือกการสร้างรายได้"
 
 #: assets/js/tutor-front.js:825
 msgid "More answer for this question is required"
-msgstr ""
+msgstr "ต้องการคำตอบเพิ่มเติมสำหรับคำถามนี้"
 
 #: templates/dashboard/dashboard.php:78
 msgid "Most Popular Courses"
@@ -3748,14 +3754,16 @@ msgid ""
 "Please check your transaction notification on your connected withdrawal "
 "method"
 msgstr ""
+"โปรดตรวจสอบการแจ้งเตือนการทำธุรกรรมของคุณ "
+"สำหรับวิธีการถอนเงินที่คุณได้เชื่อมต่อไว้"
 
 #: templates/dashboard/instructor/logged-in.php:55
 msgid "Please contact the site administrator for further information."
-msgstr ""
+msgstr "โปรดติดต่อผู้ดูแลเว็บไซต์เพื่อขอข้อมูลเพิ่มเติม"
 
 #: templates/dashboard/withdraw.php:28
 msgid "Please contact the site administrator for more information."
-msgstr ""
+msgstr "โปรดติดต่อผู้ดูแลเว็บไซต์เพื่อขอข้อมูลเพิ่มเติม "
 
 #: templates/single/lesson/required-enroll.php:29
 msgid "Please enroll in this course first"
@@ -4114,7 +4122,7 @@ msgstr "ไม่พบการทำแบบทดสอบสำหรับ
 
 #: restapi/REST_Quiz.php:140
 msgid "Quiz attempts retrieved successfully"
-msgstr ""
+msgstr "เรียกคืนการทำแบบทดสอบเรียบร้อยแล้ว"
 
 #: views/modal/edit_quiz.php:270
 msgid "Quiz Auto Start"
@@ -4138,7 +4146,7 @@ msgstr "ข้อมูลแบบทดสอบ"
 
 #: restapi/REST_Quiz.php:53
 msgid "Quiz not found for given ID"
-msgstr ""
+msgstr "ไม่พบแบบทดสอบสำหรับ ID ที่กำหนด"
 
 #: views/pages/view_attempt.php:185, 
 #: templates/dashboard/my-quiz-attempts/attempts-details.php:203, 
@@ -4194,7 +4202,7 @@ msgstr ""
 
 #: restapi/REST_Rating.php:54
 msgid "Rating not found for given ID"
-msgstr ""
+msgstr "ไม่พบการให้ดาวสำหรับ ID ที่ระบุ"
 
 #: classes/Ajax.php:165
 msgid "Rating placed success"
@@ -4412,7 +4420,7 @@ msgstr "บันทึกการตั้งค่า"
 
 #: classes/Addons.php:87
 msgid "Save time by exporting/importing quiz data with easy options."
-msgstr ""
+msgstr "ประหยัดเวลาด้วยการ ส่งออก/นำเข้า ข้อมูลแบบทดสอบด้วยตัวเลือกง่ายๆ"
 
 #: templates/dashboard/settings/withdraw-settings.php:103
 msgid "Save Withdrawal Account"
@@ -4623,7 +4631,7 @@ msgstr "ตั้งค่าการถอนเงิน"
 
 #: templates/dashboard/notifications/profile-completion.php:18
 msgid "Set Your"
-msgstr ""
+msgstr "ตั้งค่า"
 
 #: classes/Admin.php:80, classes/Admin.php:80, classes/Admin.php:453, 
 #: classes/Utils.php:2466, templates/dashboard/settings.php:8, 
@@ -4715,6 +4723,10 @@ msgid ""
 "Please make sure to enable Tutor LMS monetization if you decide to re-enable "
 "WooCommerce."
 msgstr ""
+"เนื่องจาก WooCommerce ถูกปิดใช้งาน "
+"คอร์สที่คุณตั้งราคาขายไว้จึงถูกปรับเป็นฟรี หากคุณตัดสินใจเปิดใช้งาน "
+"WooCommerce อีกครั้ง "
+"โปรดตรวจสอบให้แน่ใจว่าได้เปิดใช้งานตัวเลือกการสร้างรายได้ใน Tutor LMS "
 
 #: classes/Utils.php:3910
 msgid "Single Choice"
@@ -4784,7 +4796,7 @@ msgstr "ขนาดมาตรฐานสำหรับรูปขนาด
 #: templates/dashboard/instructor/logged-in.php:53
 msgid ""
 "Start building your first course today and let your eLearning journey begin."
-msgstr ""
+msgstr "เริ่มสร้างคอร์สแรกของคุณวันนี้ และเริ่มต้นระบบ eLearning ของคุณ "
 
 #: templates/single/course/course-enrolled-box.php:45
 msgid "Start Course"
@@ -5058,7 +5070,7 @@ msgstr ""
 
 #: assets/js/tutor-front.js:753
 msgid "The answer for this question is required"
-msgstr ""
+msgstr "คำถามนี้ต้องการคำตอบ"
 
 #: views/modal/question_answer_edit_form.php:245, 
 #: views/modal/question_answer_form.php:253
@@ -5091,6 +5103,8 @@ msgid ""
 "instructor name, student name, and name that will be printed on the "
 "certificate."
 msgstr ""
+"ชื่อที่แสดงจะแสดงในฟิลด์สาธารณะทั้งหมด เช่น ชื่อผู้เขียน, ชื่อผู้สอน, "
+"ชื่อผู้เรียน และชื่อที่จะพิมพ์ลงบนประกาศนียบัตร"
 
 #: classes/Email.php:40
 msgid "The E-Mail address from which all emails will be sent"
@@ -6070,7 +6084,7 @@ msgstr "คุณกำลังจะลบคำถามนี้ หาก�
 
 #: templates/dashboard/enrolled-courses/active-courses.php:76
 msgid "You are not enrolled in any course at this moment."
-msgstr ""
+msgstr "คุณยังไม่ได้ลงทะเบียนคอร์สใดๆ"
 
 #: templates/dashboard/withdraw.php:76
 msgid "You can change your %s withdrawal preference %s"
@@ -6095,7 +6109,7 @@ msgstr "คุณยังไม่มีคอร์สใดในรายก
 
 #: templates/dashboard/instructor/logged-in.php:26
 msgid "You have been blocked from being an instructor."
-msgstr ""
+msgstr "คุณถูกบล็อกจากการเป็นผู้สอน"
 
 #: templates/single/course/course-enrolled-box.php:67
 msgid "You have been enrolled on %s."
@@ -6121,7 +6135,7 @@ msgstr "คุณยังไม่ได้ทำแบบทดสอบ"
 
 #: classes/Course.php:1148
 msgid "You have to pass %s quizzes to complete this course."
-msgstr ""
+msgstr "คุณต้องผ่าน %s แบบทดสอบเพื่อเรียนจบคอร์สนี้"
 
 #: templates/dashboard/enrolled-courses.php:81
 msgid "You haven't purchased any course"
@@ -6140,6 +6154,8 @@ msgid ""
 "Your application has been accepted. Further necessary details have been sent "
 "to your registered email account."
 msgstr ""
+"แอปพลิเคชันของคุณได้รับการอนุมัติแล้ว "
+"รายละเอียดเพิ่มเติมได้ถูกส่งไปยังอีเมลที่คุณได้ลงทะเบียนแล้ว "
 
 #: templates/dashboard.php:104
 msgid "Your Application is pending from"
@@ -6160,6 +6176,8 @@ msgid ""
 "Your course has been submitted to the admin. It will be published once it "
 "has been reviewed by the admins."
 msgstr ""
+"คอร์สของคุณถูกส่งให้ผู้ดูแลระบบทำการรีวิวแล้ว "
+"คอร์สจะถูกเผยแพร่เมื่อผ่านการตรวจสอบโดยผู้ดูแลระบบ"
 
 #: templates/single/assignment/content.php:229
 msgid "Your Grade is "

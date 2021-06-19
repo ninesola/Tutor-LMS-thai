@@ -3,7 +3,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Project-Id-Version: Tutor LMS Pro\n"
 "POT-Creation-Date: 2019-10-10 13:20+0600\n"
-"PO-Revision-Date: 2021-06-18 20:08+0000\n"
+"PO-Revision-Date: 2021-06-19 00:48+0000\n"
 "Last-Translator: \n"
 "Language-Team: ไทย\n"
 "MIME-Version: 1.0\n"
@@ -1910,7 +1910,7 @@ msgstr "ต่อไป"
 #: addons/tutor-report/views/pages/courses/course-single.php:433, 
 #: addons/tutor-report/views/pages/students/student-profile.php:322
 msgid "No"
-msgstr ""
+msgstr "ไม่"
 
 #: addons/google-classroom/views/components/class-list-shortcode.php:54
 msgid "No Class"
@@ -1967,11 +1967,11 @@ msgstr ""
 #: addons/tutor-report/views/pages/courses/course-single.php:326, 
 #: addons/tutor-report/views/pages/students/student-table.php:73
 msgid "No Students Data Found!"
-msgstr ""
+msgstr "ไม่พบข้อมูลผู้เรียน!"
 
 #: addons/tutor-certificate/classes/Instructor_Signature.php:60
 msgid "no text on the image"
-msgstr ""
+msgstr "ไม่มีข้อความบนภาพ"
 
 #: addons/tutor-zoom/views/pages/meetings.php:176
 msgid "No Zoom meetings found"
@@ -2026,7 +2026,7 @@ msgstr "เปอร์เซ็นต์ถึง"
 #: addons/tutor-email/views/pages/tutor_emails.php:405, 
 #: addons/tutor-email/views/pages/tutor_emails.php:426
 msgid "On"
-msgstr ""
+msgstr "เปิด"
 
 #: addons/tutor-certificate/templates/default/certificate.php:41, 
 #: addons/tutor-certificate/templates/template_1/certificate.php:35, 
@@ -2222,11 +2222,11 @@ msgstr ""
 
 #: addons/google-classroom/views/components/class-list.php:85
 msgid "Preview"
-msgstr ""
+msgstr "ดูตัวอย่าง"
 
 #: addons/google-classroom/views/components/class-list-shortcode.php:69
 msgid "Previous"
-msgstr ""
+msgstr "ก่อนหน้า"
 
 #: templates/single/quiz/previous-attempts.php:5
 msgid "Previous attempts"
@@ -2234,16 +2234,16 @@ msgstr "การทำแบบทดสอบก่อนหน้า"
 
 #: addons/tutor-report/views/pages/sales/sales.php:47
 msgid "Price"
-msgstr ""
+msgstr "ราคา"
 
 #: addons/tutor-report/views/pages/courses/course-single.php:290, 
 #: addons/tutor-report/views/pages/students/student-table.php:38
 msgid "Progress"
-msgstr ""
+msgstr "ความคืบหน้า"
 
 #: addons/google-classroom/views/components/class-list.php:84
 msgid "Publish"
-msgstr ""
+msgstr "เผยแพร่"
 
 #: addons/tutor-email/classes/init.php:101
 msgid "Q&A Message Answered"
@@ -2311,7 +2311,7 @@ msgstr "ล้างค่าและสร้างการตัดเกร
 
 #: addons/google-classroom/views/components/password-setup.php:10
 msgid "Re-type Password"
-msgstr ""
+msgstr "พิมพ์รหัสผ่านอีกครั้ง"
 
 #: addons/tutor-report/views/pages/overview.php:425
 msgid "Recent questions from students"
@@ -2327,7 +2327,7 @@ msgstr ""
 
 #: addons/tutor-report/views/pages/courses/course-single.php:252
 msgid "Refund"
-msgstr ""
+msgstr "การคืนเงิน"
 
 #: templates/email/to_student_enrollment_expired.php:15, 
 #: templates/email/to_student_remove_from_course.php:15
@@ -2353,7 +2353,7 @@ msgstr ""
 
 #: addons/tutor-report/views/pages/overview.php:449
 msgid "Reply"
-msgstr ""
+msgstr "ตอบกลับ"
 
 #: templates/email/to_admin_course_updated.php:17, 
 #: templates/email/to_admin_new_course_published.php:18, 
@@ -2380,7 +2380,7 @@ msgstr ""
 #: addons/restrict-content-pro/restrict-content-pro.php:29, 
 #: addons/restrict-content-pro/classes/init.php:84
 msgid "Restrict Content Pro"
-msgstr ""
+msgstr "Restrict Content Pro"
 
 #: templates/single/quiz/previous-attempts.php:17, 
 #: templates/single/quiz/previous-attempts.php:85
@@ -2448,7 +2448,7 @@ msgstr "ค้นหาจากคอร์สหรือชื่อผู้
 #: addons/tutor-zoom/views/pages/meetings.php:57, 
 #: addons/tutor-report/views/pages/courses/course-table.php:104
 msgid "Search in here."
-msgstr ""
+msgstr "ค้นหาที่นี่"
 
 #: addons/tutor-zoom/classes/Zoom.php:71
 msgid "Search Meetings"
@@ -2456,7 +2456,7 @@ msgstr "ค้นหาการประชุม"
 
 #: addons/tutor-email/classes/EmailNotification.php:1711
 msgid "second"
-msgstr ""
+msgstr "วินาที"
 
 #: addons/tutor-zoom/views/pages/set_api.php:17
 msgid "Secret Key"
@@ -2472,7 +2472,7 @@ msgstr "เลือกรูปแบบแพ็คเกจสมาชิก
 
 #: addons/google-classroom/views/components/class-list.php:6
 msgid "Select All"
-msgstr ""
+msgstr "เลือกทั้งหมด"
 
 #: addons/tutor-certificate/views/template_options.php:10
 msgid "Select Certificate Template"
@@ -2692,7 +2692,7 @@ msgstr "งานที่มีการส่งเข้ามา"
 
 #: addons/tutor-assignments/views/pages/submitted_assignment.php:36
 msgid "Submitted Date"
-msgstr ""
+msgstr "วันที่ส่ง"
 
 #: addons/tutor-assignments/assets/js/assignment.js:26
 msgid "Success"
@@ -2897,7 +2897,7 @@ msgstr ""
 
 #: addons/tutor-report/views/pages/courses/course-single.php:207
 msgid "Total Earning"
-msgstr ""
+msgstr "รายได้ทั้งหมด"
 
 #: addons/tutor-report/views/pages/overview.php:246
 msgid "Total Enrolled Course"
@@ -3080,7 +3080,7 @@ msgstr ""
 
 #: addons/tutor-report/views/pages/students/student-table.php:34
 msgid "Username"
-msgstr ""
+msgstr "ชื่อผู้ใช้"
 
 #: addons/tutor-certificate/templates/default/certificate.php:62, 
 #: addons/tutor-certificate/templates/template_1/certificate.php:57, 
@@ -3219,7 +3219,7 @@ msgstr ""
 
 #: addons/tutor-assignments/classes/Assignments_List.php:97
 msgid "Yes"
-msgstr ""
+msgstr "ใช่"
 
 #: addons/tutor-email/classes/EmailNotification.php:515
 msgid "You are enrolled in %s at %s"
