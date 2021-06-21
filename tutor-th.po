@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Tutor LMS &#8211; eLearning and online course solution - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-06-19 22:35+0000\n"
+"PO-Revision-Date: 2021-06-21 06:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -196,7 +196,7 @@ msgid ""
 "A list of assets you will be providing for the students in this course (One "
 "per line)"
 msgstr ""
-"รายการสิ่งที่คุณได้จัดหาหรือเตรียมให้ผู้เรียนในหคอร์สนี้ "
+"รายการสิ่งที่คุณได้จัดหาหรือเตรียมให้ผู้เรียนในคอร์สนี้ "
 "(หนึ่งรายการต่อบรรทัด)"
 
 #: classes/Tutor_Setup.php:640, classes/Tutor_Setup.php:641
@@ -388,7 +388,9 @@ msgstr "ข้อมูลเพิ่มเติม"
 msgid ""
 "Additional requirements or special instructions for the students (One per "
 "line)"
-msgstr "ข้อกำหนดเพิ่มเติมหรือคำแนะนำพิเศษสำหรับผู้เรียน (หนึ่งรายการต่อบรรทัด)"
+msgstr ""
+"ความรู้ที่จำเป็นหรืออุปกรณ์ที่ผู้เรียนต้องมี ก่อนที่จะเรียนรู้คอร์สนี้ "
+"(หนึ่งรายการต่อบรรทัด)"
 
 #: views/pages/enable_disable_addons.php:3
 msgid "Addons List"
@@ -837,7 +839,7 @@ msgstr "ระดับเริ่มต้น"
 
 #: views/metabox/course-additional-data.php:51
 msgid "Benefits of the course"
-msgstr "สิ่งที่ได้จากคอร์สนี้"
+msgstr "ประโยชน์ของคอร์สนี้"
 
 #: classes/Withdraw.php:70
 msgid "BIC / SWIFT"
@@ -1245,7 +1247,7 @@ msgstr "ผู้เขียนคอร์ส"
 
 #: classes/Options.php:378
 msgid "Course Benefits"
-msgstr "ประโยชน์ของคอร์ส "
+msgstr "ประโยชน์ของคอร์ส"
 
 #: classes/Course.php:159, classes/Course.php:241
 msgid "Course Builder"
@@ -1374,7 +1376,7 @@ msgstr "ลบคอร์สออกจากรายการคอร์ส
 
 #: classes/Options.php:385
 msgid "Course Requirements"
-msgstr "ความต้องการของคอร์ส"
+msgstr "สิ่งที่ผู้เรียนจำเป็นต้องมีก่อนเรียน"
 
 #. translators: %s: date and time of the revision
 #: classes/Post_types.php:340
@@ -1814,7 +1816,8 @@ msgstr "ปิดใช้งานตัวเลือกนี้เพื่
 msgid ""
 "Disabling this feature will be removed course requirements from the course "
 "page."
-msgstr "ปิดใช้งานตัวเลือกนี้เพื่อลบ ความต้องการ ออกจากหน้าคอร์ส"
+msgstr ""
+"ปิดใช้งานตัวเลือกนี้เพื่อลบ สิ่งที่ผู้เรียนจำเป็นต้องมี ออกจากหน้าคอร์ส"
 
 #: classes/Options.php:409
 msgid ""
@@ -3085,11 +3088,11 @@ msgstr "การจับคู่"
 
 #: templates/single/course/material-includes.php:27
 msgid "Material Includes"
-msgstr "ไฟล์ประกอบการเรียน"
+msgstr "สิ่งที่รวมในคอร์ส"
 
 #: views/metabox/course-additional-data.php:97
 msgid "Materials Included"
-msgstr "ไฟล์ประกอบการเรียน"
+msgstr "สิ่งที่รวมในคอร์ส"
 
 #: views/modal/edit_quiz.php:236
 msgid "Max questions allowed to answer"
@@ -4307,7 +4310,7 @@ msgstr "ปลั๊กอินที่จำเป็น"
 
 #: templates/single/course/course-requirements.php:29
 msgid "Requirements"
-msgstr "ความต้องการ"
+msgstr "สิ่งที่ผู้เรียนจำเป็นต้องมี"
 
 #: views/metabox/course-additional-data.php:66
 msgid "Requirements/Instructions"

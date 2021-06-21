@@ -3,7 +3,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Project-Id-Version: Tutor LMS Pro\n"
 "POT-Creation-Date: 2019-10-10 13:20+0600\n"
-"PO-Revision-Date: 2021-06-19 22:35+0000\n"
+"PO-Revision-Date: 2021-06-21 06:07+0000\n"
 "Last-Translator: อภินันท์ รังสูงเนิน\n"
 "Language-Team: ไทย\n"
 "MIME-Version: 1.0\n"
@@ -282,7 +282,7 @@ msgstr "การมอบหมายงาน"
 
 #: addons/tutor-assignments/views/pages/submitted_assignment.php:68
 msgid "Attach assignment file(s)"
-msgstr ""
+msgstr "แนบไฟล์งานการบ้าน"
 
 #: addons/tutor-course-attachments/classes/CourseAttachments.php:42
 msgid "Attachment Open Mode"
@@ -410,20 +410,20 @@ msgstr ""
 
 #: addons/google-classroom/views/components/footer-settings.php:42
 msgid "Classroom Access Settings"
-msgstr ""
+msgstr "การตั้งค่าการเข้าใช้ Classroom"
 
 #: addons/google-classroom/views/components/footer-settings.php:12
 msgid "Classroom List"
-msgstr ""
+msgstr "รายชื่อ Classroom"
 
 #: addons/tutor-zoom/views/modal/meeting.php:102
 msgid "Cloud"
-msgstr ""
+msgstr "Cloud"
 
 #: addons/google-classroom/views/components/class-list-shortcode.php:37, 
 #: addons/google-classroom/views/components/stream.php:6
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
 #: classes/Instructor_Percentage.php:47
 msgid "Commission"
@@ -465,6 +465,8 @@ msgid ""
 "Connect Tutor LMS with Zoom to host live online classes. Students can attend "
 "live classes right from the lesson page."
 msgstr ""
+"เชื่อมต่อ Tutor LMS กับ Zoom เพื่อจัดชั้นเรียนออนไลน์แบบสด "
+"ผู้เรียนสามารถเข้าร่วมชั้นเรียนสดได้จากหน้าบทเรียน "
 
 #: addons/tutor-zoom/views/metabox/meetings.php:64
 msgid "Connect with your students using Zoom"
@@ -886,7 +888,7 @@ msgstr "แก้ไขการประชุม"
 
 #: addons/tutor-report/views/pages/courses/course-single.php:66
 msgid "Edit with Builder"
-msgstr ""
+msgstr "แก้ไขด้วย Builder"
 
 #: classes/Admin.php:185, classes/Admin.php:188, classes/Admin.php:198, 
 #: classes/Admin.php:201
@@ -1290,7 +1292,7 @@ msgstr "ที่นี่"
 
 #: addons/google-classroom/views/components/footer-settings.php:13
 msgid "Here is a list of Classrooms on your current Google account."
-msgstr ""
+msgstr "นี่คือรายชื่อ Classroom ในบัญชี Google ของคุณ"
 
 #: templates/email/to_student_rate_course_and_instructor.php:16
 msgid "Here is the link to post a review for the instructor- {instructor_url}"
@@ -1435,7 +1437,7 @@ msgstr "นำเข้าแบบทดสอบ"
 
 #: addons/tutor-report/views/pages/students/student-profile.php:190
 msgid "Incomplete"
-msgstr ""
+msgstr "ไม่สมบูรณ์"
 
 #: templates/single/quiz/view_attempt.php:153
 msgid "Incorrect"
@@ -1959,7 +1961,7 @@ msgstr "ไม่พบการประชุมในถังขยะ"
 #: addons/tutor-zoom/views/modal/meeting.php:100, 
 #: addons/tutor-zoom/views/pages/settings.php:35
 msgid "No Recordings"
-msgstr ""
+msgstr "ไม่มีการบันทึก"
 
 #: addons/tutor-report/views/pages/courses/course-single.php:474, 
 #: addons/tutor-report/views/pages/reviews/reviews.php:110, 
@@ -2077,7 +2079,7 @@ msgstr ""
 
 #: addons/tutor-assignments/views/pages/submitted_assignment.php:104
 msgid "Only number is allowed"
-msgstr ""
+msgstr "อนุญาตให้ใช้เฉพาะตัวเลขเท่านั้น"
 
 #: addons/tutor-zoom/views/pages/settings.php:29
 msgid "Only users logged into Zoom App can join the meeting"
@@ -2339,11 +2341,11 @@ msgstr "การคืนเงิน"
 #: templates/email/to_student_enrollment_expired.php:15, 
 #: templates/email/to_student_remove_from_course.php:15
 msgid "Regards"
-msgstr ""
+msgstr "ด้วยความนับถือ"
 
 #: addons/tutor-report/views/pages/students/student-table.php:36
 msgid "Registered"
-msgstr ""
+msgstr "ลงทะเบียนแล้ว"
 
 #: addons/tutor-report/views/pages/overview.php:478, 
 #: addons/tutor-report/views/pages/overview.php:524
@@ -3084,11 +3086,11 @@ msgstr ""
 
 #: addons/buddypress/classes/BuddyPressGroupSettings.php:66
 msgid "User Starts a course"
-msgstr ""
+msgstr "ผู้ใช้เริ่มเรียนคอร์ส"
 
 #: addons/buddypress/classes/BuddyPressGroupSettings.php:80
 msgid "User updated a lesson"
-msgstr ""
+msgstr "ผู้ใช้อัปเดตบทเรียน"
 
 #: addons/tutor-report/views/pages/students/student-table.php:34
 msgid "Username"
@@ -3227,7 +3229,7 @@ msgstr ""
 
 #: addons/tutor-assignments/views/pages/submitted_assignment.php:110
 msgid "Write a feedback"
-msgstr ""
+msgstr "เขียนความคิดเห็น"
 
 #: addons/tutor-assignments/classes/Assignments_List.php:97
 msgid "Yes"
