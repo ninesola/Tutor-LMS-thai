@@ -3,8 +3,8 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Project-Id-Version: Tutor LMS Pro\n"
 "POT-Creation-Date: 2019-10-10 13:20+0600\n"
-"PO-Revision-Date: 2021-06-21 06:07+0000\n"
-"Last-Translator: อภินันท์ รังสูงเนิน\n"
+"PO-Revision-Date: 2021-07-09 06:21+0000\n"
+"Last-Translator: \n"
 "Language-Team: ไทย\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "Report-Msgid-Bugs-To: \n"
 "Language: th\n"
-"X-Loco-Version: 2.5.2; wp-5.7.2"
+"X-Loco-Version: 2.5.3; wp-5.7.2"
 
 #: addons/tutor-assignments/classes/Assignments_List.php:83
 msgid " Delete"
@@ -45,6 +45,26 @@ msgstr "%d แบบทดสอบ, %d การมอบหมายงาน"
 msgid "%s (%s Ratings)"
 msgstr "%s (%s ดาว)"
 
+#: addons/tutor-email/classes/EmailNotification.php:590
+msgid "%s asked a question on %s"
+msgstr ""
+
+#: addons/tutor-email/classes/EmailNotification.php:478
+msgid "%s enrolled in the course %s"
+msgstr ""
+
+#: addons/tutor-email/classes/EmailNotification.php:301
+msgid "%s just completed the course %s"
+msgstr ""
+
+#: addons/tutor-email/classes/EmailNotification.php:645
+msgid "%s just completed the lesson %s"
+msgstr ""
+
+#: addons/push-notification/classes/Pusher.php:148
+msgid "%s wants to become an instructor."
+msgstr ""
+
 #: templates/email/to_instructor_lesson_completed.php:12
 msgid ""
 "<strong>{student_username}</strong> has recently completed the lesson "
@@ -59,6 +79,10 @@ msgid ""
 "</strong> in course <strong>{course_name}</strong> at <strong>"
 "{submission_time}</strong>. You can review it from: <strong>{quiz_review_url}"
 "</strong>."
+msgstr ""
+
+#: addons/tutor-email/classes/EmailNotification.php:945
+msgid "A Course has been edited - %s"
 msgstr ""
 
 #: templates/email/to_admin_new_course_submitted_for_review.php:11
@@ -190,15 +214,19 @@ msgstr "อนุญาตสิทธิ์"
 msgid "Allow to upload files"
 msgstr "อนุญาตให้อัปโหลดไฟล์"
 
-#: addons/tutor-assignments/classes/Assignments.php:320
+#: addons/tutor-assignments/classes/Assignments.php:326
 msgid "An assignment is submitting currently, please submit previous one first"
 msgstr "ตอนนี้กำลังส่งการมอบหมายงาน โปรดส่งงานก่อนหน้านี้ก่อน"
 
-#: addons/tutor-email/classes/EmailNotification.php:1204
+#: addons/push-notification/classes/Pusher.php:162
+msgid "Announcement Updated"
+msgstr ""
+
+#: addons/tutor-email/classes/EmailNotification.php:1229
 msgid "Announcement updated on course"
 msgstr "อัปเดตประกาศในคอร์ส "
 
-#: addons/tutor-assignments/classes/Assignments.php:342
+#: addons/tutor-assignments/classes/Assignments.php:348
 msgid "Answer has been added successfully"
 msgstr "เพิ่มคำตอบเรียบร้อยแล้ว"
 
@@ -242,6 +270,7 @@ msgstr "การมอบหมายงาน"
 msgid "Assignment Description"
 msgstr "รายละเอียดการบ้าน"
 
+#: addons/push-notification/classes/Push_Notification.php:149, 
 #: addons/tutor-email/classes/init.php:99
 msgid "Assignment Graded"
 msgstr ""
@@ -446,6 +475,14 @@ msgstr "คอร์สที่เรียนจบแล้ว"
 msgid "Congrats!"
 msgstr "ยินดีด้วย!"
 
+#: addons/push-notification/classes/Pusher.php:116
+msgid "Congratulations %s! You are now an instructor."
+msgstr ""
+
+#: addons/tutor-email/classes/EmailNotification.php:1390
+msgid "Congratulations on Finishing the Course %s"
+msgstr ""
+
 #: templates/email/to_student_rate_course_and_instructor.php:11
 msgid ""
 "Congratulations on finishing the course <strong>{course_name}</strong>. We "
@@ -472,35 +509,35 @@ msgstr ""
 msgid "Connect with your students using Zoom"
 msgstr "เชื่อมต่อกับผู้เรียนของคุณโดยใช้ Zoom "
 
-#: addons/content-drip/classes/ContentDrip.php:88
+#: addons/content-drip/classes/ContentDrip.php:89
 msgid "Content available after X days from enrollment"
 msgstr "จะเข้าดูเนื้อหาได้หลังจากผู้เรียนลงทะเบียนแล้วกี่วัน"
 
-#: addons/content-drip/classes/ContentDrip.php:70
+#: addons/content-drip/classes/ContentDrip.php:71
 msgid "Content Drip"
 msgstr "การจำกัดเนื้อหา"
 
-#: addons/content-drip/classes/ContentDrip.php:483, 
+#: addons/content-drip/classes/ContentDrip.php:484, 
 #: addons/content-drip/views/content-drip-lesson.php:77
 msgid "Content Drip Settings"
 msgstr "ตั้งค่าการจำกัดเนื้อหา"
 
-#: addons/content-drip/classes/ContentDrip.php:84
+#: addons/content-drip/classes/ContentDrip.php:85
 msgid "Content Drip Type"
 msgstr "ประเภทการจำกัดเนื้อหา"
 
-#: addons/content-drip/classes/ContentDrip.php:281, 
-#: addons/content-drip/classes/ContentDrip.php:302
+#: addons/content-drip/classes/ContentDrip.php:282, 
+#: addons/content-drip/classes/ContentDrip.php:303
 msgid "Content Drip: New Assignment Published"
 msgstr ""
 
-#: addons/content-drip/classes/ContentDrip.php:279, 
-#: addons/content-drip/classes/ContentDrip.php:292
+#: addons/content-drip/classes/ContentDrip.php:280, 
+#: addons/content-drip/classes/ContentDrip.php:293
 msgid "Content Drip: New Lesson Published"
 msgstr ""
 
-#: addons/content-drip/classes/ContentDrip.php:280, 
-#: addons/content-drip/classes/ContentDrip.php:297
+#: addons/content-drip/classes/ContentDrip.php:281, 
+#: addons/content-drip/classes/ContentDrip.php:298
 msgid "Content Drip: New Quiz Published"
 msgstr ""
 
@@ -572,11 +609,11 @@ msgstr "เรียนจบคอร์สแล้ว (ส่งถึงผ�
 msgid "Course Completion Certificate"
 msgstr ""
 
-#: addons/content-drip/classes/ContentDrip.php:89
+#: addons/content-drip/classes/ContentDrip.php:90
 msgid "Course content available sequentially"
 msgstr "เนื้อหาจะเข้าดูได้โดยการเรียงตามลำดับ"
 
-#: addons/content-drip/classes/ContentDrip.php:90
+#: addons/content-drip/classes/ContentDrip.php:91
 msgid "Course content unlocked after finishing prerequisites"
 msgstr "จะเข้าดูเนื้อหาได้ หลังจากที่เรียนจบเนื้อหาอื่นๆตามข้อกำหนด"
 
@@ -594,6 +631,7 @@ msgid "Course Edited/Updated (to admin)"
 msgstr "มีการ แก้ไข/อัปเดต คอร์ส (ถึงผู้ดูแล) "
 
 #: addons/enrollments/classes/Enrollments.php:93, 
+#: addons/push-notification/classes/Push_Notification.php:147, 
 #: addons/tutor-email/classes/init.php:95, 
 #: addons/tutor-report/views/pages/overview.php:137
 msgid "Course Enrolled"
@@ -607,6 +645,7 @@ msgstr ""
 msgid "Course Enrolled (to teacher)"
 msgstr "มีการลงทะเบียนเรียนคอร์ส (ส่งถึงผู้สอน)"
 
+#: addons/push-notification/classes/Push_Notification.php:153, 
 #: addons/tutor-email/classes/init.php:104
 msgid "Course enrolment expired"
 msgstr ""
@@ -832,7 +871,7 @@ msgstr "ดาวน์โหลดประกาศนียบัตร"
 msgid "Drag & Drop your JSON File here"
 msgstr "ลากและวางไฟล์ JSON ที่นี่"
 
-#: classes/Course_Duplicator.php:51, classes/Course_Duplicator.php:52
+#: classes/Course_Duplicator.php:53, classes/Course_Duplicator.php:54
 msgid "Duplicate"
 msgstr "ทำสำเนา"
 
@@ -862,8 +901,8 @@ msgstr "อีเมลถึงผู้เรียน"
 msgid "E-Mail to Teachers"
 msgstr "อีเมลถึงผู้สอน"
 
-#: addons/tutor-email/classes/EmailNotification.php:107, 
-#: addons/tutor-email/classes/EmailNotification.php:107, 
+#: addons/tutor-email/classes/EmailNotification.php:125, 
+#: addons/tutor-email/classes/EmailNotification.php:125, 
 #: addons/tutor-email/views/pages/tutor_emails.php:2
 msgid "E-Mails"
 msgstr "อีเมล"
@@ -911,7 +950,7 @@ msgstr ""
 
 #: classes/Enrollment_Expiry.php:28, classes/Quiz.php:78, classes/Quiz.php:85, 
 #: addons/buddypress/classes/BuddyPressGroups.php:55, 
-#: addons/content-drip/classes/ContentDrip.php:78, 
+#: addons/content-drip/classes/ContentDrip.php:79, 
 #: addons/gradebook/classes/init.php:98, 
 #: addons/tutor-certificate/classes/init.php:107, 
 #: addons/tutor-certificate/classes/init.php:119, 
@@ -923,7 +962,7 @@ msgstr "เปิดใช้งาน"
 msgid "Enable / Disable BuddyPress group activity feeds"
 msgstr ""
 
-#: addons/content-drip/classes/ContentDrip.php:80
+#: addons/content-drip/classes/ContentDrip.php:81
 msgid "Enable / Disable content drip"
 msgstr "เปิด / ปิด การจำกัดเนื้อหา"
 
@@ -935,6 +974,10 @@ msgstr "เปิดใช้งานการดูตัวอย่างค
 #: addons/tutor-email/classes/init.php:89
 msgid "Enable Disable Option to on/off notification on various event"
 msgstr "เปิด ปิด ตัวเลือกการใช้งานเพื่อ เปิด/ปิด การแจ้งเตือนเหตุการณ์ต่างๆ"
+
+#: addons/push-notification/classes/Push_Notification.php:225
+msgid "Enable Notifications"
+msgstr ""
 
 #: addons/gradebook/classes/init.php:100
 msgid ""
@@ -1028,6 +1071,10 @@ msgstr ""
 msgid "Enrollments"
 msgstr "การลงทะเบียนเรียน"
 
+#: addons/push-notification/classes/Pusher.php:257
+msgid "Enrolment has been cancelled."
+msgstr ""
+
 #: addons/enrollments/classes/Enrollments.php:122
 msgid "Enrolment has been done"
 msgstr "ลงทะเบียนเรียบร้อยแล้ว"
@@ -1074,7 +1121,7 @@ msgstr "เหตุการณ์"
 msgid "Expired"
 msgstr "หมดอายุ"
 
-#: addons/quiz-import-export/classes/QuizImportExport.php:268
+#: addons/quiz-import-export/classes/QuizImportExport.php:262
 msgid "Export"
 msgstr "ส่งออก"
 
@@ -1094,12 +1141,17 @@ msgstr "ไม่ผ่าน"
 msgid "FAQ"
 msgstr "คำถามที่พบบ่อย"
 
+#: addons/push-notification/classes/Push_Notification.php:152, 
 #: addons/tutor-email/classes/init.php:102
 msgid "Feedback submitted for Quiz Attempt"
 msgstr ""
 
 #: addons/tutor-email/views/pages/tutor_emails.php:328
 msgid "Feedback submitted for quizname (to student)"
+msgstr ""
+
+#: addons/tutor-email/classes/EmailNotification.php:1340
+msgid "Feedback submitted for the quiz %s"
 msgstr ""
 
 #: addons/tutor-certificate/classes/Instructor_Signature.php:60
@@ -1209,6 +1261,10 @@ msgstr "การแบ่งเกรด"
 msgid "Grade scale separator"
 msgstr "ข้อความแบ่งระดับเกรด"
 
+#: addons/tutor-email/classes/EmailNotification.php:1069
+msgid "Grade submitted for Assignment %s on %s"
+msgstr ""
+
 #: addons/gradebook/classes/GradeBook.php:43, 
 #: addons/gradebook/classes/GradeBook.php:43, 
 #: addons/gradebook/classes/GradeBook.php:491, 
@@ -1272,6 +1328,10 @@ msgstr "สำเร็จแล้ว"
 #: addons/google-classroom/views/email/auto-registration-verification.php:14
 msgid "Hello"
 msgstr "สวัสดี"
+
+#: addons/push-notification/classes/Pusher.php:131
+msgid "Hello %s, your instructorship has been rejected."
+msgstr ""
 
 #: addons/tutor-zoom/views/pages/main.php:9
 msgid "Help"
@@ -1471,11 +1531,12 @@ msgid ""
 "<strong>{site_name}</strong>"
 msgstr ""
 
+#: addons/push-notification/classes/Push_Notification.php:161, 
 #: addons/tutor-email/classes/init.php:121
 msgid "Instructor Application Accepted "
 msgstr ""
 
-#: addons/tutor-email/classes/EmailNotification.php:1451
+#: addons/tutor-email/classes/EmailNotification.php:1476
 msgid "Instructor Application Approval"
 msgstr ""
 
@@ -1483,7 +1544,8 @@ msgstr ""
 msgid "Instructor application approved (to teacher)"
 msgstr ""
 
-#: addons/tutor-email/classes/EmailNotification.php:709, 
+#: addons/push-notification/classes/Push_Notification.php:170, 
+#: addons/tutor-email/classes/EmailNotification.php:727, 
 #: addons/tutor-email/classes/init.php:123
 msgid "Instructor Application Received"
 msgstr ""
@@ -1492,6 +1554,7 @@ msgstr ""
 msgid "Instructor application received (to teacher)"
 msgstr ""
 
+#: addons/push-notification/classes/Push_Notification.php:162, 
 #: addons/tutor-email/classes/init.php:122
 msgid "Instructor Application Rejected"
 msgstr ""
@@ -1500,8 +1563,12 @@ msgstr ""
 msgid "Instructor application rejected (to teacher)"
 msgstr ""
 
-#: addons/tutor-email/classes/EmailNotification.php:1486
+#: addons/tutor-email/classes/EmailNotification.php:1511
 msgid "Instructor Application Rejection"
+msgstr ""
+
+#: addons/push-notification/classes/Pusher.php:118
+msgid "Instructor Approval"
 msgstr ""
 
 #: templates/email/to_student_assignment_evaluate.php:14
@@ -1510,6 +1577,14 @@ msgstr ""
 
 #: templates/email/to_student_feedback_submitted_for_quiz.php:13
 msgid "Instructor feedback: {instructor_feedback}"
+msgstr ""
+
+#: addons/tutor-email/classes/EmailNotification.php:1285
+msgid "Instructor has answered to your question on the course %s"
+msgstr ""
+
+#: addons/push-notification/classes/Pusher.php:133
+msgid "Instructor Rejection"
 msgstr ""
 
 #: classes/Instructor_Percentage.php:43
@@ -1526,7 +1601,7 @@ msgstr "ผู้สอน"
 msgid "Invalid Api Credentials"
 msgstr "ข้อมูลรับรอง API ไม่ถูกต้อง"
 
-#: addons/quiz-import-export/classes/QuizImportExport.php:278
+#: addons/quiz-import-export/classes/QuizImportExport.php:272
 msgid "Invalid File"
 msgstr "ไฟล์ไม่ถูกต้อง"
 
@@ -1673,7 +1748,7 @@ msgstr "รีวิวด้วยตนเองเมื่อ"
 msgid "Maximize revenue by selling membership access to all of your courses."
 msgstr ""
 
-#: addons/tutor-assignments/classes/Assignments.php:405
+#: addons/tutor-assignments/classes/Assignments.php:411
 #, php-format
 msgid "Maximum attachment upload size allowed is %d MB"
 msgstr "ขนาดสูงสุดของไฟล์แนบที่อนุญาตให้อัปโหลดคือ %d MB"
@@ -1834,20 +1909,30 @@ msgstr ""
 msgid "Name"
 msgstr "ชื่อ"
 
+#: addons/push-notification/classes/Push_Notification.php:226
+msgid "Never"
+msgstr ""
+
 #: addons/tutor-report/views/pages/students/student-profile.php:24
 msgid "Never Login Before"
 msgstr ""
 
-#: addons/tutor-email/classes/EmailNotification.php:1201
+#: addons/tutor-email/classes/EmailNotification.php:1226
 msgid "New Announcement on course"
 msgstr ""
 
+#: addons/push-notification/classes/Pusher.php:162, 
+#: addons/push-notification/classes/Push_Notification.php:150, 
 #: addons/tutor-email/classes/init.php:100
 msgid "New Announcement Posted"
 msgstr ""
 
 #: addons/tutor-email/views/pages/tutor_emails.php:294
 msgid "New announcement posted to course (to students)"
+msgstr ""
+
+#: addons/tutor-email/classes/EmailNotification.php:1014
+msgid "New Assignment Submission on course %s at %s"
 msgstr ""
 
 #: addons/tutor-email/views/pages/tutor_emails.php:243
@@ -1862,6 +1947,10 @@ msgstr ""
 msgid "New Course Published (to admin)"
 msgstr ""
 
+#: addons/tutor-email/classes/EmailNotification.php:890
+msgid "New Course Published - %s"
+msgstr ""
+
 #: addons/tutor-email/classes/init.php:133
 msgid "New Course Submitted for Review"
 msgstr "ส่งคอร์สใหม่เพื่อทำการรีวิว"
@@ -1870,8 +1959,20 @@ msgstr "ส่งคอร์สใหม่เพื่อทำการรี
 msgid "New Course Submitted for Review (to admin)"
 msgstr ""
 
+#: addons/tutor-email/classes/EmailNotification.php:832
+msgid "New Course Submitted for Review - %s"
+msgstr ""
+
+#: addons/push-notification/classes/Pusher.php:150
+msgid "New Instructor Request"
+msgstr ""
+
 #: addons/tutor-email/views/pages/tutor_emails.php:158
 msgid "New Instructor Sign Up (to admin)"
+msgstr ""
+
+#: addons/tutor-email/classes/EmailNotification.php:696
+msgid "New instructor signed up on %s "
 msgstr ""
 
 #: addons/tutor-email/classes/init.php:131
@@ -1894,11 +1995,15 @@ msgstr "ผู้สอนที่สมัครสมาชิกใหม่
 msgid "New Student Sign Up (to admin)"
 msgstr ""
 
+#: addons/tutor-email/classes/EmailNotification.php:777
+msgid "New student signed up on %s"
+msgstr ""
+
 #: addons/tutor-email/classes/init.php:132
 msgid "New Student Signup"
 msgstr ""
 
-#: addons/tutor-email/classes/EmailNotification.php:1584, 
+#: addons/tutor-email/classes/EmailNotification.php:1609, 
 #: addons/tutor-email/classes/init.php:136
 msgid "New Withdrawal Request"
 msgstr ""
@@ -1998,6 +2103,18 @@ msgstr "เลขที่"
 msgid "Normal"
 msgstr "ปกติ"
 
+#: addons/push-notification/classes/Push_Notification.php:172
+msgid "Notifications to send to admin"
+msgstr ""
+
+#: addons/push-notification/classes/Push_Notification.php:164
+msgid "Notifications to send to instructor"
+msgstr ""
+
+#: addons/push-notification/classes/Push_Notification.php:155
+msgid "Notifications to send to students"
+msgstr ""
+
 #: addons/tutor-email/classes/init.php:163
 msgid "Number of emails you'd like to send per cron execution"
 msgstr ""
@@ -2051,6 +2168,10 @@ msgstr "เปิด"
 #: addons/tutor-certificate/templates/template_8/certificate.php:32, 
 #: addons/tutor-certificate/templates/template_9/certificate.php:31
 msgid "on"
+msgstr ""
+
+#: addons/push-notification/classes/Pusher.php:183
+msgid "One of Your Questions Has Been Answered."
 msgstr ""
 
 #: addons/tutor-certificate/templates/default/certificate.php:39, 
@@ -2164,8 +2285,8 @@ msgstr "เปอร์เซ็นต์"
 msgid "pixels"
 msgstr "พิกเซล"
 
-#: addons/content-drip/classes/ContentDrip.php:184, 
-#: addons/content-drip/classes/ContentDrip.php:198
+#: addons/content-drip/classes/ContentDrip.php:185, 
+#: addons/content-drip/classes/ContentDrip.php:199
 #, php-format
 msgid "Please complete previous %s first"
 msgstr "คุณต้องจบ %s ก่อน"
@@ -2199,7 +2320,7 @@ msgstr ""
 "โปรดตั้งค่าข้อมูลรับรอง API ของคุณ หากไม่มีข้อมูลที่ถูกต้อง การใช้งานร่วมกับ "
 "Zoom จะไม่ทำงาน "
 
-#: addons/content-drip/classes/ContentDrip.php:191
+#: addons/content-drip/classes/ContentDrip.php:192
 #, php-format
 msgid "Please submit previous %s first"
 msgstr "โปรดส่ง %s ก่อน"
@@ -2254,6 +2375,20 @@ msgstr "ความคืบหน้า"
 msgid "Publish"
 msgstr "เผยแพร่"
 
+#: addons/push-notification/push-notification.php:29, 
+#: addons/push-notification/classes/Push_Notification.php:137
+msgid "Push Notification"
+msgstr ""
+
+#: addons/push-notification/classes/Push_Notification.php:140
+msgid "Push Notification Events"
+msgstr ""
+
+#: addons/push-notification/classes/Push_Notification.php:141
+msgid "Push notification recipient selections"
+msgstr ""
+
+#: addons/push-notification/classes/Push_Notification.php:151, 
 #: addons/tutor-email/classes/init.php:101
 msgid "Q&A Message Answered"
 msgstr ""
@@ -2356,6 +2491,7 @@ msgstr "สมัครสมาชิกเมื่อ"
 msgid "Remove"
 msgstr "ลบออก"
 
+#: addons/push-notification/classes/Push_Notification.php:148, 
 #: addons/tutor-email/classes/init.php:98
 msgid "Remove from Course"
 msgstr ""
@@ -2438,7 +2574,7 @@ msgstr "บันทึกการเปลี่ยนแปลง"
 msgid "Save Meeting"
 msgstr "บันทึกการประชุม"
 
-#: addons/content-drip/classes/ContentDrip.php:87
+#: addons/content-drip/classes/ContentDrip.php:88
 msgid "Schedule course contents by date"
 msgstr "กำหนดเนื้อหารายวิชาตามวันที่"
 
@@ -2463,7 +2599,7 @@ msgstr "ค้นหาที่นี่"
 msgid "Search Meetings"
 msgstr "ค้นหาการประชุม"
 
-#: addons/tutor-email/classes/EmailNotification.php:1711
+#: addons/tutor-email/classes/EmailNotification.php:1736
 msgid "second"
 msgstr "วินาที"
 
@@ -2525,8 +2661,16 @@ msgid ""
 "be logged in to access the certificate if public view is not enabled."
 msgstr ""
 
+#: addons/tutor-email/classes/EmailNotification.php:117
+msgid "Send email notification to all students of this course."
+msgstr ""
+
 #: addons/tutor-email/tutor-email.php:30
 msgid "Send email on various tutor events"
+msgstr ""
+
+#: addons/push-notification/classes/Push_Notification.php:190
+msgid "Send push notification to all students of this course."
 msgstr ""
 
 #: addons/tutor-zoom/views/pages/main.php:7
@@ -2691,7 +2835,7 @@ msgid ""
 "Students will be able to download a certificate after course completion."
 msgstr ""
 
-#: addons/tutor-email/classes/EmailNotification.php:412
+#: addons/tutor-email/classes/EmailNotification.php:430
 msgid "Submitted %s answers, Review it"
 msgstr ""
 
@@ -2738,6 +2882,12 @@ msgid ""
 "course <strong>{course_name}</strong> at <strong>{submission_time}</strong>. "
 "This message is to confirm that we have received your answers. You can "
 "access this quiz on: <strong>{quiz_url}</strong>."
+msgstr ""
+
+#: addons/push-notification/assets/js/registrar.js:77
+msgid ""
+"Thanks! Please make sure browser notification is enbled in notification "
+"settings."
 msgstr ""
 
 #: addons/gradebook/classes/GradeBook.php:139
@@ -2788,10 +2938,14 @@ msgstr ""
 msgid "The video conference has expired"
 msgstr ""
 
-#: addons/content-drip/classes/ContentDrip.php:150
+#: addons/content-drip/classes/ContentDrip.php:151
 #, php-format
 msgid "This %s will be available from %s"
 msgstr "%s จะสามารถเข้าใช้งานได้ตอน %s"
+
+#: addons/push-notification/assets/js/registrar.js:59
+msgid "This browser does not support push notification"
+msgstr ""
 
 #: addons/tutor-certificate/templates/default/certificate.php:35, 
 #: addons/tutor-certificate/templates/template_1/certificate.php:29, 
@@ -2826,7 +2980,7 @@ msgstr ""
 msgid "This lesson will be available after the given number of days."
 msgstr "บทเรียนนี้จะสามารถเข้าเรียนได้หลังจากกำหนดตัวเลขวันที่"
 
-#: addons/content-drip/classes/ContentDrip.php:166
+#: addons/content-drip/classes/ContentDrip.php:167
 #, php-format
 msgid "This lesson will be available for you from %s"
 msgstr "บทเรียนนี้จะสามารถเข้าใช้งานได้ตอน %s"
@@ -2959,7 +3113,7 @@ msgstr ""
 msgid "Tutor Certificate"
 msgstr "ประกาศนียบัตร"
 
-#: addons/content-drip/classes/ContentDrip.php:71
+#: addons/content-drip/classes/ContentDrip.php:72
 msgid "Tutor Content Drip allow you to schedule publish topics / lesson"
 msgstr "การจำกัดเนื้อหา ช่วยให้คุณสามารถกำหนดเวลาเผยแพร่หัวข้อ / บทเรียน"
 
@@ -3096,6 +3250,10 @@ msgstr "ผู้ใช้อัปเดตบทเรียน"
 msgid "Username"
 msgstr "ชื่อผู้ใช้"
 
+#: addons/push-notification/push-notification.php:30
+msgid "Users will get push notification on specified events."
+msgstr ""
+
 #: addons/tutor-certificate/templates/default/certificate.php:62, 
 #: addons/tutor-certificate/templates/template_1/certificate.php:57, 
 #: addons/tutor-certificate/templates/template_10/certificate.php:48, 
@@ -3168,6 +3326,10 @@ msgstr ""
 "ไปที่บัญชี Zoom ของคุณและรับ API key เพื่อเชื่อมต่อ Zoom กับเว็บไซต์ "
 "eLearning ของคุณ สร้าง app บน Zoom โดยทำตามนี้"
 
+#: addons/push-notification/classes/Push_Notification.php:223
+msgid "Want to receive push notifications for all major on-site activities?"
+msgstr ""
+
 #: addons/tutor-assignments/views/modal/assignments.php:83
 msgid "Weeks"
 msgstr "สัปดาห์"
@@ -3186,7 +3348,7 @@ msgstr ""
 msgid "Which Tutor LMS activity should be displayed in this group?"
 msgstr ""
 
-#: addons/tutor-email/classes/EmailNotification.php:1524
+#: addons/tutor-email/classes/EmailNotification.php:1549
 msgid "Withdrawal Request Approval"
 msgstr ""
 
@@ -3198,7 +3360,7 @@ msgstr ""
 msgid "Withdrawal request approved (to teacher)"
 msgstr ""
 
-#: addons/tutor-email/classes/EmailNotification.php:1613, 
+#: addons/tutor-email/classes/EmailNotification.php:1638, 
 #: addons/tutor-email/classes/init.php:120
 msgid "Withdrawal Request Received"
 msgstr "ได้รับคำขอถอนเงิน "
@@ -3211,7 +3373,7 @@ msgstr "คำขอถอนเงินถูกปฏิเสธ "
 msgid "Withdrawal request rejected (to teacher)"
 msgstr "คำขอถอนเงินถูกปฏิเสธ (ถึงผู้สอน) "
 
-#: addons/tutor-email/classes/EmailNotification.php:1553
+#: addons/tutor-email/classes/EmailNotification.php:1578
 msgid "Withdrawal Request Rejection"
 msgstr "การปฏิเสธคำขอถอนเงิน"
 
@@ -3235,8 +3397,8 @@ msgstr "เขียนความคิดเห็น"
 msgid "Yes"
 msgstr "ใช่"
 
-#: addons/tutor-email/classes/EmailNotification.php:515
-msgid "You are enrolled in %s at %s"
+#: addons/tutor-email/classes/EmailNotification.php:533
+msgid "You are enrolled in the course %s at %s"
 msgstr ""
 
 #: templates/email/to_instructor_become_application_approved.php:13
@@ -3270,7 +3432,7 @@ msgid ""
 "Announcements. Docs for Email Notifications can be found."
 msgstr ""
 
-#: addons/content-drip/classes/ContentDrip.php:92
+#: addons/content-drip/classes/ContentDrip.php:93
 msgid ""
 "You can schedule your course content using the above content drip options."
 msgstr ""
@@ -3284,13 +3446,25 @@ msgstr ""
 "คุณสามารถค้นหาการลงทะเบียนด้วยเลข ID, ชื่อผู้ลงทะเบียน, อีเมลที่ใช้ลงทะเบียน,"
 " ชื่อคอร์ส"
 
-#: addons/content-drip/classes/ContentDrip.php:235
+#: addons/content-drip/classes/ContentDrip.php:236
 #, php-format
 msgid "You can take this %s after finishing the following prerequisites:"
 msgstr "คุณจะเข้าเรียน %s ได้หลังจากที่เรียนเนื้อหาเหล่านี้จบแล้ว : "
 
+#: addons/tutor-email/classes/EmailNotification.php:1119
+msgid "You have been removed from the course %s"
+msgstr ""
+
 #: templates/email/to_instructor_student_submitted_assignment.php:11
 msgid "You have received a submission for an assignment."
+msgstr ""
+
+#: addons/tutor-email/classes/EmailNotification.php:246
+msgid "You just completed the course %s"
+msgstr ""
+
+#: addons/push-notification/classes/Pusher.php:235
+msgid "You Just Got Added to a Course! Go Check It Out."
 msgstr ""
 
 #: templates/email/to_student_feedback_submitted_for_quiz.php:16
@@ -3315,6 +3489,10 @@ msgid ""
 "Webcam to effectively hold a live class."
 msgstr ""
 
+#: addons/push-notification/classes/Pusher.php:257
+msgid "You've Been Removed From a Course."
+msgstr ""
+
 #: templates/email/to_instructor_become_application_received.php:12
 msgid ""
 "Your application for becoming an instructor has been received. Please hold "
@@ -3322,8 +3500,12 @@ msgid ""
 "your status as soon as possible."
 msgstr ""
 
+#: addons/push-notification/classes/Pusher.php:220
+msgid "Your Enrollment Has Expired."
+msgstr ""
+
 #. translators: %s refers to the course_name
-#: addons/tutor-email/classes/EmailNotification.php:1152
+#: addons/tutor-email/classes/EmailNotification.php:1170
 msgid "Your enrolment for the course %s has expired"
 msgstr ""
 
@@ -3331,9 +3513,17 @@ msgstr ""
 msgid "Your grade is "
 msgstr "เกรดของคุณคือ"
 
+#: addons/push-notification/classes/Pusher.php:274
+msgid "Your Grades for %s Were Just Submitted."
+msgstr ""
+
 #: addons/tutor-assignments/views/pages/submitted_assignment.php:102
 msgid "Your Points"
 msgstr "คะแนนของคุณ"
+
+#: addons/push-notification/classes/Pusher.php:200
+msgid "Your Quiz Results Are Up"
+msgstr ""
 
 #: templates/email/to_student_assignment_evaluate.php:12
 msgid "Your score: <strong>{assignemnt_score}</strong>"

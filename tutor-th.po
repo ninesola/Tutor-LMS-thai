@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Tutor LMS &#8211; eLearning and online course solution - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-06-21 06:07+0000\n"
+"PO-Revision-Date: 2021-07-09 06:21+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-17 14:42+0000\n"
 "Last-Translator: อภินันท์ รังสูงเนิน\n"
-"X-Loco-Version: 2.5.2; wp-5.7.2"
+"X-Loco-Version: 2.5.3; wp-5.7.2"
 
 #: classes/Email.php:60
 msgid ""
@@ -203,8 +203,8 @@ msgstr ""
 msgid "A Powerful, Smart, and Scalable LMS Solution"
 msgstr "โซลูชันสำหรับระบบ LMS ที่ทรงพลัง, ชาญฉลาด และปรับขนาดได้"
 
-#: templates/single/course/lead-info.php:141, 
-#: templates/single/course/enrolled/lead-info.php:159
+#: templates/single/course/lead-info.php:140, 
+#: templates/single/course/enrolled/lead-info.php:158
 msgid "About Course"
 msgstr "เกี่ยวกับคอร์ส"
 
@@ -218,17 +218,16 @@ msgstr "เกี่ยวกับผู้สอน"
 
 #: classes/Ajax.php:62, classes/Ajax.php:115, classes/Ajax.php:179, 
 #: classes/Ajax.php:237, classes/Ajax.php:290, classes/Ajax.php:332, 
-#: classes/Ajax.php:353, classes/Ajax.php:451, classes/Ajax.php:527, 
+#: classes/Ajax.php:353, classes/Ajax.php:451, classes/Ajax.php:522, 
 #: classes/Course.php:405, classes/Course.php:440, classes/Course.php:646, 
 #: classes/Course.php:697, classes/Course.php:734, classes/Course.php:747, 
-#: classes/Instructor.php:244, classes/Lesson.php:121, classes/Lesson.php:160, 
-#: classes/Lesson.php:223, classes/Quiz.php:140, classes/Quiz.php:470, 
+#: classes/Instructor.php:250, classes/Lesson.php:121, classes/Lesson.php:161, 
+#: classes/Lesson.php:218, classes/Quiz.php:140, classes/Quiz.php:470, 
 #: classes/Quiz.php:507, classes/Quiz.php:597, classes/Quiz.php:643, 
 #: classes/Quiz.php:687, classes/Quiz.php:726, classes/Quiz.php:749, 
 #: classes/Quiz.php:845, classes/Quiz.php:868, classes/Quiz.php:889, 
 #: classes/Quiz.php:1000, classes/Quiz.php:1045, classes/Quiz.php:1123, 
-#: classes/Quiz.php:1183, classes/Quiz.php:1205, classes/Q_and_A.php:71, 
-#: templates/dashboard/registration.php:11
+#: classes/Quiz.php:1183, classes/Quiz.php:1205, classes/Q_and_A.php:71
 msgid "Access Denied"
 msgstr "ปฏิเสธการเข้าถึง"
 
@@ -264,7 +263,7 @@ msgstr "เพิ่มหัวข้อเพื่อสร้างคอร
 msgid "Add an answer"
 msgstr "เพิ่มคำตอบ"
 
-#: views/modal/question_form.php:203
+#: views/modal/question_form.php:200
 msgid "Add An Option"
 msgstr "เพิ่มตัวเลือก"
 
@@ -289,7 +288,7 @@ msgstr "เพิ่มผู้สอนอีก"
 msgid "Add new"
 msgstr "สร้างใหม่"
 
-#: templates/dashboard/announcements.php:78
+#: templates/dashboard/announcements.php:77
 msgid "Add New Announcement"
 msgstr "เพิ่มประกาศใหม่"
 
@@ -432,7 +431,7 @@ msgstr "ตัวเลือกขั้นสูง"
 msgid "Advanced Quiz Creator"
 msgstr "การสร้างแบบทดสอบขั้นสูง"
 
-#: classes/Tutor_List_Table.php:360, templates/dashboard/announcements.php:93, 
+#: classes/Tutor_List_Table.php:360, templates/dashboard/announcements.php:92, 
 #: templates/dashboard/assignments.php:38, views/pages/announcements.php:68
 msgid "All"
 msgstr "ทั้งหมด"
@@ -447,7 +446,7 @@ msgstr "หมวดหมู่ทั้งหมด"
 msgid "All Courses"
 msgstr "คอร์สทั้งหมด"
 
-#: classes/Utils.php:4683
+#: classes/Utils.php:4674
 msgid "All Levels"
 msgstr "ทุกระดับ"
 
@@ -515,7 +514,7 @@ msgstr "อนุญาตให้ผู้ใช้มีโปรไฟล์
 msgid "Allows a Q&A forum on each course."
 msgstr "อนุญาตให้มีการ ถาม&ตอบ ในแต่ละคอร์ส"
 
-#: classes/Instructor.php:151
+#: classes/Instructor.php:157
 msgid "Already applied for instructor"
 msgstr "มีผู้สอนแล้ว"
 
@@ -525,7 +524,7 @@ msgstr "มีผู้สอนแล้ว"
 msgid "Amount"
 msgstr "จำนวน"
 
-#: templates/dashboard/announcements.php:60
+#: templates/dashboard/announcements.php:59
 msgid "Announcement"
 msgstr "ประกาศ"
 
@@ -537,11 +536,11 @@ msgstr "สร้างประกาศเรียบร้อยแล้ว
 msgid "Announcement creation failed"
 msgstr "การสร้างประกาศล้มเหลว"
 
-#: classes/Ajax.php:540
+#: classes/Ajax.php:535
 msgid "Announcement delete failed"
 msgstr "การลบประกาศล้มเหลว"
 
-#: classes/Ajax.php:534
+#: classes/Ajax.php:529
 msgid "Announcement deleted successfully"
 msgstr "ลบประกาศเรียบร้อยแล้ว"
 
@@ -557,13 +556,13 @@ msgstr "เรียกคืนประกาศเรียบร้อยแ
 msgid "Announcement summary required"
 msgstr "ต้องการสรุปประกาศ"
 
-#: views/pages/announcements.php:219, views/pages/announcements.php:308, 
+#: views/pages/announcements.php:216, views/pages/announcements.php:298, 
 #: templates/dashboard/announcements/create.php:35, 
 #: templates/dashboard/announcements/update.php:36
 msgid "Announcement Title"
 msgstr "หัวข้อประกาศ"
 
-#: views/pages/announcements.php:223, views/pages/announcements.php:312, 
+#: views/pages/announcements.php:220, views/pages/announcements.php:302, 
 #: templates/dashboard/announcements/create.php:37, 
 #: templates/dashboard/announcements/update.php:38
 msgid "Announcement title"
@@ -581,19 +580,19 @@ msgstr "การอัปเดตประกาศล้มเหลว"
 msgid "Announcement updated successfully"
 msgstr "อัปเดตประกาศเรียบร้อยแล้ว"
 
-#: classes/Admin.php:66, classes/Admin.php:66, classes/Utils.php:1274, 
-#: classes/Utils.php:2450, templates/dashboard/announcements.php:127, 
+#: classes/Admin.php:66, classes/Admin.php:66, classes/Utils.php:1275, 
+#: classes/Utils.php:2441, templates/dashboard/announcements.php:126, 
 #: views/pages/announcements.php:104, views/pages/announcements.php:114
 msgid "Announcements"
 msgstr "ประกาศ"
 
-#: templates/dashboard/announcements.php:171, views/pages/announcements.php:152
+#: templates/dashboard/announcements.php:170, views/pages/announcements.php:152
 msgid "Announcements not found"
 msgstr "ไม่พบประกาศ"
 
 #: classes/Question_Answers_List.php:75, classes/Quiz.php:1071, 
 #: templates/dashboard/question-answer.php:28, 
-#: views/modal/question_form.php:150, views/pages/answer.php:11, 
+#: views/modal/question_form.php:147, views/pages/answer.php:11, 
 #: templates/dashboard/question-answer/answers.php:13
 msgid "Answer"
 msgstr "คำตอบ"
@@ -615,7 +614,7 @@ msgstr "รับค่าคำตอบ"
 msgid "Answer options &amp; mark correct"
 msgstr "ตัวเลือกคำตอบ และ คำตอบที่ถูกต้อง"
 
-#: views/modal/question_form.php:78
+#: views/modal/question_form.php:75
 msgid "Answer Required"
 msgstr "จำเป็นต้องตอบ"
 
@@ -644,7 +643,7 @@ msgstr "สมัครเพื่อเป็นผู้สอน"
 msgid "Approve"
 msgstr "อนุมัติ"
 
-#: classes/Utils.php:2583
+#: classes/Utils.php:2574
 msgid "Approved"
 msgstr "ได้รับการอนุมัติ"
 
@@ -660,7 +659,7 @@ msgstr "คุณแน่ใจใช่ไหม? มันไม่สาม�
 msgid "Are you sure? it can not be undone."
 msgstr "คุณแน่ใจใช่ไหม? มันไม่สามารถยกเลิกได้ "
 
-#: templates/dashboard/announcements.php:110, 
+#: templates/dashboard/announcements.php:109, 
 #: templates/dashboard/assignments.php:54
 msgid "ASC"
 msgstr "น้อยไปมาก"
@@ -674,7 +673,7 @@ msgstr "น้อยไปมาก"
 msgid "Ask a new question"
 msgstr "ถามคำถาม"
 
-#: assets/js/tutor-front.js:1156
+#: assets/js/tutor-front.js:1155
 msgid "Assignment answer can not be empty"
 msgstr "คำตอบของการบ้านเว้นว่างไว้ไม่ได้"
 
@@ -690,7 +689,7 @@ msgstr "คำอธิบายการบ้าน:"
 msgid "Assignment evaluated"
 msgstr "ประเมินผลการบ้านแล้ว"
 
-#: assets/js/tutor-front.js:1467
+#: assets/js/tutor-front.js:1466
 msgid "Assignment Update Failed"
 msgstr "การอัปเดตการบ้านล้มเหลว"
 
@@ -833,7 +832,7 @@ msgstr "เป็นคนแรกที่ถามคำถาม คุณ�
 msgid "Become Instructor Button"
 msgstr "ปุ่มเข้าร่วมเป็นผู้สอน"
 
-#: classes/Utils.php:4684, templates/course-filter/filters.php:4
+#: classes/Utils.php:4675, templates/course-filter/filters.php:4
 msgid "Beginner"
 msgstr "ระดับเริ่มต้น"
 
@@ -863,7 +862,7 @@ msgstr "ประวัติ"
 msgid "Block"
 msgstr "บล็อก"
 
-#: classes/Utils.php:2584
+#: classes/Utils.php:2575
 msgid "Blocked"
 msgstr "ปิดกั้น"
 
@@ -917,11 +916,11 @@ msgstr "โดย"
 #: templates/dashboard/withdraw.php:151, views/modal/add_quiz.php:55, 
 #: views/modal/add_quiz.php:71, views/modal/add_quiz.php:88, 
 #: views/modal/edit_quiz.php:67, views/modal/edit_quiz.php:129, 
-#: views/modal/question_form.php:225, views/pages/announcements.php:256, 
-#: views/pages/announcements.php:344, 
-#: templates/dashboard/announcements/create.php:58, 
+#: views/modal/question_form.php:222, views/pages/announcements.php:246, 
+#: views/pages/announcements.php:328, 
+#: templates/dashboard/announcements/create.php:53, 
 #: templates/dashboard/announcements/details.php:29, 
-#: templates/dashboard/announcements/update.php:59, 
+#: templates/dashboard/announcements/update.php:52, 
 #: templates/single/lesson/sidebar_question_and_answer.php:115, 
 #: templates/single/course/enrolled/question_and_answer.php:52, 
 #: templates/single/course/enrolled/question_and_answer.php:136
@@ -929,8 +928,8 @@ msgid "Cancel"
 msgstr "ยกเลิก"
 
 #: classes/Admin.php:56, classes/Admin.php:56, 
-#: templates/single/course/lead-info.php:92, 
-#: templates/single/course/enrolled/lead-info.php:93
+#: templates/single/course/lead-info.php:91, 
+#: templates/single/course/enrolled/lead-info.php:92
 msgid "Categories"
 msgstr "หมวดหมู่"
 
@@ -1083,7 +1082,7 @@ msgid "Complete your profile so people can know more about you! Go to Profile"
 msgstr ""
 "ป้อนโปรไฟล์ของคุณให้เรียบร้อยเพื่อให้คนอื่นๆรู้จักคุณมากขึ้น! ไปที่โปรไฟล์"
 
-#: classes/Utils.php:6278
+#: classes/Utils.php:6269
 msgid "Completed"
 msgstr "สำเร็จแล้ว"
 
@@ -1125,7 +1124,7 @@ msgstr "ยืนยันรหัสผ่านใหม่"
 msgid "Confirm Password"
 msgstr "ยืนยันรหัสผ่าน"
 
-#: classes/Instructor.php:85, classes/Instructor.php:198, 
+#: classes/Instructor.php:91, classes/Instructor.php:204, 
 #: classes/Student.php:73
 msgid "Confirm password does not matched with Password field"
 msgstr "รหัสผ่านและการยืนยันรหัสผ่านไม่ตรงกัน"
@@ -1175,7 +1174,7 @@ msgstr "ควบคุมการแบ่งรายได้ระหว่
 msgid "Correct"
 msgstr "ตอบถูก"
 
-#: assets/js/tutor-front.js:849
+#: assets/js/tutor-front.js:848
 msgid "Correct Answer"
 msgstr "ตอบถูก"
 
@@ -1199,7 +1198,7 @@ msgstr "ตอบถูก/ตอบผิด"
 msgid "Could not save"
 msgstr "บันทึกไม่ได้"
 
-#: classes/Lesson.php:189
+#: classes/Lesson.php:187
 msgid "Couldn't create lesson."
 msgstr "ไม่สามารถสร้างบทเรียนได้"
 
@@ -1207,7 +1206,7 @@ msgstr "ไม่สามารถสร้างบทเรียนได้
 msgid "Count:"
 msgstr "ตัวนับ :"
 
-#: classes/Lesson.php:276, classes/Options.php:207, 
+#: classes/Lesson.php:271, classes/Options.php:207, 
 #: classes/Question_Answers_List.php:74, classes/Quiz_Attempts_List.php:114, 
 #: classes/Tutor_Setup.php:555, templates/student-public-profile.php:98, 
 #: templates/dashboard/question-answer.php:27, 
@@ -1293,7 +1292,7 @@ msgstr "อัปเดตฉบับร่างของคอร์สแล
 msgid "Course Duration"
 msgstr "ระยะเวลาเรียน"
 
-#: classes/Utils.php:2128, templates/student-public-profile.php:116
+#: classes/Utils.php:2129, templates/student-public-profile.php:116
 msgid "Course Enrolled"
 msgstr "ลงทะเบียนคอร์ส"
 
@@ -1419,7 +1418,7 @@ msgstr "ยื่นเสนอคอร์สแล้ว"
 
 #: classes/Options.php:392
 msgid "Course Target Audience"
-msgstr "กลุ่มเป้าหมายของคอร์ส"
+msgstr "ผู้เรียนที่เหมาะกับการเรียนคอร์สนี้"
 
 #: templates/dashboard/create-course.php:171
 msgid "Course Thumbnail"
@@ -1474,7 +1473,7 @@ msgstr "คอร์ส:"
 
 #: classes/Post_types.php:49, templates/student-public-profile.php:98, 
 #: templates/student-public-profile.php:159, 
-#: templates/dashboard/announcements.php:89, 
+#: templates/dashboard/announcements.php:88, 
 #: templates/dashboard/assignments.php:34, 
 #: templates/dashboard/purchase_history.php:21, 
 #: templates/shortcode/tutor-instructor.php:27, 
@@ -1498,7 +1497,7 @@ msgstr "คอร์สต่อหน้า"
 msgid "Courses Per Row"
 msgstr "จำนวนคอร์สต่อแถว"
 
-#: classes/Utils.php:4709
+#: classes/Utils.php:4700
 msgid "Courses Taken"
 msgstr "คอร์สที่เรียน"
 
@@ -1521,11 +1520,11 @@ msgstr "สร้างบัญชีผู้ใช้งานใหม่"
 msgid "CREATE A NEW COURSE"
 msgstr "สร้างคอร์ส"
 
-#: templates/dashboard/announcements.php:68
+#: templates/dashboard/announcements.php:67
 msgid "Create Announcement"
 msgstr "สร้างประกาศ"
 
-#: classes/Utils.php:2448
+#: classes/Utils.php:2439
 msgid "Create Course"
 msgstr "สร้างคอร์ส"
 
@@ -1533,7 +1532,7 @@ msgstr "สร้างคอร์ส"
 msgid "Create Date"
 msgstr "วันที่สร้าง"
 
-#: views/pages/announcements.php:184, 
+#: views/pages/announcements.php:181, 
 #: templates/dashboard/announcements/create.php:6
 msgid "Create New Announcement"
 msgstr "สร้างประกาศใหม่"
@@ -1558,18 +1557,18 @@ msgstr "ลบฟิลด์ที่กำหนดเองแล้ว"
 msgid "Custom field updated."
 msgstr "อัปเดตฟิลด์ที่กำหนดเองแล้ว"
 
-#: classes/Tutor.php:521, classes/Utils.php:2437, 
+#: classes/Tutor.php:521, classes/Utils.php:2428, 
 #: templates/dashboard/dashboard.php:9
 msgid "Dashboard"
 msgstr "หน้าควบคุม"
 
-#: classes/Options.php:102, classes/Utils.php:6319
+#: classes/Options.php:102, classes/Utils.php:6310
 msgid "Dashboard Page"
 msgstr "หน้าควบคุม"
 
 #: classes/Tutor_List_Table.php:406, 
-#: templates/dashboard/announcements.php:116, 
-#: templates/dashboard/announcements.php:126, 
+#: templates/dashboard/announcements.php:115, 
+#: templates/dashboard/announcements.php:125, 
 #: templates/dashboard/purchase_history.php:24, 
 #: views/pages/announcements.php:94, views/pages/announcements.php:113, 
 #: templates/dashboard/assignments/submitted.php:71
@@ -1674,7 +1673,7 @@ msgid "Define the number of statements to show."
 msgstr "กำหนดจำนวนรายการเดินบัญชีที่จะแสดง"
 
 #: classes/Withdraw_Requests_List.php:63, 
-#: templates/dashboard/announcements.php:160, 
+#: templates/dashboard/announcements.php:159, 
 #: templates/dashboard/my-courses.php:78, 
 #: templates/dashboard/question-answer.php:40, 
 #: views/pages/announcements.php:142, 
@@ -1700,7 +1699,7 @@ msgstr "ลบคำถามนี้?"
 msgid "Delete Topic"
 msgstr "ลบหัวข้อ"
 
-#: templates/dashboard/announcements.php:111, 
+#: templates/dashboard/announcements.php:110, 
 #: templates/dashboard/assignments.php:55
 msgid "DESC"
 msgstr "มากไปน้อย"
@@ -1710,7 +1709,7 @@ msgid "Descending"
 msgstr "มากไปน้อย"
 
 #: templates/dashboard/create-course.php:107, 
-#: views/modal/question_form.php:113, 
+#: views/modal/question_form.php:110, 
 #: templates/single/assignment/content.php:134, 
 #: templates/single/course/course-content.php:26
 msgid "Description"
@@ -1726,7 +1725,7 @@ msgstr "คำอธิบาย"
 msgid "Detail not found for given ID"
 msgstr "ไม่พบรายละเอียดสำหรับ ID ที่ระบุ"
 
-#: templates/dashboard/announcements.php:148, 
+#: templates/dashboard/announcements.php:147, 
 #: templates/dashboard/assignments.php:99, 
 #: templates/dashboard/quiz-attempts.php:100, 
 #: templates/dashboard/assignments/submitted.php:91, 
@@ -1835,7 +1834,7 @@ msgstr "ปิดใช้งานตัวเลือกนี้เพื่
 msgid ""
 "Disabling this feature will be removed course target audience from the "
 "course page."
-msgstr "ปิดใช้งานตัวเลือกนี้เพื่อลบ กลุ่มเป้าหมาย ออกจากหน้าคอร์ส"
+msgstr "ปิดใช้งานตัวเลือกนี้เพื่อลบ ผู้ที่ควรเรียนคอร์สนี้ ออกจากหน้าคอร์ส"
 
 #: classes/Options.php:339
 msgid ""
@@ -1868,7 +1867,7 @@ msgstr "แสดงข้อมูลผู้สอน"
 msgid "Display name publicly as"
 msgstr "ชื่อที่จะให้แสดงแบบสาธารณะ"
 
-#: views/modal/question_form.php:107
+#: views/modal/question_form.php:104
 msgid "Display Points"
 msgstr "แสดงคะแนน"
 
@@ -1892,7 +1891,7 @@ msgstr "เอกสาร"
 msgid "DOMDocument"
 msgstr "DOMDocument"
 
-#: assets/js/tutor-front.js:1274
+#: assets/js/tutor-front.js:1273
 msgid "Done"
 msgstr "เสร็จ"
 
@@ -1900,8 +1899,8 @@ msgstr "เสร็จ"
 msgid "Draft Lesson"
 msgstr "ร่างบทเรียน"
 
-#: templates/single/course/lead-info.php:111, 
-#: templates/single/course/enrolled/lead-info.php:112
+#: templates/single/course/lead-info.php:110, 
+#: templates/single/course/enrolled/lead-info.php:111
 msgid "Duration"
 msgstr "ระยะเวลา"
 
@@ -1914,12 +1913,12 @@ msgid "E-Check"
 msgstr "E-Check"
 
 #: classes/Instructors_List.php:115, classes/Students_List.php:62, 
-#: templates/dashboard/registration.php:73, 
-#: templates/dashboard/registration.php:76, 
+#: templates/dashboard/registration.php:74, 
+#: templates/dashboard/registration.php:77, 
 #: views/pages/add_new_instructor.php:69, 
 #: views/pages/add_new_instructor.php:75, 
-#: templates/dashboard/instructor/registration.php:67, 
-#: templates/dashboard/instructor/registration.php:70
+#: templates/dashboard/instructor/registration.php:75, 
+#: templates/dashboard/instructor/registration.php:78
 msgid "E-Mail"
 msgstr "อีเมล"
 
@@ -1927,7 +1926,7 @@ msgstr "อีเมล"
 msgid "E-Mail Address"
 msgstr "ที่อยู่อีเมล"
 
-#: classes/Instructor.php:56, classes/Instructor.php:180, 
+#: classes/Instructor.php:62, classes/Instructor.php:186, 
 #: classes/Student.php:43
 msgid "E-Mail field is required"
 msgstr "ต้องกรอกข้อมูลอีเมล"
@@ -1985,7 +1984,7 @@ msgstr "ข้อมูลรายได้สำหรับปี %s"
 msgid "Earning Report"
 msgstr "รายงานรายได้"
 
-#: classes/Utils.php:2451, templates/dashboard/earning.php:35, 
+#: classes/Utils.php:2442, templates/dashboard/earning.php:35, 
 #: templates/dashboard/earning.php:43
 msgid "Earnings"
 msgstr "รายได้"
@@ -1998,7 +1997,7 @@ msgstr "ตารางรายได้เดือนนี้"
 msgid "Easy Digital Downloads"
 msgstr "Easy Digital Downloads"
 
-#: templates/dashboard/announcements.php:156, 
+#: templates/dashboard/announcements.php:155, 
 #: templates/dashboard/my-courses.php:75, views/pages/announcements.php:139, 
 #: templates/dashboard/announcements/details.php:33
 msgid "Edit"
@@ -2164,7 +2163,7 @@ msgid ""
 msgstr ""
 "เปิดใช้งานตัวเลือกนี้ เพื่อแสดงรีวิวที่เขียนโดยผู้เรียนในหน้าโปรไฟล์ของพวกเขา"
 
-#: templates/single/course/add-to-cart.php:56
+#: templates/single/course/add-to-cart.php:73
 msgid "Enroll Now"
 msgstr "ลงทะเบียนเรียน"
 
@@ -2172,11 +2171,11 @@ msgstr "ลงทะเบียนเรียน"
 msgid "Enrolled"
 msgstr "ผู้เรียน"
 
-#: classes/Utils.php:4716
+#: classes/Utils.php:4707
 msgid "Enrolled Course"
 msgstr "คอร์สที่ลงทะเบียน"
 
-#: classes/Utils.php:2439, templates/dashboard/dashboard.php:30, 
+#: classes/Utils.php:2430, templates/dashboard/dashboard.php:30, 
 #: templates/dashboard/enrolled-courses.php:9
 msgid "Enrolled Courses"
 msgstr "คอร์สที่ลงทะเบียน"
@@ -2237,7 +2236,7 @@ msgstr "ออก"
 msgid "Expand all"
 msgstr "ขยายทั้งหมด"
 
-#: classes/Utils.php:4686, templates/course-filter/filters.php:6
+#: classes/Utils.php:4677, templates/course-filter/filters.php:6
 msgid "Expert"
 msgstr "ระดับสูง"
 
@@ -2266,7 +2265,7 @@ msgstr "URL ภายนอก"
 msgid "External Video URL"
 msgstr "URL วิดีโอภายนอก"
 
-#: classes/Utils.php:5008
+#: classes/Utils.php:4999
 msgid "Facebook URL"
 msgstr "FacebookURL"
 
@@ -2279,7 +2278,7 @@ msgstr "FacebookURL"
 msgid "Fail"
 msgstr "ไม่ผ่าน"
 
-#: assets/js/tutor-front.js:1277
+#: assets/js/tutor-front.js:1276
 msgid "Failed"
 msgstr "ล้มเหลว"
 
@@ -2311,7 +2310,7 @@ msgstr ""
 "ค่าธรรมเนียมจะถูกเรียกเก็บจากยอดขายทั้งหมด "
 "จำนวนเงินที่เหลือจะถูกแบ่งระหว่างผู้ดูแลและผู้สอน"
 
-#: classes/Utils.php:3913
+#: classes/Utils.php:3904
 msgid "Fill In The Blanks"
 msgstr "เติมคำในช่องว่าง"
 
@@ -2331,19 +2330,19 @@ msgstr "เรียบร้อย"
 msgid "First Attempt"
 msgstr "การทดสอบครั้งแรก"
 
-#: classes/Utils.php:6460, templates/dashboard/my-profile.php:34, 
-#: templates/dashboard/registration.php:40, 
-#: templates/dashboard/registration.php:43, 
+#: classes/Utils.php:6451, templates/dashboard/my-profile.php:34, 
+#: templates/dashboard/registration.php:41, 
+#: templates/dashboard/registration.php:44, 
 #: views/pages/add_new_instructor.php:29, 
 #: views/pages/add_new_instructor.php:35, 
-#: templates/dashboard/instructor/registration.php:32, 
-#: templates/dashboard/instructor/registration.php:35, 
+#: templates/dashboard/instructor/registration.php:40, 
+#: templates/dashboard/instructor/registration.php:43, 
 #: templates/dashboard/settings/profile.php:95, 
 #: templates/dashboard/settings/profile.php:97
 msgid "First Name"
 msgstr "ชื่อ"
 
-#: classes/Instructor.php:54, classes/Instructor.php:178, 
+#: classes/Instructor.php:60, classes/Instructor.php:184, 
 #: classes/Student.php:41
 msgid "First name field is required"
 msgstr "ต้องกรอกข้อมูลชื่อ"
@@ -2369,7 +2368,8 @@ msgstr "ลืมรหัสผ่าน?"
 #: templates/loop/course-continue.php:19, 
 #: templates/loop/course-in-cart.php:20, 
 #: templates/loop/course-price-edd.php:20, 
-#: templates/loop/course-price-woocommerce.php:19, 
+#: templates/loop/course-price-woocommerce.php:20, 
+#: templates/loop/course-price-woocommerce.php:35, 
 #: templates/loop/course-price.php:19, 
 #: views/metabox/course-add-edd-product-metabox.php:59, 
 #: views/metabox/course-add-product-metabox.php:66, 
@@ -2413,7 +2413,7 @@ msgid "General Settings"
 msgstr "การตั้งค่าทั่วไป"
 
 #: templates/loop/course-price-edd.php:19, 
-#: templates/loop/course-price-woocommerce.php:18, 
+#: templates/loop/course-price-woocommerce.php:19, 
 #: templates/loop/course-price.php:18
 msgid "Get Enrolled"
 msgstr "ลงทะเบียน"
@@ -2430,7 +2430,7 @@ msgstr "ซื้อปลั๊กอินเวอร์ชัน Pro จา�
 msgid "Get your payment directly into your bank account"
 msgstr "รับการชำระเงินของคุณโดยตรงด้วยบัญชีธนาคารของคุณ"
 
-#: classes/Utils.php:5003
+#: classes/Utils.php:4994
 msgid "Github URL"
 msgstr "Github URL"
 
@@ -2445,7 +2445,7 @@ msgstr "ที่เขียน"
 msgid "Given Answers"
 msgstr "คำตอบของคุณ"
 
-#: templates/single-preview-lesson.php:197, templates/single-quiz.php:35, 
+#: templates/single-preview-lesson.php:194, templates/single-quiz.php:35, 
 #: templates/single/assignment/content.php:31, 
 #: templates/single/lesson/content.php:34, 
 #: templates/single/quiz/single_quiz_contents.php:14
@@ -2657,7 +2657,7 @@ msgstr ""
 msgid "Image"
 msgstr "รูปภาพ"
 
-#: classes/Utils.php:3917
+#: classes/Utils.php:3908
 msgid "Image Answering"
 msgstr "ตอบคำถามด้วยรูปภาพ"
 
@@ -2666,7 +2666,7 @@ msgstr "ตอบคำถามด้วยรูปภาพ"
 msgid "Image matched text"
 msgstr "จับคู่ข้อความกับรูปภาพ"
 
-#: classes/Utils.php:3916
+#: classes/Utils.php:3907
 msgid "Image Matching"
 msgstr "การจับคู่รูปภาพ"
 
@@ -2682,7 +2682,7 @@ msgstr ""
 msgid "In"
 msgstr "ใน"
 
-#: classes/Utils.php:6282
+#: classes/Utils.php:6273
 msgid "In Progress"
 msgstr "กำลังดำเนินการ"
 
@@ -2706,7 +2706,7 @@ msgstr "ตอบผิด"
 msgid "Incorrect Previous Password"
 msgstr "รหัสผ่านก่อนหน้าไม่ถูกต้อง"
 
-#: assets/js/tutor-front.js:810
+#: assets/js/tutor-front.js:809
 msgid "Incorrect, Please try again"
 msgstr "ไม่ถูกต้อง โปรดลองอีกครั้ง"
 
@@ -2728,7 +2728,7 @@ msgid ""
 "page."
 msgstr "ข้อมูลจาก ข้อมูลเพิ่มเติม จะแสดงในหน้าของหลักสูตร"
 
-#: views/modal/question_form.php:126
+#: views/modal/question_form.php:123
 msgid "Input options for the question and select the correct answer."
 msgstr "ตัวเลือกการป้อนข้อมูลสำหรับคำถามและเลือกคำตอบที่ถูกต้อง"
 
@@ -2737,7 +2737,7 @@ msgid "Instruction"
 msgstr "คำแนะนำ"
 
 #: classes/Tutor_Setup.php:268, classes/Tutor_Setup.php:557, 
-#: classes/Utils.php:2447
+#: classes/Utils.php:2438
 msgid "Instructor"
 msgstr "ผู้สอน"
 
@@ -2756,7 +2756,7 @@ msgstr "ค่า % คอมมิชชั่นสำหรับผู้ส
 msgid "Instructor Feedback"
 msgstr "ข้อเสนอแนะของผู้สอน"
 
-#: classes/Instructor.php:234
+#: classes/Instructor.php:240
 msgid "Instructor has been added successfully"
 msgstr "เพิ่มผู้สอนเรียบร้อยแล้ว"
 
@@ -2776,7 +2776,7 @@ msgstr "การตั้งค่าโปรไฟล์ผู้สอน"
 msgid "Instructor Registration"
 msgstr "ลงทะเบียนผู้สอน"
 
-#: classes/Options.php:544, classes/Utils.php:6320
+#: classes/Options.php:544, classes/Utils.php:6311
 msgid "Instructor Registration Page"
 msgstr "หน้าลงทะเบียนผู้สอน"
 
@@ -2800,7 +2800,7 @@ msgstr "ผู้สอนควรมีรายได้มากกว่า
 msgid "Insufficient balance."
 msgstr "สมดุลไม่ดี"
 
-#: classes/Utils.php:4685, templates/course-filter/filters.php:5
+#: classes/Utils.php:4676, templates/course-filter/filters.php:5
 msgid "Intermediate"
 msgstr "ระดับกลาง"
 
@@ -2846,25 +2846,25 @@ msgstr "การทดสอบครั้งล่าสุด"
 msgid "Last Month"
 msgstr "เดือนที่แล้ว"
 
-#: classes/Utils.php:6461, templates/dashboard/my-profile.php:42, 
-#: templates/dashboard/registration.php:50, 
-#: templates/dashboard/registration.php:53, 
+#: classes/Utils.php:6452, templates/dashboard/my-profile.php:42, 
+#: templates/dashboard/registration.php:51, 
+#: templates/dashboard/registration.php:54, 
 #: views/pages/add_new_instructor.php:43, 
 #: views/pages/add_new_instructor.php:49, 
-#: templates/dashboard/instructor/registration.php:42, 
-#: templates/dashboard/instructor/registration.php:45, 
+#: templates/dashboard/instructor/registration.php:50, 
+#: templates/dashboard/instructor/registration.php:53, 
 #: templates/dashboard/settings/profile.php:104, 
 #: templates/dashboard/settings/profile.php:106
 msgid "Last Name"
 msgstr "นามสกุล"
 
-#: classes/Instructor.php:55, classes/Instructor.php:179, 
+#: classes/Instructor.php:61, classes/Instructor.php:185, 
 #: classes/Student.php:42
 msgid "Last name field is required"
 msgstr "ต้องกรอกข้อมูลนามสกุล"
 
-#: templates/single/course/lead-info.php:125, 
-#: templates/single/course/enrolled/lead-info.php:126
+#: templates/single/course/lead-info.php:124, 
+#: templates/single/course/enrolled/lead-info.php:125
 msgid "Last Update"
 msgstr "อัปเดตล่าสุด"
 
@@ -2884,7 +2884,7 @@ msgstr "ล่าสุด"
 msgid "Lesson"
 msgstr "บทเรียน"
 
-#: templates/single-preview-lesson.php:72, 
+#: templates/single-preview-lesson.php:69, 
 #: templates/single/lesson/lesson_sidebar.php:41
 msgid "Lesson List"
 msgstr "รายการบทเรียน"
@@ -2917,7 +2917,7 @@ msgstr "Slug ของบทเรียน"
 msgid "Lesson title"
 msgstr "ชื่อบทเรียน"
 
-#: assets/js/tutor-front.js:1277
+#: assets/js/tutor-front.js:1276
 msgid "Lesson Update Failed"
 msgstr "การอัปเดตบทเรียนล้มเหลว"
 
@@ -2958,7 +2958,7 @@ msgstr "ระดับ"
 msgid "Light color"
 msgstr "สีอ่อน"
 
-#: classes/Utils.php:5018
+#: classes/Utils.php:5009
 msgid "Linkedin URL"
 msgstr "LinkedInURL"
 
@@ -3005,7 +3005,7 @@ msgstr ""
 "ข้อความแสดงข้อผิดพลาดในการเข้าสู่ระบบ "
 "จะแสดงเมื่อผู้ใช้ใส่ข้อมูลการเข้าสู่ระบบไม่ถูกต้อง "
 
-#: classes/Utils.php:2467
+#: classes/Utils.php:2458
 msgid "Logout"
 msgstr "ออกจากระบบ"
 
@@ -3034,7 +3034,7 @@ msgstr ""
 "ตรวจสอบให้แน่ใจว่าคุณบันทึกคำตอบในลำดับที่ถูกต้อง "
 "ผู้เรียนจะต้องจับคู่ให้ตรงกับลำดับนี้ให้ถูกต้อง"
 
-#: views/modal/question_form.php:129
+#: views/modal/question_form.php:126
 msgid ""
 "Make sure you’re saving the answers in the right order. Students will have "
 "to match this order."
@@ -3057,7 +3057,7 @@ msgid "Manually reviewed at: "
 msgstr "ตรวจสอบเองเมื่อ :"
 
 #: classes/Quiz.php:1093, classes/Quiz.php:1087, 
-#: views/modal/question_form.php:174, views/modal/question_form.php:167, 
+#: views/modal/question_form.php:171, views/modal/question_form.php:164, 
 #: views/pages/view_attempt.php:342, 
 #: templates/dashboard/quiz-attempts/quiz-reviews.php:400
 msgid "Mark as correct"
@@ -3082,7 +3082,7 @@ msgstr "คะแนน :"
 msgid "Matched Answer title"
 msgstr "หัวข้อคำตอบการจับคู่"
 
-#: classes/Utils.php:3915
+#: classes/Utils.php:3906
 msgid "Matching"
 msgstr "การจับคู่"
 
@@ -3147,7 +3147,7 @@ msgstr "การสร้างรายได้"
 msgid "Monetize Option"
 msgstr "ตัวเลือกการสร้างรายได้"
 
-#: assets/js/tutor-front.js:825
+#: assets/js/tutor-front.js:824
 msgid "More answer for this question is required"
 msgstr "ต้องการคำตอบเพิ่มเติมสำหรับคำถามนี้"
 
@@ -3167,7 +3167,7 @@ msgstr ""
 "Multibyte String (mbstring) ใช้สำหรับแปลงการเข้ารหัสตัวอักษร เช่น อีเมล "
 "หรือแปลงตัวอักษรเป็นตัวพิมพ์เล็ก"
 
-#: classes/Utils.php:3911
+#: classes/Utils.php:3902
 msgid "Multiple Choice"
 msgstr "หลายตัวเลือก"
 
@@ -3175,7 +3175,7 @@ msgstr "หลายตัวเลือก"
 msgid "My Balance"
 msgstr "ยอดเงินคงเหลือของฉัน"
 
-#: classes/Utils.php:2449, templates/dashboard/my-courses.php:9
+#: classes/Utils.php:2440, templates/dashboard/my-courses.php:9
 msgid "My Courses"
 msgstr "คอร์สของฉัน"
 
@@ -3193,11 +3193,11 @@ msgstr "รายได้ของฉัน"
 msgid "My Earnings"
 msgstr "รายได้ของฉัน"
 
-#: classes/Utils.php:2438, templates/dashboard/my-profile.php:21
+#: classes/Utils.php:2429, templates/dashboard/my-profile.php:21
 msgid "My Profile"
 msgstr "โปรไฟล์ของฉัน"
 
-#: classes/Utils.php:2442, templates/dashboard/my-quiz-attempts.php:26
+#: classes/Utils.php:2433, templates/dashboard/my-quiz-attempts.php:26
 msgid "My Quiz Attempts"
 msgstr "การทำแบบทดสอบของฉัน"
 
@@ -3296,7 +3296,7 @@ msgstr "ไม่พบการบ้าน"
 msgid "No categories found."
 msgstr "ไม่พบหมวดหมู่"
 
-#: templates/dashboard/announcements.php:102, 
+#: templates/dashboard/announcements.php:101, 
 #: templates/dashboard/assignments.php:47, views/pages/announcements.php:77, 
 #: templates/dashboard/announcements/create.php:29, 
 #: templates/dashboard/announcements/update.php:30
@@ -3411,7 +3411,7 @@ msgstr "ไม่พบ"
 msgid "Not sure. Let’s go to the next step."
 msgstr "ไม่แน่ใจ ข้ามไปก่อน"
 
-#: classes/Utils.php:6284
+#: classes/Utils.php:6275
 msgid "Not Taken"
 msgstr "ไม่ได้รับ"
 
@@ -3423,15 +3423,9 @@ msgstr ""
 "หมายเหตุ : เครื่องมือนี้จะติดตั้งหน้าที่ขาดไปของ Tutor LMS  "
 "หน้าที่ตั้งค่าไว้แล้วจะไม่ถูกแทนที่"
 
-#: templates/dashboard/announcements.php:71
+#: templates/dashboard/announcements.php:70
 msgid "Notify all students of your course"
 msgstr "แจ้งผู้เรียนทุกคนเกี่ยวกับคอร์สของคุณ "
-
-#: views/pages/announcements.php:241, views/pages/announcements.php:329, 
-#: templates/dashboard/announcements/create.php:49, 
-#: templates/dashboard/announcements/update.php:50
-msgid "Notify to all students of this course."
-msgstr "แจ้งผู้เรียนทุกคนในคอร์สนี้ "
 
 #: classes/Options.php:180
 msgid "Number of items you would like displayed \"per page\" in the pagination"
@@ -3476,7 +3470,7 @@ msgstr "รูปภาพเท่านั้น"
 msgid "Only text"
 msgstr "ข้อความเท่านั้น"
 
-#: classes/Utils.php:3912
+#: classes/Utils.php:3903
 msgid "Open Ended/Essay"
 msgstr "คำถามเปิด/เรียงความ"
 
@@ -3488,7 +3482,7 @@ msgstr "จำกัดตัวอักษร คำถามเปิด/เ�
 msgid "Option Updated"
 msgstr "อัปเดตตัวเลือกแล้ว"
 
-#: views/modal/edit_quiz.php:207, views/modal/question_form.php:113
+#: views/modal/edit_quiz.php:207, views/modal/question_form.php:110
 msgid "Optional"
 msgstr "ตัวเลือก"
 
@@ -3500,7 +3494,7 @@ msgstr "เรียงลำดับ"
 msgid "OrderBy"
 msgstr "เรียงลำดับโดย"
 
-#: classes/Utils.php:3918
+#: classes/Utils.php:3909
 msgid "Ordering"
 msgstr "การเรียงลำดับ"
 
@@ -3572,34 +3566,34 @@ msgstr "เกณฑ์ผ่านเกรด"
 msgid "Passing Grade (%)"
 msgstr "เกณฑ์ผ่านเกรด (%)"
 
-#: templates/dashboard/registration.php:86, 
-#: templates/dashboard/registration.php:89, templates/global/login.php:34, 
+#: templates/dashboard/registration.php:87, 
+#: templates/dashboard/registration.php:90, templates/global/login.php:34, 
 #: templates/template-part/form-retrieve-password.php:25, 
 #: views/pages/add_new_instructor.php:95, 
 #: views/pages/add_new_instructor.php:101, 
-#: templates/dashboard/instructor/registration.php:80, 
-#: templates/dashboard/instructor/registration.php:83
+#: templates/dashboard/instructor/registration.php:88, 
+#: templates/dashboard/instructor/registration.php:91
 msgid "Password"
 msgstr "รหัสผ่าน"
 
-#: templates/dashboard/registration.php:99, 
+#: templates/dashboard/registration.php:100, 
 #: views/pages/add_new_instructor.php:114, 
-#: templates/dashboard/instructor/registration.php:93
+#: templates/dashboard/instructor/registration.php:101
 msgid "Password Confirmation"
 msgstr "ยืนยันรหัสผ่าน"
 
-#: templates/dashboard/registration.php:96, 
+#: templates/dashboard/registration.php:97, 
 #: views/pages/add_new_instructor.php:108, 
-#: templates/dashboard/instructor/registration.php:90
+#: templates/dashboard/instructor/registration.php:98
 msgid "Password confirmation"
 msgstr "ยืนยันรหัสผ่าน"
 
-#: classes/Instructor.php:59, classes/Instructor.php:184, 
+#: classes/Instructor.php:65, classes/Instructor.php:190, 
 #: classes/Student.php:46
 msgid "Password Confirmation field is required"
 msgstr "จำเป็นต้องกรอกข้อมูลยืนยันรหัสผ่าน"
 
-#: classes/Instructor.php:58, classes/Instructor.php:183, 
+#: classes/Instructor.php:64, classes/Instructor.php:189, 
 #: classes/Student.php:45
 msgid "Password field is required"
 msgstr "ต้องกรอกข้อมูลรหัสผ่าน"
@@ -3650,7 +3644,7 @@ msgstr "PayPal"
 msgid "PayPal E-Mail Address"
 msgstr "ที่อยู่อีเมลของ PayPal"
 
-#: classes/Utils.php:2582
+#: classes/Utils.php:2573
 msgid "Pending"
 msgstr "รอดำเนินการ"
 
@@ -3663,7 +3657,7 @@ msgstr "เปอร์เซ็นต์"
 msgid "Permission Denied"
 msgstr "ปฏิเสธการเข้าถึง"
 
-#: classes/Instructor.php:159, classes/Template.php:261
+#: classes/Instructor.php:165, classes/Template.php:261
 msgid "Permission denied"
 msgstr "ปฏิเสธการเข้าถึง"
 
@@ -3675,7 +3669,7 @@ msgstr "ปฏิเสธการเข้าถึง"
 msgid "Phone Number"
 msgstr "เบอร์โทรศัพท์"
 
-#: classes/Instructor.php:182
+#: classes/Instructor.php:188
 msgid "Phone Number field is required"
 msgstr "ต้องระบุข้อมูลเบอร์โทรศัพท์"
 
@@ -3811,7 +3805,7 @@ msgstr ""
 msgid "Please make sure you have added more than one option and saved them"
 msgstr "โปรดตรวจสอบให้แน่ใจว่าคุณได้เพิ่มมากกว่าหนึ่งตัวเลือกและบันทึกมันแล้ว"
 
-#: assets/js/tutor-front.js:775
+#: assets/js/tutor-front.js:774
 msgid "Please match all the items"
 msgstr "โปรดจับคู่รายการทั้งหมด "
 
@@ -3824,11 +3818,11 @@ msgstr "โปรดตรวจสอบคำตอบสำหรับคำ
 msgid "Please save withdraw method "
 msgstr "กรุณาบันทึกวิธีการถอนเงิน"
 
-#: assets/js/tutor-front.js:741
+#: assets/js/tutor-front.js:740
 msgid "Please select an option to answer"
 msgstr "โปรดเลือกตัวเลือกที่จะตอบ"
 
-#: assets/js/tutor-front.js:746
+#: assets/js/tutor-front.js:745
 msgid "Please select at least one option to answer."
 msgstr "โปรดเลือกอย่างน้อยหนึ่งตัวเลือกที่จะตอบ"
 
@@ -3840,7 +3834,7 @@ msgstr "โปรดเลือกคำตอบที่ถูกต้อง
 msgid "Please Sign In first"
 msgstr "กรุณาเข้าสู่ระบบก่อน"
 
-#: classes/Course.php:594, classes/Lesson.php:315
+#: classes/Course.php:594, classes/Lesson.php:310
 msgid "Please Sign-In"
 msgstr "กรุณาเข้าสู่ระบบ"
 
@@ -3856,7 +3850,7 @@ msgstr "กรุณาเขียนคำตอบ"
 msgid "Plugins"
 msgstr "ปลั๊กอิน"
 
-#: views/modal/question_form.php:91
+#: views/modal/question_form.php:88
 msgid "Point(s) for this answer"
 msgstr "คะแนนสำหรับคำตอบนี้"
 
@@ -3966,9 +3960,9 @@ msgstr "สีเมื่อเม้าส์อยู่ด้านบน"
 
 #: classes/Admin.php:49
 msgid "Pro"
-msgstr "Pro"
+msgstr " Pro"
 
-#: views/modal/question_form.php:57
+#: views/modal/question_form.php:54
 msgid "Pro version required"
 msgstr "ต้องการรุ่น Pro"
 
@@ -3980,7 +3974,7 @@ msgstr "โปรไฟล์"
 msgid "Profile Completion"
 msgstr "ทำโปรไฟล์ให้สมบูรณ์ "
 
-#: classes/Utils.php:6462
+#: classes/Utils.php:6453
 msgid "Profile Photo"
 msgstr "รูปโปรไฟล์"
 
@@ -4000,8 +3994,8 @@ msgstr "โปรไฟล์สาธารณะ"
 msgid "Public Profile Layout"
 msgstr "รูปแบบโปรไฟล์สาธารณะ"
 
-#: views/pages/announcements.php:253, 
-#: templates/dashboard/announcements/create.php:57
+#: views/pages/announcements.php:243, 
+#: templates/dashboard/announcements/create.php:52
 msgid "Publish"
 msgstr "เผยแพร่"
 
@@ -4014,7 +4008,7 @@ msgstr "เผยแพร่คอร์ส"
 msgid "Published"
 msgstr "เผยแพร่แล้ว"
 
-#: classes/Utils.php:2443, templates/dashboard/purchase_history.php:9
+#: classes/Utils.php:2434, templates/dashboard/purchase_history.php:9
 msgid "Purchase History"
 msgstr "ประวัติการสั่งซื้อ"
 
@@ -4026,7 +4020,7 @@ msgstr "ถาม ตอบ"
 msgid "Q & A "
 msgstr "ถาม ตอบ"
 
-#: classes/Utils.php:1273
+#: classes/Utils.php:1274
 msgid "Q&A"
 msgstr "ถาม&ตอบ"
 
@@ -4038,7 +4032,7 @@ msgstr "ถาม&ตอบ"
 msgid "Question"
 msgstr "คำถาม"
 
-#: classes/Utils.php:2454, templates/dashboard/question-answer.php:10, 
+#: classes/Utils.php:2445, templates/dashboard/question-answer.php:10, 
 #: views/pages/question_answer.php:18
 msgid "Question & Answer"
 msgstr "คำถาม & คำตอบ"
@@ -4115,7 +4109,7 @@ msgstr "แบบทดสอบ"
 msgid "Quiz"
 msgstr "แบบทดสอบ"
 
-#: classes/Admin.php:70, classes/Admin.php:70, classes/Utils.php:2453, 
+#: classes/Admin.php:70, classes/Admin.php:70, classes/Utils.php:2444, 
 #: templates/dashboard/quiz-attempts.php:19, views/pages/quiz_attempts.php:19
 msgid "Quiz Attempts"
 msgstr "การทำแบบทดสอบ"
@@ -4187,7 +4181,7 @@ msgstr "แบบทดสอบ"
 msgid "Random"
 msgstr "สุ่ม"
 
-#: views/modal/question_form.php:85
+#: views/modal/question_form.php:82
 msgid "Randomize"
 msgstr "สุ่ม"
 
@@ -4226,17 +4220,22 @@ msgstr "สร้างหน้าของ Tutor LMS ขึ้นใหม่"
 msgid "Received"
 msgstr "ที่ได้รับ"
 
-#: templates/dashboard/registration.php:122
+#: templates/dashboard/registration.php:123
 msgid "Register"
 msgstr "ลงทะเบียน"
 
-#: templates/dashboard/instructor/registration.php:115
+#: templates/dashboard/instructor/registration.php:123
 msgid "Register as instructor"
 msgstr "ลงทะเบียนเป็นผู้สอน"
 
 #: templates/dashboard/my-profile.php:26
 msgid "Registration Date"
 msgstr "วันที่ลงทะเบียน"
+
+#: templates/dashboard/registration.php:11, 
+#: templates/dashboard/instructor/registration.php:11
+msgid "Registration disabled. Please ask site admin to enable registration."
+msgstr ""
 
 #: classes/Instructors_List.php:82
 msgid "Reject"
@@ -4357,7 +4356,7 @@ msgstr "ผลลัพธ์"
 msgid "Results"
 msgstr "ผลลัพธ์"
 
-#: classes/Utils.php:2478
+#: classes/Utils.php:2469
 msgid "Retrieve Password"
 msgstr "กู้คืนรหัสผ่าน"
 
@@ -4379,11 +4378,11 @@ msgstr "รีวิว"
 msgid "Review Required"
 msgstr "ต้องตรวจคำตอบ"
 
-#: classes/Utils.php:2441
+#: classes/Utils.php:2432
 msgid "Reviews"
 msgstr "รีวิว"
 
-#: classes/Utils.php:4720
+#: classes/Utils.php:4711
 msgid "Reviews Written"
 msgstr "รีวิวที่เขียน"
 
@@ -4402,7 +4401,7 @@ msgstr "ข้อมูลยอดขายในช่วงเวลานี
 msgid "Save"
 msgstr "บันทึก"
 
-#: views/modal/question_form.php:222
+#: views/modal/question_form.php:219
 msgid "Save &amp; Continue"
 msgstr "บันทึกและไปต่อ"
 
@@ -4524,7 +4523,7 @@ msgstr ""
 "!"
 
 #: classes/Lesson.php:53, views/metabox/lesson-metabox.php:3, 
-#: views/pages/announcements.php:197, views/pages/announcements.php:286, 
+#: views/pages/announcements.php:194, views/pages/announcements.php:276, 
 #: templates/dashboard/announcements/create.php:19, 
 #: templates/dashboard/announcements/update.php:20
 msgid "Select Course"
@@ -4621,7 +4620,7 @@ msgstr "ตั้งค่ามุมมองรูปแบบคำถาม
 msgid "Set the Course Price option or make it free."
 msgstr "ตั้งค่าตัวเลือกราคาของคอร์ส หรือตั้งเป็นฟรี"
 
-#: views/modal/question_form.php:94
+#: views/modal/question_form.php:91
 msgid "set the mark ex. 10"
 msgstr "ตั้งค่าคะแนน เช่น 10"
 
@@ -4638,7 +4637,7 @@ msgid "Set Your"
 msgstr "ตั้งค่า"
 
 #: classes/Admin.php:80, classes/Admin.php:80, classes/Admin.php:453, 
-#: classes/Utils.php:2466, templates/dashboard/settings.php:8, 
+#: classes/Utils.php:2457, templates/dashboard/settings.php:8, 
 #: views/modal/add_quiz.php:21, views/modal/edit_quiz.php:31, 
 #: templates/dashboard/notifications/profile-completion.php:14, 
 #: templates/dashboard/settings/education.php:7, 
@@ -4654,12 +4653,11 @@ msgstr "บันทึกการตั้งค่าแล้ว"
 msgid "Setup Wizard"
 msgstr "ตัวช่วยการตั้งค่า "
 
-#: templates/single/course/lead-info.php:77, 
-#: templates/single/course/enrolled/lead-info.php:77
+#: includes/tutor-template-functions.php:1471
 msgid "Share:"
 msgstr "แชร์:"
 
-#: classes/Utils.php:3914
+#: classes/Utils.php:3905
 msgid "Short Answer"
 msgstr "คำตอบสั้นๆ"
 
@@ -4732,7 +4730,7 @@ msgstr ""
 "WooCommerce อีกครั้ง "
 "โปรดตรวจสอบให้แน่ใจว่าได้เปิดใช้งานตัวเลือกการสร้างรายได้ใน Tutor LMS "
 
-#: classes/Utils.php:3910
+#: classes/Utils.php:3901
 msgid "Single Choice"
 msgstr "ตัวเลือกเดียว"
 
@@ -4756,10 +4754,10 @@ msgstr "มีคนขอรหัสผ่านใหม่สำหรับ
 #: templates/dashboard/assignments/review.php:19, 
 #: templates/dashboard/reviews/received-reviews.php:77
 msgid "Sorry, but you are looking for something that isn't here."
-msgstr "ยังไม่มีข้อมูลอะไรที่นี่"
+msgstr "ยังไม่มีข้อมูล"
 
 #: classes/Tutor_List_Table.php:384, 
-#: templates/dashboard/announcements.php:108, 
+#: templates/dashboard/announcements.php:107, 
 #: templates/dashboard/assignments.php:52, views/pages/announcements.php:84
 msgid "Sort By"
 msgstr "เรียงตาม"
@@ -4777,8 +4775,9 @@ msgid ""
 "Specify the target audience that will benefit the most from the course. (One "
 "line per target audience.)"
 msgstr ""
-"ระบุกลุ่มเป้าหมายที่จะได้รับประโยชน์สูงสุดจากคอร์ส "
-"(หนึ่งบรรทัดต่อกลุ่มเป้าหมาย)"
+"ระบุว่ากลุ่มผู้เรียน, กลุ่มเป้าหมาย หรือใครที่ควรเรียนคอร์สนี้ "
+"(หนึ่งบรรทัดต่อกลุ่มเป้าหมาย)\n"
+"\n"
 
 #: classes/Tutor_Setup.php:369
 msgid "Spotlight Mode"
@@ -4805,6 +4804,14 @@ msgstr "เริ่มสร้างคอร์สแรก พร้อม�
 #: templates/single/course/course-enrolled-box.php:45
 msgid "Start Course"
 msgstr "เริ่มเรียนคอร์สนี้"
+
+#: templates/single/course/add-to-cart.php:58
+msgid "Start Learning"
+msgstr ""
+
+#: templates/loop/course-price-woocommerce.php:37
+msgid "Start Learning "
+msgstr ""
 
 #: templates/single/quiz/body.php:430
 msgid "Start Quiz"
@@ -4866,7 +4873,7 @@ msgstr "การตั้งค่าโปรไฟล์ผู้เรีย
 msgid "Student Registration"
 msgstr "ลงทะเบียนผู้เรียน"
 
-#: classes/Options.php:576, classes/Utils.php:6321
+#: classes/Options.php:576, classes/Utils.php:6312
 msgid "Student Registration Page"
 msgstr "หน้าลงทะเบียนผู้เรียน"
 
@@ -4978,13 +4985,13 @@ msgstr ""
 "PHP เอง หากเปิดใช้งานบนเซิร์ฟเวอร์ของคุณ Suhosin "
 "อาจจำเป็นต้องกำหนดค่าเพื่อเพิ่มขีดจำกัดการส่งข้อมูล"
 
-#: views/pages/announcements.php:229, views/pages/announcements.php:318, 
+#: views/pages/announcements.php:226, views/pages/announcements.php:308, 
 #: templates/dashboard/announcements/create.php:41, 
 #: templates/dashboard/announcements/update.php:42
 msgid "Summary"
 msgstr "สรุป"
 
-#: views/pages/announcements.php:233, views/pages/announcements.php:322, 
+#: views/pages/announcements.php:230, views/pages/announcements.php:312, 
 #: templates/dashboard/announcements/create.php:43, 
 #: templates/dashboard/announcements/update.php:44
 msgid "Summary..."
@@ -5021,11 +5028,11 @@ msgstr "ฟิลด์แท็กไม่ใช่อาร์เรย์"
 
 #: templates/single/course/course-target-audience.php:28
 msgid "Target Audience"
-msgstr "กลุ่มเป้าหมาย"
+msgstr "ผู้ที่ควรเรียนคอร์สนี้"
 
 #: views/metabox/course-additional-data.php:81
 msgid "Targeted Audience"
-msgstr "กลุ่มเป้าหมาย"
+msgstr "ผู้ที่ควรเรียนคอร์สนี้"
 
 #: classes/Post_types.php:94
 msgctxt "taxonomy general name"
@@ -5074,7 +5081,7 @@ msgstr ""
 "ระยะเวลา (เป็นวินาที) ที่เว็บไซต์ของคุณจะใช้ในการทำงานหนึ่งคำสั่งก่อนหมดเวลา "
 "(เพื่อหลีกเลี่ยงการล็อกเซิร์ฟเวอร์)"
 
-#: assets/js/tutor-front.js:753
+#: assets/js/tutor-front.js:752
 msgid "The answer for this question is required"
 msgstr "คำถามนี้ต้องการคำตอบ"
 
@@ -5397,8 +5404,8 @@ msgstr "คอร์สทั้งหมด"
 msgid "Total Earnings"
 msgstr "รายได้ทั้งหมด"
 
-#: templates/single/course/lead-info.php:118, 
-#: templates/single/course/enrolled/lead-info.php:119
+#: templates/single/course/lead-info.php:117, 
+#: templates/single/course/enrolled/lead-info.php:118
 msgid "Total Enrolled"
 msgstr "ลงทะเบียนแล้ว"
 
@@ -5461,7 +5468,7 @@ msgstr "ถูก"
 msgid "True or False"
 msgstr "ถูกหรือผิด"
 
-#: classes/Utils.php:3909
+#: classes/Utils.php:3900
 msgid "True/False"
 msgstr "ถูก/ผิด"
 
@@ -5503,7 +5510,7 @@ msgstr "ฟิลด์ Tutor"
 
 #: tutor.php:51, classes/Tutor.php:426
 msgid "Tutor Instructor"
-msgstr "ผู้สอน Tutor"
+msgstr "ผู้สอน"
 
 #: classes/Admin.php:54, classes/Admin.php:54, classes/Admin.php:489, 
 #: classes/Gutenberg.php:55
@@ -5530,7 +5537,7 @@ msgstr ""
 
 #: classes/Addons.php:74
 msgid "Tutor Multi Instructors"
-msgstr "ผู้สอนหลายคนของ Tutor"
+msgstr "ผู้สอนหลายคน"
 
 #: classes/Options.php:123
 msgid "Tutor Native Login"
@@ -5571,7 +5578,7 @@ msgstr ""
 msgid "Tutor Zoom Integration"
 msgstr "ใช้งานร่วมกับ Zoom"
 
-#: classes/Utils.php:5013
+#: classes/Utils.php:5004
 msgid "Twitter URL"
 msgstr "TwitterURL"
 
@@ -5585,8 +5592,11 @@ msgstr "TwitterURL"
 msgid "Type"
 msgstr "ประเภท"
 
-#: views/modal/add_quiz.php:37, views/modal/edit_quiz.php:45, 
 #: views/modal/question_form.php:24
+msgid "Type your question here"
+msgstr ""
+
+#: views/modal/add_quiz.php:37, views/modal/edit_quiz.php:45
 msgid "Type your quiz title here"
 msgstr "พิมพ์ชื่อแบบทดสอบของคุณที่นี่"
 
@@ -5625,13 +5635,13 @@ msgstr "ไม่จำกัด"
 msgid "Unlimited attempts on each question."
 msgstr "ทำแบบทดสอบได้ไม่จำกัดในแต่ละคำถาม "
 
-#: views/pages/announcements.php:341, views/pages/view_attempt.php:365, 
-#: templates/dashboard/announcements/update.php:58, 
+#: views/pages/announcements.php:325, views/pages/view_attempt.php:365, 
+#: templates/dashboard/announcements/update.php:51, 
 #: templates/dashboard/quiz-attempts/quiz-reviews.php:420
 msgid "Update"
 msgstr "อัปเดต"
 
-#: views/pages/announcements.php:271, 
+#: views/pages/announcements.php:261, 
 #: templates/dashboard/announcements/update.php:6
 msgid "Update Announcement"
 msgstr "อัปเดตประกาศ"
@@ -5738,24 +5748,30 @@ msgstr "ใช้รูปภาพ"
 msgid "Use the average score"
 msgstr "ใช้คะแนนเฉลี่ย"
 
-#: templates/dashboard/registration.php:63, 
-#: templates/dashboard/registration.php:66, 
+#: templates/dashboard/registration.php:64, 
+#: templates/dashboard/registration.php:67, 
 #: views/pages/add_new_instructor.php:56, 
 #: views/pages/add_new_instructor.php:62, 
-#: templates/dashboard/instructor/registration.php:57, 
-#: templates/dashboard/instructor/registration.php:60, 
+#: templates/dashboard/instructor/registration.php:65, 
+#: templates/dashboard/instructor/registration.php:68, 
 #: templates/dashboard/settings/profile.php:115
 msgid "User Name"
 msgstr "ชื่อผู้ใช้"
 
-#: classes/Instructor.php:57, classes/Instructor.php:181, 
+#: classes/Instructor.php:63, classes/Instructor.php:187, 
 #: classes/Student.php:44
 msgid "User Name field is required"
 msgstr "ต้องกรอกข้อมูลชื่อผู้ใช้"
 
+#: classes/User.php:171
+msgid ""
+"User registration is disabled. New students and instructors will not be able "
+"to register for now."
+msgstr ""
+
 #: templates/dashboard/my-profile.php:50
 msgid "Username"
-msgstr "ชื้อผู้ใช้"
+msgstr "ชื่อผู้ใช้"
 
 #: classes/Ajax.php:400
 msgid "Username is required."
@@ -5773,12 +5789,12 @@ msgstr "ชื่อผู้ใช้หรือที่อยู่อีเ
 msgid "Username: %s"
 msgstr "ชื่อผู้ใช้ : %s"
 
-#: classes/Instructor.php:82, classes/Instructor.php:195, 
+#: classes/Instructor.php:88, classes/Instructor.php:201, 
 #: classes/Student.php:70
 msgid "Valid E-Mail is required"
 msgstr "ต้องใช้อีเมลที่ถูกต้อง"
 
-#: views/pages/addons.php:79, views/pages/enable_disable_addons.php:84, 
+#: views/pages/addons.php:79, views/pages/enable_disable_addons.php:110, 
 #: views/pages/tutor-pro-addons.php:56
 msgid "Version"
 msgstr "เวอร์ชัน"
@@ -5879,7 +5895,7 @@ msgstr ""
 "เราได้ส่งอีเมลไปยังที่อยู่อีเมลของบัญชีผู้ใช้นี้ "
 "คลิกลิงค์ในอีเมลเพื่อรีเซ็ตรหัสผ่านของคุณ"
 
-#: classes/Utils.php:4998
+#: classes/Utils.php:4989
 msgid "Website URL"
 msgstr "URL เว็บไซต์"
 
@@ -5933,7 +5949,7 @@ msgstr "เมื่อคุณอนุญาตให้ทำแบบทด
 msgid "Whether or not you have WordPress Multisite enabled."
 msgstr "แสดงหรือไม่แสดงว่ามีการเปิดใช้งาน WordPress Multisite "
 
-#: classes/Utils.php:2440, templates/dashboard/wishlist.php:10
+#: classes/Utils.php:2431, templates/dashboard/wishlist.php:10
 msgid "Wishlist"
 msgstr "คอร์สที่อยากเรียน"
 
@@ -5941,7 +5957,7 @@ msgstr "คอร์สที่อยากเรียน"
 msgid "Withdraw"
 msgstr "ถอนเงิน"
 
-#: classes/Utils.php:6463
+#: classes/Utils.php:6454
 msgid "Withdraw Method"
 msgstr "วิธีการถอนเงิน"
 
@@ -5986,7 +6002,7 @@ msgstr "ส่งคำขอถอนเงินแล้ว!"
 msgid "Withdrawal Settings"
 msgstr "ตั้งค่าการถอนเงิน"
 
-#: classes/Utils.php:2452
+#: classes/Utils.php:2443
 msgid "Withdrawals"
 msgstr "การถอนเงิน"
 
@@ -6092,7 +6108,7 @@ msgstr "คุณกำลังจะลบคำถามนี้ หาก�
 
 #: templates/dashboard/enrolled-courses/active-courses.php:76
 msgid "You are not enrolled in any course at this moment."
-msgstr "คุณยังไม่ได้ลงทะเบียนคอร์สใดๆ"
+msgstr "คุณยังไม่ได้ลงทะเบียนคอร์สใดเลย"
 
 #: templates/dashboard/withdraw.php:76
 msgid "You can change your %s withdrawal preference %s"
@@ -6113,7 +6129,7 @@ msgstr "ขณะนี้คุณมียอด %s %s %s ที่พร้�
 
 #: templates/dashboard/wishlist.php:42
 msgid "You do not have any course on the wishlist yet."
-msgstr "คุณยังไม่มีคอร์สใดในรายการคอร์สที่อยากเรียน"
+msgstr "คุณยังไม่คอร์สในรายการที่อยากเรียน"
 
 #: templates/dashboard/instructor/logged-in.php:26
 msgid "You have been blocked from being an instructor."
@@ -6139,7 +6155,7 @@ msgstr "คุณยังไม่ได้ทำแบบทดสอบ"
 
 #: templates/dashboard/quiz-attempts.php:118
 msgid "You have not attempted for any quiz yet."
-msgstr "คุณยังไม่ได้ทำแบบทดสอบ"
+msgstr "ยังไม่มีการทำแบบทดสอบ"
 
 #: classes/Course.php:1148
 msgid "You have to pass %s quizzes to complete this course."
@@ -6147,7 +6163,7 @@ msgstr "คุณต้องผ่าน %s แบบทดสอบเพื�
 
 #: templates/dashboard/enrolled-courses.php:81
 msgid "You haven't purchased any course"
-msgstr "คุณยังไม่ได้ซื้อคอร์สใด ๆ "
+msgstr "คุณยังไม่ได้ลงทะเบียนคอร์สใดเลย"
 
 #: templates/single/assignment/content.php:227
 msgid "You received %s points out of %s"
@@ -6169,9 +6185,9 @@ msgstr ""
 msgid "Your Application is pending from"
 msgstr "แอปพลิเคชันของคุณกำลังรอ จาก"
 
-#: templates/dashboard.php:111
-msgid "Your Application was rejected on"
-msgstr "แอปพลิเคชันของคุณถูกปฏิเสธ เมื่อ"
+#: templates/dashboard.php:126
+msgid "Your application to become an instructor was rejected on"
+msgstr ""
 
 #: templates/dashboard/instructor/logged-in.php:22
 msgid ""
