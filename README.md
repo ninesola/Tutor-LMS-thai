@@ -5,8 +5,8 @@
 ========================================
 
 Version
-Tutor LMS 1.9.3 ( 100% translated )
-Tutor LMS Pro 1.9.3 ( 67% translated )
+Tutor LMS 1.9.5 ( 98% translated )
+Tutor LMS Pro 1.9.5 ( 64% translated )
 
 ========================================
 
