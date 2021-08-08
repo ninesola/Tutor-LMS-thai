@@ -3,8 +3,8 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Project-Id-Version: Tutor LMS Pro\n"
 "POT-Creation-Date: 2019-10-10 13:20+0600\n"
-"PO-Revision-Date: 2021-08-08 16:50+0000\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2021-08-08 18:31+0000\n"
+"Last-Translator: อภินันท์ รังสูงเนิน\n"
 "Language-Team: ไทย\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "Report-Msgid-Bugs-To: \n"
 "Language: th\n"
-"X-Loco-Version: 2.5.3; wp-5.7.2"
+"X-Loco-Version: 2.5.3; wp-5.8"
 
 #: addons/tutor-assignments/classes/Assignments_List.php:83
 msgid " Delete"
@@ -39,11 +39,11 @@ msgstr "%1$s (#%2$s - %3$s)"
 #: addons/gradebook/views/pages/overview.php:115
 #, php-format
 msgid "%d quiz, %d assignment"
-msgstr "%d แบบทดสอบ, %d การมอบหมายงาน"
+msgstr "%d แบบทดสอบ, %d การบ้าน"
 
 #: addons/pmpro/views/pmpro-pricing.php:57
 msgid "%d-day money-back guarantee"
-msgstr ""
+msgstr "รับประกันคืนเงินใน %d วัน"
 
 #: addons/tutor-report/views/pages/courses/course-single.php:398
 msgid "%s (%s Ratings)"
@@ -72,12 +72,12 @@ msgstr ""
 #: addons/tutor-zoom/views/pages/expired.php:273, 
 #: addons/tutor-zoom/views/pages/frontend-meetings.php:278
 msgid "<i class='tutor-icon-angle-left'></i>"
-msgstr ""
+msgstr "<i class='tutor-icon-angle-left'></i>"
 
 #: addons/tutor-zoom/views/pages/expired.php:274, 
 #: addons/tutor-zoom/views/pages/frontend-meetings.php:279
 msgid "<i class='tutor-icon-angle-right'></i>"
-msgstr ""
+msgstr "<i class='tutor-icon-angle-right'></i>"
 
 #: templates/email/to_instructor_lesson_completed.php:12
 msgid ""
@@ -280,7 +280,7 @@ msgstr "กำหนดคอร์สนี้ให้กับกลุ่ม
 #: addons/tutor-report/views/pages/students/student-profile.php:202, 
 #: addons/tutor-report/views/pages/students/student-profile.php:282
 msgid "Assignment"
-msgstr "การมอบหมายงาน"
+msgstr "การบ้าน"
 
 #: addons/tutor-assignments/views/pages/submitted_assignment.php:53
 msgid "Assignment Description"
@@ -323,7 +323,7 @@ msgstr "อัปเดตการบ้าน"
 #: addons/gradebook/views/pages/overview.php:74, 
 #: templates/single/course/enrolled/gradebook.php:43
 msgid "Assignments"
-msgstr "การมอบหมายงาน"
+msgstr "การบ้าน"
 
 #: addons/tutor-assignments/views/pages/submitted_assignment.php:68
 msgid "Attach assignment file(s)"
@@ -1816,7 +1816,7 @@ msgstr "ต่ำสุด"
 
 #: templates/single/quiz/previous-attempts.php:36
 msgid "Manually reviewed at"
-msgstr "รีวิวด้วยตนเองเมื่อ"
+msgstr "ตรวจโดยผู้สอน เมื่อ"
 
 #: addons/pmpro/pmpro.php:30
 msgid "Maximize revenue by selling membership access to all of your courses."
@@ -2867,7 +2867,7 @@ msgstr ""
 
 #: addons/tutor-report/views/pages/courses/course-table.php:127
 msgid "Sort By"
-msgstr "เรียงตาม"
+msgstr "เรียงจาก"
 
 #: addons/tutor-prerequisites/tutor-prerequisites.php:30
 msgid ""
@@ -2975,7 +2975,7 @@ msgstr ""
 
 #: addons/tutor-assignments/classes/Assignments.php:128
 msgid "Submitted Assignments"
-msgstr "งานที่มีการส่งเข้ามา"
+msgstr "การบ้านที่มีการส่งเข้ามา"
 
 #: addons/tutor-assignments/views/pages/submitted_assignment.php:36
 msgid "Submitted Date"
